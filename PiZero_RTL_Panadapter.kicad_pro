@@ -632,7 +632,7 @@
         "uuid": "9dbbaad8-804a-4efe-a989-bc17c5acbd91"
       }
     ],
-    "used_designators": "C1-82,L1-12,D1-5,#PWR1-115,FB1-6,R1-36,J1-3,Q1,TR1,U1-8,Y1-3",
+    "used_designators": "C1-84,L1-15,D1-6,#PWR1-118,FB1-6,R1-48,J1-4,Q1,TR1,U1-11,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,14 @@
     [
       "6fef9fcc-556a-4b57-952e-8adf007c871b",
       "Si5351A"
+    ],
+    [
+      "3420035a-a385-4f1e-a095-96333726b462",
+      "HF Direct Sampling Frontend"
+    ],
+    [
+      "47177de1-0b8d-4466-a717-50350297bd85",
+      "Z10000 Buffer Amp"
     ]
   ],
   "text_variables": {},
