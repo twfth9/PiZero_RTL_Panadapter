@@ -632,7 +632,7 @@
         "uuid": "9dbbaad8-804a-4efe-a989-bc17c5acbd91"
       }
     ],
-    "used_designators": "C1-84,L1-15,D1-6,#PWR1-118,FB1-6,R1-48,J1-4,Q1,TR1,U1-11,Y1-3",
+    "used_designators": "C1-91,L1-23,D1-7,#PWR1-129,FB1-6,R1-71,J1-4,Q1-4,TR1-2,U1-12,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -642,7 +642,7 @@
     ],
     [
       "78a19d34-3089-4e0b-b1d1-ac7541a92b32",
-      "RTL2832U"
+      "SDR"
     ],
     [
       "677295bc-6966-4c73-b60e-630089a064e1",
@@ -654,19 +654,19 @@
     ],
     [
       "cec674a5-f6d8-4c83-b8c1-07bf170daffc",
-      "R820T2"
+      "RF Tuner"
     ],
     [
       "6fef9fcc-556a-4b57-952e-8adf007c871b",
-      "Si5351A"
+      "Clock Generator"
     ],
     [
       "3420035a-a385-4f1e-a095-96333726b462",
-      "HF Direct Sampling Frontend"
+      "Preamp & Diplexer"
     ],
     [
-      "47177de1-0b8d-4466-a717-50350297bd85",
-      "Z10000 Buffer Amp"
+      "cbfc5903-0c0d-474c-b17e-16443ef993f6",
+      "IF Buffer Amp"
     ]
   ],
   "text_variables": {},

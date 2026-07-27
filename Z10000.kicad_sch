@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "d78675e7-35bc-4eb5-934d-e1bec396c551")
+	(uuid "a7d15878-2bd0-4976-972a-ac50fe3e4e58")
 	(paper "B")
 	(lib_symbols
 		(symbol "Amplifier_Operational:AD8001AR"
@@ -745,6 +745,26 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(wire
+		(pts
+			(xy 233.68 83.82) (xy 246.38 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ac0d397-6817-4e08-bf1f-8b3a70b1c564")
+	)
+	(wire
+		(pts
+			(xy 213.36 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad1f8b9-d0cb-4fc4-8ce0-97387c02e4d2")
 	)
 	(image
 		(at 87.63 209.55)
@@ -8535,7 +8555,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 264.16 114.3 90)
+		(at 210.82 83.82 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8546,7 +8566,7 @@
 		(dnp no)
 		(uuid "5ce9a792-c25c-447e-9cc9-2ea1c9e9a9c4")
 		(property "Reference" "C46"
-			(at 263.652 111.506 90)
+			(at 210.312 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8557,7 +8577,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 264.668 111.506 90)
+			(at 211.328 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8568,7 +8588,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 264.16 114.3 0)
+			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8579,7 +8599,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 114.3 0)
+			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8590,7 +8610,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 264.16 114.3 0)
+			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8601,15 +8621,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "8afedafb-87ea-4fd4-a0d3-b2dc54aaa42d")
+			(uuid "4d03a746-7c62-4da0-9b04-db44ef637e7a")
 		)
 		(pin "2"
-			(uuid "a22ce430-6c31-4ce8-9e4e-d5beb32b25bd")
+			(uuid "ce441138-dc91-4adf-a14b-4c41ef6dc36a")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/47177de1-0b8d-4466-a717-50350297bd85"
 					(reference "C46")
+					(unit 1)
+				)
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cbfc5903-0c0d-474c-b17e-16443ef993f6"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -8683,15 +8707,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "eab6b2f5-4530-4d96-8893-e48f491097f3")
+			(uuid "5aa67a28-c27d-4f5b-afea-6c97f9d0dc2c")
 		)
 		(pin "1"
-			(uuid "808715dc-829c-44c6-86e1-8ed1a42b4420")
+			(uuid "d8ad39de-1f63-415f-ad58-00b12075f322")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/47177de1-0b8d-4466-a717-50350297bd85"
 					(reference "C84")
+					(unit 1)
+				)
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cbfc5903-0c0d-474c-b17e-16443ef993f6"
+					(reference "C85")
 					(unit 1)
 				)
 			)
@@ -8764,15 +8792,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "e559c12a-63ef-4793-9a41-acd94f66fae3")
+			(uuid "9fafb3a8-a1ea-4704-b950-632953e2ea8d")
 		)
 		(pin "1"
-			(uuid "ef955ac9-f65b-4d69-bb37-ccf87bc57e78")
+			(uuid "206b64c4-fb73-413f-a0ad-84fa46e1a0d8")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/47177de1-0b8d-4466-a717-50350297bd85"
 					(reference "R45")
+					(unit 1)
+				)
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cbfc5903-0c0d-474c-b17e-16443ef993f6"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -8822,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ad8007_8008.pdf"
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8007_8008.pdf"
 			(at 257.81 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -8844,34 +8876,49 @@
 				)
 			)
 		)
+		(property "DigiKey" "AD8007AKSZ-REEL7CT-ND"
+			(at 254 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "9bf81318-1ee2-468f-8624-775aa4693f80")
+			(uuid "267571a5-09ad-4dd9-b111-d97ac0021b27")
 		)
 		(pin "4"
-			(uuid "f3cff58e-bea5-4c01-bffc-d786c0127afb")
+			(uuid "bed4aeae-e8dd-4006-99c7-9def15405ee9")
 		)
 		(pin "7"
-			(uuid "a35aa46e-e3f1-4bfb-9c06-5d9b24b9cdba")
+			(uuid "e23d92bc-56ac-4a30-a40f-ef1540bc18cd")
 		)
 		(pin "3"
-			(uuid "76f6c448-adf7-4390-8ee7-48a8f875c188")
+			(uuid "ad04e29c-f6a2-4c20-8e25-fc7538e62886")
 		)
 		(pin "6"
-			(uuid "a7ea2cec-ffd5-4e53-952a-104a71e7b907")
+			(uuid "6362f4ae-c81f-49d0-9247-92c037b87497")
 		)
 		(pin "8"
-			(uuid "368310f6-dcb7-43a9-a3a5-1846fd7e68c0")
+			(uuid "9e624ae0-9d8f-47ff-9229-fbfa3a50a064")
 		)
 		(pin "5"
-			(uuid "c9b0b013-11d4-4f81-ae4c-76bf8d4d0201")
+			(uuid "8c04a688-4b18-42af-961d-75087e298df0")
 		)
 		(pin "1"
-			(uuid "250f0f22-17ae-4f61-a655-979f26925853")
+			(uuid "08f3b460-2a08-496a-81f5-b309ae31ce71")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/47177de1-0b8d-4466-a717-50350297bd85"
 					(reference "U10")
+					(unit 1)
+				)
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cbfc5903-0c0d-474c-b17e-16443ef993f6"
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -8963,10 +9010,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "5377a621-7aea-40f2-8f91-1ddbde0c748a")
+			(uuid "b54d973c-6f04-43a7-b93c-8729ed0c1ae7")
 		)
 		(pin "1"
-			(uuid "45546aae-be27-4088-9675-1525b2a2f2a0")
+			(uuid "45aa65ff-4f9a-4687-ad67-5061821af64f")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
@@ -8974,12 +9021,16 @@
 					(reference "L15")
 					(unit 1)
 				)
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cbfc5903-0c0d-474c-b17e-16443ef993f6"
+					(reference "L16")
+					(unit 1)
+				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 254 114.3 90)
+		(at 231.14 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8989,7 +9040,7 @@
 		(dnp no)
 		(uuid "f6dfd6d9-0543-400f-b1ba-a5f032a1be30")
 		(property "Reference" "R46"
-			(at 253.492 111.76 90)
+			(at 230.632 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9000,7 +9051,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 254.508 111.76 90)
+			(at 231.648 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9011,7 +9062,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_R_0402"
-			(at 254 114.3 0)
+			(at 231.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,7 +9073,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 114.3 0)
+			(at 231.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9033,7 +9084,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 254 114.3 0)
+			(at 231.14 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,15 +9095,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "7f004406-46f4-4c4e-9b45-8bc371915237")
+			(uuid "de5b9a0c-fbc9-4b83-9e1f-f8c52f5f6fa0")
 		)
 		(pin "1"
-			(uuid "be94ca78-9e97-49ad-801b-3a9608c8fd45")
+			(uuid "be566648-bb35-4bb3-9d44-b363de169441")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/47177de1-0b8d-4466-a717-50350297bd85"
 					(reference "R46")
+					(unit 1)
+				)
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cbfc5903-0c0d-474c-b17e-16443ef993f6"
+					(reference "R49")
 					(unit 1)
 				)
 			)

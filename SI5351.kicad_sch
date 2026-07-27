@@ -8976,6 +8976,116 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 269.24 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "14c9d69d-71a7-4fb5-a3f0-49217cfb1959")
+		(property "Reference" "L20"
+			(at 269.24 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330n"
+			(at 269.24 120.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_L_0603"
+			(at 269.24 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
+			(at 269.24 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 269.24 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Murata" "LQW18ANR33G00D"
+			(at 269.24 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-6935-1-ND"
+			(at 269.24 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Self-Resonance" "800 MHz"
+			(at 269.24 125.222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abc7900f-bb08-4b9c-a2b7-f9cb87b3bca5")
+		)
+		(pin "1"
+			(uuid "2a97e10e-dc19-4a94-9aee-6ae2e988067e")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "L20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Crystal_GND24_1")
 		(lib_id "Device:Crystal_GND24")
 		(at 97.79 135.89 0)
@@ -9147,6 +9257,116 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
 					(reference "C78")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 243.84 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f1bfb81-a114-4ef2-918c-9ddc5953e829")
+		(property "Reference" "L19"
+			(at 243.84 118.618 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "390n"
+			(at 243.84 120.904 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_L_0603"
+			(at 243.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
+			(at 243.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 243.84 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Murata" "LQW18ANR39G00D"
+			(at 243.84 116.078 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-6935-1-ND"
+			(at 243.84 123.19 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Self-Resonance" "800 MHz"
+			(at 243.84 125.222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "afd70f11-f5b9-4687-a271-290dcd069bf0")
+		)
+		(pin "1"
+			(uuid "d4f347ef-e9dc-4abd-8fe1-0f149aa4fd5e")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "L19")
 					(unit 1)
 				)
 			)
@@ -9668,107 +9888,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 269.24 123.19 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b355a2b-5079-4f42-b381-a1f2ea1e07c6")
-		(property "Reference" "L11"
-			(at 269.24 118.618 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330n"
-			(at 269.24 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0603"
-			(at 269.24 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
-			(at 269.24 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 269.24 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Murata" "LQW18ANR33G00D"
-			(at 269.24 116.078 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "490-6935-1-ND"
-			(at 269.24 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "185816c1-939c-49e6-ad6f-b481c014ade5")
-		)
-		(pin "1"
-			(uuid "31d78087-de58-407e-bd81-526671e3b72a")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "L11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 256.54 128.27 0)
 		(unit 1)
@@ -10170,8 +10289,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 243.84 123.19 270)
-		(mirror x)
+		(at 218.44 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10179,9 +10297,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a02dc7cd-4749-4750-9d28-1b7e586ea6b6")
-		(property "Reference" "L10"
-			(at 243.84 118.618 90)
+		(uuid "a3565221-6e3b-4b66-a147-047471622ff2")
+		(property "Reference" "L18"
+			(at 218.44 118.618 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10190,8 +10308,8 @@
 				)
 			)
 		)
-		(property "Value" "390n"
-			(at 243.84 120.904 90)
+		(property "Value" "330n"
+			(at 218.44 120.904 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10201,7 +10319,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603"
-			(at 243.84 123.19 0)
+			(at 218.44 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10212,7 +10330,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
-			(at 243.84 123.19 0)
+			(at 218.44 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +10341,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 243.84 123.19 0)
+			(at 218.44 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10233,8 +10351,8 @@
 				)
 			)
 		)
-		(property "Murata" "LQW18ANR39G00D"
-			(at 243.84 116.078 90)
+		(property "Murata" "LQW18ANR33G00D"
+			(at 218.44 116.078 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10244,7 +10362,7 @@
 			)
 		)
 		(property "DigiKey" "490-6935-1-ND"
-			(at 243.84 123.19 90)
+			(at 218.44 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10254,16 +10372,26 @@
 				)
 			)
 		)
+		(property "Self-Resonance" "800 MHz"
+			(at 218.44 125.222 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "596e0cc9-4fcc-4e24-a3e0-de2518b641ad")
+			(uuid "5f3e129f-2747-47e4-9dcb-3570af051064")
 		)
 		(pin "1"
-			(uuid "28ef25f6-e50f-4f80-b9e6-132ed0123554")
+			(uuid "6000e221-808d-4f4d-bf50-31c1c5586561")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "L10")
+					(reference "L18")
 					(unit 1)
 				)
 			)
@@ -10819,107 +10947,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
 					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 218.44 123.19 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f465a1e2-a5f9-4abc-a9f0-707bfee27569")
-		(property "Reference" "L9"
-			(at 218.44 118.618 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330n"
-			(at 218.44 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0603"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Murata" "LQW18ANR33G00D"
-			(at 218.44 116.078 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "490-6924-1-ND"
-			(at 218.44 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "83172f67-35d6-4868-abf4-9e891ed621e5")
-		)
-		(pin "1"
-			(uuid "068e2406-a329-438c-b22a-4360b5312642")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "L9")
 					(unit 1)
 				)
 			)
