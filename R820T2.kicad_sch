@@ -857,7 +857,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U7"
+			(property "Reference" "U9"
 				(at -2.794 1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1275,24 +1275,6 @@
 				)
 			)
 			(symbol "R820T2_1_0"
-				(pin power_in line
-					(at -1.27 -29.21 90)
-					(length 2.54)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 17.78 -21.59 180)
 					(length 2.54)
@@ -1358,6 +1340,24 @@
 						)
 					)
 					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -1.27 -29.21 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2457,7 +2457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0458da8a-4eb1-4764-9685-50bb4270755a")
-		(property "Reference" "R34"
+		(property "Reference" "R46"
 			(at 160.02 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2518,7 +2518,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R34")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -2536,7 +2536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "091687b3-47e7-44dd-bf9b-efa2ec121f37")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR094"
 			(at 241.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2597,7 +2597,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR090")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -2615,7 +2615,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0ccbcef5-ee42-491c-898e-6b0715cdeac4")
-		(property "Reference" "C64"
+		(property "Reference" "C51"
 			(at 145.288 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2711,7 +2711,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C64")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -2728,7 +2728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0eb7c0d9-a6ba-4668-b84f-e5783be5fa34")
-		(property "Reference" "L2"
+		(property "Reference" "L3"
 			(at 225.552 122.682 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +2813,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "L2")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -2831,7 +2831,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11e7eea2-dc30-41b9-b98b-05f1606243b6")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR089"
 			(at 210.82 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2892,7 +2892,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR094")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -2909,7 +2909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "122a189d-5df6-4259-a963-aeb8b1193818")
-		(property "Reference" "C60"
+		(property "Reference" "C58"
 			(at 233.68 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3005,7 +3005,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C60")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -3024,7 +3024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ccdd90d-b56b-49b6-b581-a03a81f990ae")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR086"
 			(at 165.1 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3085,7 +3085,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR098")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -3102,7 +3102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20ad450d-c95a-46aa-b041-bd0314c8f9cf")
-		(property "Reference" "C70"
+		(property "Reference" "C64"
 			(at 274.32 130.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3198,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C70")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253f029a-1a07-4f49-b0ff-2241b2af2dc5")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR085"
 			(at 139.7 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -3278,7 +3278,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR099")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2638717f-e818-4b80-8acd-55ed82ba6cad")
-		(property "Reference" "U7"
+		(property "Reference" "U9"
 			(at 200.914 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3369,7 +3369,7 @@
 		(pin "22"
 			(uuid "d25cf6b0-b9d5-49e0-a6d4-5b619981bb10")
 		)
-		(pin "0"
+		(pin "25"
 			(uuid "3945fd9d-5f37-4eec-b107-3701fcb0afe7")
 		)
 		(pin "4"
@@ -3429,7 +3429,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "U7")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3446,7 +3446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "27f33d16-42f5-4214-9dd5-67c03e7cb00d")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 161.036 127 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3529,7 +3529,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b1dd7e2-61f1-4c45-bd07-96fa56454eed")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR093"
 			(at 241.3 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3608,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR089")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3626,7 +3626,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32990b09-1f51-4be2-af6a-d4365149140c")
-		(property "Reference" "R28"
+		(property "Reference" "R49"
 			(at 263.652 130.556 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,7 +3690,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R28")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -3708,7 +3708,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36efe12c-a2d5-4410-abbe-34d47c1f2595")
-		(property "Reference" "C96"
+		(property "Reference" "C52"
 			(at 156.2162 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3804,7 +3804,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C96")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3822,7 +3822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38c3012c-352b-440f-b21d-3ef3d17def5f")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR097"
 			(at 271.78 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3883,7 +3883,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR085")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c6cee2c-185a-4af6-8020-818ef1f21b15")
-		(property "Reference" "C51"
+		(property "Reference" "C65"
 			(at 284.48 130.8162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +3996,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C51")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -4173,7 +4173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b3280d3-25a0-4b6b-a521-5f2c44fa6504")
-		(property "Reference" "R29"
+		(property "Reference" "R48"
 			(at 256.032 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4237,7 +4237,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R29")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -4254,7 +4254,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "629feda4-ce67-441d-adf0-4547070fd569")
-		(property "Reference" "C58"
+		(property "Reference" "C56"
 			(at 223.52 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4350,7 +4350,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C58")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65235a6e-d19d-4da0-9838-9510d7b0905c")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR096"
 			(at 251.46 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -4429,7 +4429,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR088")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -4446,7 +4446,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65e7ec8c-8540-4ffc-bc78-ebecb55bfa4a")
-		(property "Reference" "C57"
+		(property "Reference" "C61"
 			(at 243.84 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4542,7 +4542,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C57")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -4560,7 +4560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a27afc9-42b6-4d8c-9bc9-f274e1c54b08")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR095"
 			(at 251.46 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4621,7 +4621,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR087")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -4639,7 +4639,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "780b1bde-bf1b-4f64-afda-f8d944abefd4")
-		(property "Reference" "C63"
+		(property "Reference" "C53"
 			(at 162.56 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4735,7 +4735,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C63")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -4752,7 +4752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cf92f2d-73fc-4450-ba00-ad852b0bcec5")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 225.552 130.302 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4837,7 +4837,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -4855,7 +4855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "851790b8-084f-4c83-a08d-f8478fbdf995")
-		(property "Reference" "C62"
+		(property "Reference" "C54"
 			(at 182.88 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4951,7 +4951,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C62")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -5049,7 +5049,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "92f68153-557f-4ce1-9038-1afb9a9e9dd2")
-		(property "Reference" "R30"
+		(property "Reference" "R47"
 			(at 175.768 154.94 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5113,7 +5113,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R30")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -5130,7 +5130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98c88d89-79fc-40a3-9bc5-1537757c23ca")
-		(property "Reference" "C55"
+		(property "Reference" "C63"
 			(at 254 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5226,7 +5226,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C55")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -5243,7 +5243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98db61ff-d9a0-477b-868e-123b2dd94ba2")
-		(property "Reference" "R33"
+		(property "Reference" "R44"
 			(at 151.892 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5307,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R33")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -5324,7 +5324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98fd7b7d-02df-4127-9488-88984ee471e5")
-		(property "Reference" "C52"
+		(property "Reference" "C62"
 			(at 254 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +5420,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C52")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -5439,7 +5439,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a34b1ac2-5d2e-49c4-b4fc-e5d810bafbf9")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR087"
 			(at 185.42 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5500,7 +5500,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR096")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -5517,7 +5517,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac3cca58-9afc-4ef0-a5e1-1acb82f84ee0")
-		(property "Reference" "R31"
+		(property "Reference" "R45"
 			(at 160.02 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5578,7 +5578,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R31")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -5596,7 +5596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad717e63-9c2d-4368-bfc6-31b633139686")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR088"
 			(at 198.12 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5657,7 +5657,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR095")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbfd2c0b-6328-4e25-a45d-83fe8ab96e2f")
-		(property "Reference" "C61"
+		(property "Reference" "C60"
 			(at 243.84 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5770,7 +5770,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C61")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -5788,7 +5788,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4a2d626-8233-42a9-b8ca-0d19a36c4ab9")
-		(property "Reference" "C97"
+		(property "Reference" "C57"
 			(at 227.3362 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5884,7 +5884,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C97")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -6015,7 +6015,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d62c2662-d1ed-4a81-8bdd-4119ac8c0ce8")
-		(property "Reference" "C56"
+		(property "Reference" "C55"
 			(at 213.36 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +6111,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C56")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6129,7 +6129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7666bc3-dd4d-4c4b-a41e-db4ae787bf05")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR090"
 			(at 220.98 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6190,7 +6190,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR093")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6208,7 +6208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac59533-544a-4c34-8f4b-3bebb48f4479")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR098"
 			(at 281.94 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6269,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR084")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -6287,7 +6287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e010fc4b-fdc4-4cbc-97b3-705eaff202b1")
-		(property "Reference" "C66"
+		(property "Reference" "C50"
 			(at 137.16 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6383,7 +6383,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C66")
+					(reference "C50")
 					(unit 1)
 				)
 			)

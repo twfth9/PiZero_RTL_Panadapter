@@ -1049,7 +1049,7 @@
 	)
 	(text "90-Ohm Differential Impedance"
 		(exclude_from_sim no)
-		(at 149.86 139.954 0)
+		(at 139.7 139.954 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1061,7 +1061,7 @@
 	)
 	(text "90-Ohm Differential Impedance"
 		(exclude_from_sim no)
-		(at 149.86 155.194 0)
+		(at 139.7 155.194 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1073,7 +1073,7 @@
 	)
 	(text "90-Ohm Differential Impedance"
 		(exclude_from_sim no)
-		(at 149.86 147.574 0)
+		(at 139.7 147.574 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1097,7 +1097,7 @@
 	)
 	(text "90-Ohm Differential Impedance"
 		(exclude_from_sim no)
-		(at 149.86 132.334 0)
+		(at 139.7 132.334 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1106,6 +1106,17 @@
 			)
 		)
 		(uuid "eb9c2f74-cdd8-40bc-8568-90d8458ab3a5")
+	)
+	(text "Integrated\nUSB\nPull-Ups"
+		(exclude_from_sim no)
+		(at 187.452 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "eba20ac0-3fc2-47e1-9dd5-6cbf307d61de")
 	)
 	(junction
 		(at 209.55 110.49)
@@ -1132,7 +1143,7 @@
 		(uuid "4e107c63-0951-46ac-821d-06da66b01134")
 	)
 	(junction
-		(at 266.7 110.49)
+		(at 287.02 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ddb1f96-fc2d-4e65-b60a-f0a1b96120df")
@@ -1156,16 +1167,16 @@
 		(uuid "bd5121a0-42c1-49ac-b3d5-b961dc5d1a7d")
 	)
 	(junction
-		(at 256.54 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf8b4f89-7bb1-48b3-b454-10326ed3df90")
-	)
-	(junction
-		(at 287.02 110.49)
+		(at 307.34 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c52b89e5-8c92-48f5-804c-8046fd09a11a")
+	)
+	(junction
+		(at 276.86 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df18ff8a-bdf8-4589-904b-6cdd99afa4cc")
 	)
 	(junction
 		(at 201.93 92.71)
@@ -1174,7 +1185,7 @@
 		(uuid "f097fb21-7b26-4e8e-833f-c93ae380c24f")
 	)
 	(junction
-		(at 276.86 110.49)
+		(at 297.18 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff578975-5f43-46da-8e9f-ae22041418df")
@@ -1208,16 +1219,6 @@
 			(type default)
 		)
 		(uuid "0386ea90-f819-4d3e-adcc-f54fdc3b4de0")
-	)
-	(wire
-		(pts
-			(xy 205.74 148.59) (xy 256.54 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04fc4c1b-c82b-4f55-850e-a83fade70ecd")
 	)
 	(wire
 		(pts
@@ -1261,7 +1262,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 110.49) (xy 292.1 110.49)
+			(xy 307.34 110.49) (xy 312.42 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1281,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 140.97) (xy 170.18 140.97)
+			(xy 120.65 140.97) (xy 170.18 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1291,17 +1292,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 156.21) (xy 276.86 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d16c3c1-4ee0-459d-8ed0-d81cf11c87ee")
-	)
-	(wire
-		(pts
-			(xy 256.54 110.49) (xy 266.7 110.49)
+			(xy 276.86 110.49) (xy 287.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1311,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 156.21) (xy 170.18 156.21)
+			(xy 120.65 156.21) (xy 170.18 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 148.59) (xy 170.18 148.59)
+			(xy 120.65 148.59) (xy 170.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1391,13 +1382,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 110.49) (xy 256.54 110.49)
+			(xy 209.55 110.49) (xy 276.86 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35392dcf-9c33-48fe-abcc-78a8ad916985")
+	)
+	(wire
+		(pts
+			(xy 205.74 156.21) (xy 297.18 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a059624-a546-48eb-a967-d3b89ef91742")
 	)
 	(wire
 		(pts
@@ -1431,7 +1432,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 110.49) (xy 276.86 142.24)
+			(xy 297.18 110.49) (xy 297.18 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 110.49) (xy 266.7 142.24)
+			(xy 287.02 110.49) (xy 287.02 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1462,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 135.89) (xy 205.74 135.89)
+			(xy 246.38 135.89) (xy 205.74 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1481,7 +1482,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 138.43) (xy 205.74 138.43)
+			(xy 246.38 138.43) (xy 205.74 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1491,17 +1492,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 153.67) (xy 266.7 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e598bd7-c19c-4381-85d0-0a3d2982e526")
-	)
-	(wire
-		(pts
-			(xy 130.81 138.43) (xy 170.18 138.43)
+			(xy 120.65 138.43) (xy 170.18 138.43)
 		)
 		(stroke
 			(width 0)
@@ -1511,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 110.49) (xy 276.86 110.49)
+			(xy 287.02 110.49) (xy 297.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1532,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 146.05) (xy 170.18 146.05)
+			(xy 120.65 146.05) (xy 170.18 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1551,17 +1542,17 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 158.75) (xy 287.02 158.75)
+			(xy 205.74 158.75) (xy 307.34 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "764fdbea-2006-422d-a93c-8630e1aefd6c")
+		(uuid "75e76f2f-73ef-48c5-b1b6-0532e5703648")
 	)
 	(wire
 		(pts
-			(xy 130.81 130.81) (xy 170.18 130.81)
+			(xy 120.65 130.81) (xy 170.18 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1581,7 +1572,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 110.49) (xy 256.54 148.59)
+			(xy 276.86 110.49) (xy 276.86 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1601,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 170.18 133.35)
+			(xy 120.65 133.35) (xy 170.18 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1611,7 +1602,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 110.49) (xy 287.02 110.49)
+			(xy 297.18 110.49) (xy 307.34 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1621,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 156.21) (xy 276.86 147.32)
+			(xy 297.18 156.21) (xy 297.18 147.32)
 		)
 		(stroke
 			(width 0)
@@ -1661,13 +1652,23 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 110.49) (xy 287.02 142.24)
+			(xy 307.34 110.49) (xy 307.34 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b06f9de5-b652-4c29-864a-307f89acb96c")
+	)
+	(wire
+		(pts
+			(xy 205.74 153.67) (xy 287.02 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2140743-1c90-46c1-97c8-2dba7c6562e0")
 	)
 	(wire
 		(pts
@@ -1691,7 +1692,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 147.32) (xy 266.7 153.67)
+			(xy 287.02 147.32) (xy 287.02 153.67)
 		)
 		(stroke
 			(width 0)
@@ -1771,13 +1772,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 153.67) (xy 170.18 153.67)
+			(xy 120.65 153.67) (xy 170.18 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f10cdce6-79cd-4dc4-a863-82687ada2085")
+	)
+	(wire
+		(pts
+			(xy 205.74 148.59) (xy 276.86 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e753a1-e793-4370-974d-a846d41df189")
 	)
 	(wire
 		(pts
@@ -1791,7 +1802,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 158.75) (xy 287.02 147.32)
+			(xy 307.34 158.75) (xy 307.34 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2671,7 +2682,7 @@
 		(uuid "1d9587d2-0c25-4e54-9e94-ad91c9327c05")
 	)
 	(label "HUB_3V3"
-		(at 292.1 110.49 180)
+		(at 312.42 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2710,9 +2721,9 @@
 		)
 		(uuid "ecc4f5a8-5ff9-4685-b4fe-f8641baf720a")
 	)
-	(hierarchical_label "USB1_P"
+	(hierarchical_label "USB1_90R_P"
 		(shape input)
-		(at 130.81 130.81 180)
+		(at 120.65 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2721,9 +2732,9 @@
 		)
 		(uuid "406f8357-d332-4a3c-884c-6ea607876456")
 	)
-	(hierarchical_label "USB1_N"
+	(hierarchical_label "USB1_90R_N"
 		(shape input)
-		(at 130.81 133.35 180)
+		(at 120.65 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2732,9 +2743,9 @@
 		)
 		(uuid "466d5515-d2f2-4925-8f71-e7fe3f1ce4b8")
 	)
-	(hierarchical_label "USB3_N"
+	(hierarchical_label "USB3_90R_N"
 		(shape input)
-		(at 130.81 148.59 180)
+		(at 120.65 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2743,9 +2754,9 @@
 		)
 		(uuid "51036144-4896-4100-be71-3c55cd36dbf0")
 	)
-	(hierarchical_label "USB2_N"
+	(hierarchical_label "USB2_90R_N"
 		(shape input)
-		(at 130.81 140.97 180)
+		(at 120.65 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2765,9 +2776,9 @@
 		)
 		(uuid "6c532acf-a68d-43bf-93e5-e8af30f0ac4b")
 	)
-	(hierarchical_label "USB4_N"
+	(hierarchical_label "USB4_90R_N"
 		(shape input)
-		(at 130.81 156.21 180)
+		(at 120.65 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2787,9 +2798,9 @@
 		)
 		(uuid "840b815b-6da6-4309-b747-e1c6eaf37031")
 	)
-	(hierarchical_label "USB4_P"
+	(hierarchical_label "USB4_90R_P"
 		(shape input)
-		(at 130.81 153.67 180)
+		(at 120.65 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2798,9 +2809,9 @@
 		)
 		(uuid "8bba2b70-df00-4aa2-b1e1-b5062a4704bb")
 	)
-	(hierarchical_label "USBUP_DP"
+	(hierarchical_label "USBUP_90R_P"
 		(shape output)
-		(at 241.3 135.89 0)
+		(at 246.38 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2809,9 +2820,9 @@
 		)
 		(uuid "a1287c30-4f00-463e-b894-b2d5acccdc3b")
 	)
-	(hierarchical_label "USB3_P"
+	(hierarchical_label "USB3_90R_P"
 		(shape input)
-		(at 130.81 146.05 180)
+		(at 120.65 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2820,9 +2831,9 @@
 		)
 		(uuid "afeac7f1-fcc3-4051-ab6e-2ae74e6d442b")
 	)
-	(hierarchical_label "USBUP_DM"
+	(hierarchical_label "USBUP_90R_N"
 		(shape output)
-		(at 241.3 138.43 0)
+		(at 246.38 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2831,9 +2842,9 @@
 		)
 		(uuid "c35f3012-5ae6-48f0-87e2-b6193e674c9a")
 	)
-	(hierarchical_label "USB2_P"
+	(hierarchical_label "USB2_90R_P"
 		(shape input)
-		(at 130.81 138.43 180)
+		(at 120.65 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2854,7 +2865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0618d4bb-80dc-4b9b-86e3-aa90ee8e9789")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR057"
 			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2915,7 +2926,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR046")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -2934,7 +2945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27fbdbb9-d07c-431f-ab33-310449468106")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR062"
 			(at 208.28 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -2995,7 +3006,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR052")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "374170bb-4c3c-4b5b-9d85-5b286c625422")
-		(property "Reference" "U5"
+		(property "Reference" "U7"
 			(at 185.8167 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3155,7 +3166,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "U5")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3172,7 +3183,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44ae053f-0e70-4961-9d77-57c1b13c45ec")
-		(property "Reference" "C118"
+		(property "Reference" "C30"
 			(at 201.93 115.5762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3268,7 +3279,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "C118")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -3285,7 +3296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b905a9a-7a1c-43e6-a925-bbcbd66ebd46")
-		(property "Reference" "C119"
+		(property "Reference" "C32"
 			(at 212.09 115.5762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3392,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "C119")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3398,7 +3409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c969612-b4e0-42d9-a1b4-80c56d441af5")
-		(property "Reference" "C93"
+		(property "Reference" "C33"
 			(at 224.7962 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3494,7 +3505,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "C93")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3513,7 +3524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52a7477b-642e-4515-8a88-4eec315c82b0")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR063"
 			(at 209.55 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -3574,7 +3585,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR053")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -3591,7 +3602,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5a639d14-2d61-4da5-a9c4-5820daa5399b")
-		(property "Reference" "R14"
+		(property "Reference" "R20"
 			(at 210.82 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +3624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 208.28 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -3655,7 +3666,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "R14")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -3674,7 +3685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "667de0c5-8e78-41ec-8c17-e84f1d195af4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR061"
 			(at 201.93 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3746,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR050")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3753,7 +3764,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a28cf10-fdc8-4b46-ab2e-bf0d0feae148")
-		(property "Reference" "C116"
+		(property "Reference" "C28"
 			(at 171.45 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3849,7 +3860,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "C116")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -3866,7 +3877,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ecf9cbc-e54d-4155-9b0c-7390971dd8d4")
-		(property "Reference" "C117"
+		(property "Reference" "C29"
 			(at 194.31 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +3973,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "C117")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9817676e-c6f9-4199-8456-6eedd2f0dbee")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR058"
 			(at 187.96 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -4042,7 +4053,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR047")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1d481dd-e113-4d96-9ba0-336fc8a19a1c")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR060"
 			(at 199.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -4122,7 +4133,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR049")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4140,7 +4151,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a8689d1f-8794-402f-aa41-6ae2e7a7234e")
-		(property "Reference" "R44"
+		(property "Reference" "R21"
 			(at 210.312 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4173,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 210.82 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -4204,7 +4215,169 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "R44")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 307.34 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b120cc3c-bbcb-4f15-a7a4-937079cec522")
+		(property "Reference" "R24"
+			(at 304.8 146.0501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 304.8 143.5101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_R_0201"
+			(at 307.34 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 307.34 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 307.34 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0bbecab-fd9e-43a8-81cf-0c5378497d4d")
+		)
+		(pin "1"
+			(uuid "130e7c79-317a-4750-9d55-7317f012c2f1")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 297.18 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1b0cff1-ad8a-429b-8b16-49286671fe7c")
+		(property "Reference" "R23"
+			(at 294.64 146.0501 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 294.64 143.5101 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_R_0201"
+			(at 297.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 297.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 297.18 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4f287f0c-aaf5-4e82-adea-c13dd1465b30")
+		)
+		(pin "1"
+			(uuid "0ffb65c7-3c12-4f68-ba3b-ceb767eeb98b")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4220,8 +4393,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b120cc3c-bbcb-4f15-a7a4-937079cec522")
-		(property "Reference" "R17"
+		(uuid "c2bfb29d-0c03-4e68-bd8b-9ac9de0f2aab")
+		(property "Reference" "R22"
 			(at 284.48 146.0501 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +4416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 287.02 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4267,168 +4440,6 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 287.02 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f0bbecab-fd9e-43a8-81cf-0c5378497d4d")
-		)
-		(pin "1"
-			(uuid "130e7c79-317a-4750-9d55-7317f012c2f1")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 276.86 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b1b0cff1-ad8a-429b-8b16-49286671fe7c")
-		(property "Reference" "R16"
-			(at 274.32 146.0501 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 274.32 143.5101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_R_0402"
-			(at 276.86 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 276.86 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4f287f0c-aaf5-4e82-adea-c13dd1465b30")
-		)
-		(pin "1"
-			(uuid "0ffb65c7-3c12-4f68-ba3b-ceb767eeb98b")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 266.7 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c2bfb29d-0c03-4e68-bd8b-9ac9de0f2aab")
-		(property "Reference" "R15"
-			(at 264.16 146.0501 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 264.16 143.5101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_R_0402"
-			(at 266.7 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 266.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4447,7 +4458,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "R15")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4466,7 +4477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2c3a52f-3639-4864-a653-220ab49c7c12")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR059"
 			(at 191.77 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4527,7 +4538,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "#PWR048")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -4544,7 +4555,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0337933-e8e1-4c3d-aa69-8b94b56daa46")
-		(property "Reference" "C54"
+		(property "Reference" "C31"
 			(at 204.47 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4640,7 +4651,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/677295bc-6966-4c73-b60e-630089a064e1"
-					(reference "C54")
+					(reference "C31")
 					(unit 1)
 				)
 			)

@@ -5951,7 +5951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "011aff5d-af90-45ba-be25-b656f4e0ff42")
-		(property "Reference" "Q6"
+		(property "Reference" "Q2"
 			(at 199.39 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6040,7 +6040,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "Q6")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01dbbc01-4810-41ff-bdbe-4fbe9cabd02d")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0110"
 			(at 100.33 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6120,7 +6120,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0122")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6219,7 +6219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d592e78-5f7b-4ee8-be5f-5624efe6f285")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0112"
 			(at 175.26 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +6280,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0115")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6297,7 +6297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "336d307f-d21c-4b99-bf47-89f995de9f1f")
-		(property "Reference" "C88"
+		(property "Reference" "C76"
 			(at 209.55 128.2762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6319,7 +6319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 207.01 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6392,7 +6392,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "C88")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -6411,7 +6411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "351c6c51-4e6c-4a29-9651-3154dd85a26b")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0116"
 			(at 317.5 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6472,7 +6472,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0118")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -6491,7 +6491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36778472-4176-41a1-b8c7-ab5c190b7385")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0118"
 			(at 358.14 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -6552,7 +6552,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0126")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -6569,7 +6569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c2c7969-7694-4188-8a7a-e89ad3c8fb3d")
-		(property "Reference" "R55"
+		(property "Reference" "R58"
 			(at 123.698 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6591,7 +6591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 125.73 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6633,7 +6633,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R55")
+					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -6652,7 +6652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "530608c8-4f53-4183-8555-5136a366b16b")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0119"
 			(at 358.14 127 0)
 			(hide yes)
 			(show_name no)
@@ -6713,7 +6713,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0116")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -6832,7 +6832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6af7e45c-d5d1-4f62-8381-b3f5c579daf7")
-		(property "Reference" "C95"
+		(property "Reference" "C75"
 			(at 160.782 103.886 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +6854,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 161.29 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -6927,7 +6927,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "C95")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -6944,7 +6944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "79c30446-50ff-43fc-82cf-6aeff2facb2e")
-		(property "Reference" "R63"
+		(property "Reference" "R59"
 			(at 170.688 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6966,7 +6966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 172.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7008,7 +7008,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R63")
+					(reference "R59")
 					(unit 1)
 				)
 			)
@@ -7025,7 +7025,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e94e374-7ea8-4601-8b25-4e64da1c266b")
-		(property "Reference" "C87"
+		(property "Reference" "C77"
 			(at 214.63 82.5562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7121,7 +7121,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "C87")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -7139,7 +7139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92a428ed-0f26-4590-b562-e3902c2d1326")
-		(property "Reference" "C74"
+		(property "Reference" "C78"
 			(at 297.18 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +7222,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "C74")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -7239,7 +7239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95e85358-036f-4a32-b6f6-0612c171fd85")
-		(property "Reference" "L21"
+		(property "Reference" "L11"
 			(at 356.108 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7334,7 +7334,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "L21")
+					(reference "L11")
 					(unit 1)
 				)
 			)
@@ -7351,7 +7351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97db16b3-8ea7-46b0-b731-8d8680c5a952")
-		(property "Reference" "R67"
+		(property "Reference" "R62"
 			(at 194.818 117.856 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7373,7 +7373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 196.85 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -7415,7 +7415,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R67")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -7432,7 +7432,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d02073c-2431-48e9-9936-807c33b2b0ee")
-		(property "Reference" "L14"
+		(property "Reference" "L8"
 			(at 297.18 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,7 +7525,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "L14")
+					(reference "L8")
 					(unit 1)
 				)
 			)
@@ -7544,7 +7544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ddd33c8-8708-4dba-af0d-2507a69cb3ca")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0115"
 			(at 212.09 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7605,7 +7605,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR054")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -7622,7 +7622,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5d6ec4a-35bd-4820-99ce-cfd99a124586")
-		(property "Reference" "R53"
+		(property "Reference" "R56"
 			(at 102.362 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +7644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 100.33 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7686,7 +7686,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R53")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -7703,7 +7703,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae1d51ca-f091-4e4d-9a68-3380c78f7b89")
-		(property "Reference" "R54"
+		(property "Reference" "R57"
 			(at 112.522 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7725,7 +7725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 113.03 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7767,7 +7767,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R54")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -7786,7 +7786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b477c72e-94e2-4724-a7f5-5bda62abe445")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0113"
 			(at 196.85 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7847,7 +7847,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0110")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -7865,7 +7865,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9895801-a253-4066-8b1a-aea768c44643")
-		(property "Reference" "C82"
+		(property "Reference" "C79"
 			(at 320.04 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7961,7 +7961,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "C82")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -7978,7 +7978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c406a9d1-194c-4f9e-baba-4e98a0a63c2b")
-		(property "Reference" "L17"
+		(property "Reference" "L9"
 			(at 315.468 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8073,7 +8073,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "L17")
+					(reference "L9")
 					(unit 1)
 				)
 			)
@@ -8092,7 +8092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc16f18f-932a-4f0e-87b0-dad8343c05db")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0111"
 			(at 125.73 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -8153,7 +8153,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0123")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8170,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd5868e8-bb13-497e-b486-25e0094c6c9b")
-		(property "Reference" "L13"
+		(property "Reference" "L10"
 			(at 337.82 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8263,7 +8263,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "L13")
+					(reference "L10")
 					(unit 1)
 				)
 			)
@@ -8280,7 +8280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d46bb555-80bf-482f-94d9-c14da32862e5")
-		(property "Reference" "R66"
+		(property "Reference" "R60"
 			(at 173.228 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8302,7 +8302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 175.26 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8344,7 +8344,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R66")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -8361,7 +8361,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6b1a8bf-6680-4a0e-8cd9-796a39e849b2")
-		(property "Reference" "C122"
+		(property "Reference" "C81"
 			(at 355.6 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8457,7 +8457,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "C122")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -8476,7 +8476,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0d2ff3b-7e6d-4613-b90c-55ec5ff5589a")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0114"
 			(at 207.01 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -8537,7 +8537,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "#PWR0127")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -8554,7 +8554,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9c9dc47-f67b-454c-8884-8e37c9b67490")
-		(property "Reference" "R65"
+		(property "Reference" "R61"
 			(at 194.818 87.376 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8576,7 +8576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 196.85 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8618,7 +8618,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R65")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -8635,7 +8635,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f03c8352-1f19-4609-964c-9313ed546f8b")
-		(property "Reference" "R64"
+		(property "Reference" "R63"
 			(at 194.818 128.016 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8657,7 +8657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 196.85 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -8699,7 +8699,7 @@
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/3420035a-a385-4f1e-a095-96333726b462"
-					(reference "R64")
+					(reference "R63")
 					(unit 1)
 				)
 			)
