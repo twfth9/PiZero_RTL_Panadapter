@@ -7520,7 +7520,7 @@
 	(footprint "Converter_DCDC:Converter_DCDC_RECOM_RPMx.x-x.0"
 		(layer "F.Cu")
 		(uuid "2e65ce6b-1196-45a6-aab6-c9e4b407e52e")
-		(at 125 99.35)
+		(at 125 102.5)
 		(descr "https://www.recom-power.com/pdf/Innoline/RPM-6.0.pdf")
 		(tags "dc-dc recom buck lga-25 pitch 2.29mm")
 		(property "Reference" "U11"
@@ -10121,7 +10121,7 @@
 	(footprint "libraries:CAPMP7.6X4.3_4.3N_KEM"
 		(layer "F.Cu")
 		(uuid "48b6ad20-99e4-4e8f-b112-a295eeba7bf1")
-		(at 138 93.75)
+		(at 124.6223 93.75)
 		(tags "T495X477K010ATE100 ")
 		(property "Reference" "REF**"
 			(at 0 0 0)
@@ -10481,7 +10481,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.250808 91.650804) (xy 141.749192 91.650804) (xy 141.749192 92.449202) (xy 134.250808 92.449202)
+					(xy 120.873108 91.650804) (xy 128.371492 91.650804) (xy 128.371492 92.449202) (xy 120.873108 92.449202)
 				)
 			)
 		)
@@ -10511,7 +10511,7 @@
 			)
 			(polygon
 				(pts
-					(xy 134.250808 95.050798) (xy 141.749192 95.050798) (xy 141.749192 95.849196) (xy 134.250808 95.849196)
+					(xy 120.873108 95.050798) (xy 128.371492 95.050798) (xy 128.371492 95.849196) (xy 120.873108 95.849196)
 				)
 			)
 		)
@@ -10541,7 +10541,7 @@
 			)
 			(polygon
 				(pts
-					(xy 136.358804 92.449202) (xy 139.641196 92.449202) (xy 139.641196 95.050798) (xy 136.358804 95.050798)
+					(xy 122.981104 92.449202) (xy 126.263496 92.449202) (xy 126.263496 95.050798) (xy 122.981104 95.050798)
 				)
 			)
 		)
@@ -23747,7 +23747,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "39f122d7-ba5c-436a-b4d1-1050a601908c")
+			(uuid "1244bfeb-9d38-4fdb-824a-d4982f7bb0cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23758,7 +23758,7 @@
 			(at 32.9 -11.9 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "361cfd9a-b84b-4953-bbba-b4919fe79333")
+			(uuid "8f351431-065d-4bf5-8680-5f9594590e77")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23770,7 +23770,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea1d6d60-7baa-4673-908d-5b2b3b7d5f89")
+			(uuid "2ba13d3c-270e-4723-a393-7bc8b59c5852")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23782,7 +23782,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "29406104-587c-4535-84ac-2859c35fc0b4")
+			(uuid "9239385b-ee97-42be-b04e-667ce1ab520e")
 			(effects
 				(font
 					(size 1.27 1.27)

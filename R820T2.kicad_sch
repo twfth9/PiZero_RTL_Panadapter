@@ -1552,16 +1552,16 @@
 		(uuid "5eeb88dd-1edc-4d25-b518-9cd1e94f9de8")
 	)
 	(junction
+		(at 165.1 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63fc7de9-d8cc-48cc-ab86-9c93d6e6a15a")
+	)
+	(junction
 		(at 281.94 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bfbaeec-0411-4c42-babb-42725a61be07")
-	)
-	(junction
-		(at 165.1 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87d93416-9a54-4b98-98d3-e469993fcc9e")
 	)
 	(junction
 		(at 271.78 127)
@@ -1619,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 121.92) (xy 167.64 121.92)
+			(xy 180.34 121.92) (xy 166.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1666,16 +1666,6 @@
 			(type default)
 		)
 		(uuid "0db677db-79d3-4bbb-b6dd-a32955171381")
-	)
-	(wire
-		(pts
-			(xy 170.18 160.02) (xy 170.18 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11dfb8e6-d96c-472a-bcb2-ce0500b22528")
 	)
 	(wire
 		(pts
@@ -1739,7 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 124.46) (xy 228.6 124.46)
+			(xy 228.6 124.46) (xy 238.76 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 228.6 127)
+			(xy 238.76 124.46) (xy 238.76 127)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 124.46) (xy 220.98 124.46)
+			(xy 215.9 124.46) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 132.08) (xy 220.98 132.08)
+			(xy 215.9 132.08) (xy 223.52 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 132.08) (xy 228.6 132.08)
+			(xy 228.6 132.08) (xy 238.76 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 160.02 121.92)
+			(xy 140.97 121.92) (xy 158.75 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 157.48 116.84)
+			(xy 158.75 116.84) (xy 140.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 127) (xy 215.9 127)
+			(xy 238.76 127) (xy 215.9 127)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 154.94 139.7)
+			(xy 139.7 139.7) (xy 149.86 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 142.24) (xy 149.86 139.7)
+			(xy 139.7 142.24) (xy 139.7 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 132.08) (xy 228.6 134.62)
+			(xy 238.76 132.08) (xy 238.76 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2149,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 160.02) (xy 142.24 160.02)
+			(xy 154.94 160.02) (xy 132.08 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2169,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 132.08) (xy 170.18 132.08)
+			(xy 148.59 132.08) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2199,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 116.84) (xy 180.34 116.84)
+			(xy 166.37 116.84) (xy 180.34 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 132.08) (xy 175.26 132.08)
+			(xy 180.34 132.08) (xy 163.83 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 134.62) (xy 215.9 134.62)
+			(xy 238.76 134.62) (xy 215.9 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2249,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 139.7) (xy 160.02 139.7)
+			(xy 165.1 139.7) (xy 154.94 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 132.08) (xy 160.02 132.08)
+			(xy 140.97 132.08) (xy 143.51 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2371,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 157.48 116.84 180)
+		(at 140.97 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2392,7 +2382,7 @@
 	)
 	(hierarchical_label "28.8MHz_CLK_IN"
 		(shape input)
-		(at 142.24 160.02 180)
+		(at 132.08 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2414,7 +2404,7 @@
 	)
 	(hierarchical_label "RF_IN"
 		(shape input)
-		(at 157.48 132.08 180)
+		(at 140.97 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2425,7 +2415,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 157.48 121.92 180)
+		(at 140.97 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2458,8 +2448,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 163.83 121.92 270)
-		(mirror x)
+		(at 162.56 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2469,7 +2458,7 @@
 		(dnp no)
 		(uuid "0458da8a-4eb1-4764-9685-50bb4270755a")
 		(property "Reference" "R34"
-			(at 166.37 119.38 90)
+			(at 160.02 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,7 +2468,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 161.29 119.38 90)
+			(at 165.1 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2488,8 +2477,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 163.576 120.904 90)
+		(property "Footprint" "libraries:Worthington_R_0201"
+			(at 162.814 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,7 +2489,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 121.92 0)
+			(at 162.56 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2511,7 +2500,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 121.92 0)
+			(at 162.56 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2615,8 +2604,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 223.52 124.46 90)
+		(lib_id "Device:C_Small")
+		(at 146.05 132.08 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2624,9 +2614,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0eb7c0d9-a6ba-4668-b84f-e5783be5fa34")
-		(property "Reference" "L2"
-			(at 223.012 122.682 90)
+		(uuid "0ccbcef5-ee42-491c-898e-6b0715cdeac4")
+		(property "Reference" "C64"
+			(at 145.288 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2636,8 +2626,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150n"
-			(at 224.028 122.682 90)
+		(property "Value" "330p"
+			(at 146.812 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2647,8 +2637,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 223.52 124.46 0)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2659,7 +2649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 124.46 0)
+			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2669,8 +2659,142 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
-			(at 223.52 124.46 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC02X7R331J50NT"
+			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC02X7R331J50NTCT-ND"
+			(at 146.05 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 146.05 135.128 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d00ac26-f0f2-4730-9dae-e434aac92e7a")
+		)
+		(pin "2"
+			(uuid "96d0454a-b0ca-40c0-ae03-d314769765ae")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 226.06 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0eb7c0d9-a6ba-4668-b84f-e5783be5fa34")
+		(property "Reference" "L2"
+			(at 225.552 122.682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150n"
+			(at 226.568 122.682 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_L_0603"
+			(at 226.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
+			(at 226.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "150 nH Unshielded Drum Core, Wirewound Inductor 160 mA 1.5Ohm Max 0603 (1608 Metric)"
+			(at 226.06 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW18ANR15J00D"
+			(at 226.06 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-6924-1-ND"
+			(at 226.06 124.46 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2775,91 +2899,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 170.18 165.1 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "1466e672-b9d6-4171-b755-01636badacce")
-		(property "Reference" "R32"
-			(at 172.212 163.576 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 171.958 165.862 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 170.18 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 170.18 165.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1a8bcb91-becb-41a6-a1c7-71b0e8ee8109")
-		)
-		(pin "1"
-			(uuid "b9d18a0e-ff3b-4ba8-a043-7bb8f5f514f0")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 162.56 132.08 90)
-		(mirror x)
+		(at 231.14 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2867,9 +2908,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1b106595-f84a-4241-ad8e-f6be970bee0c")
-		(property "Reference" "C64"
-			(at 162.052 129.286 90)
+		(uuid "122a189d-5df6-4259-a963-aeb8b1193818")
+		(property "Reference" "C60"
+			(at 233.68 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2879,19 +2920,19 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330p"
-			(at 163.068 129.286 90)
+		(property "Value" "100n"
+			(at 233.68 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 162.56 132.08 0)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 231.14 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2901,8 +2942,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 162.56 132.08 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 231.14 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2913,7 +2954,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 162.56 132.08 0)
+			(at 231.14 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2923,16 +2964,48 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 231.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 231.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 235.712 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "5f7d02e0-fd17-4074-9f2d-b6c6dd693d30")
+			(uuid "c3194c63-ff2f-4303-b84d-3f79042d258b")
 		)
 		(pin "2"
-			(uuid "baca4b3d-6f96-48a4-ac67-4d57f6b5aa98")
+			(uuid "66bcf30d-42d3-4ddb-aa42-30762d096d84")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C64")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -3019,8 +3092,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 271.78 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20ad450d-c95a-46aa-b041-bd0314c8f9cf")
+		(property "Reference" "C70"
+			(at 274.32 130.8162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 274.32 133.3562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 271.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 271.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 271.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 271.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 271.78 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 276.352 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3163610b-1fb9-4231-b5a4-b2451c8dc17e")
+		)
+		(pin "2"
+			(uuid "23301efa-2d1e-491e-aca2-8bcbfc7d59d0")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 149.86 147.32 0)
+		(at 139.7 147.32 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3032,7 +3218,7 @@
 		(fields_autoplaced yes)
 		(uuid "253f029a-1a07-4f49-b0ff-2241b2af2dc5")
 		(property "Reference" "#PWR099"
-			(at 149.86 153.67 0)
+			(at 139.7 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3043,7 +3229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 152.4 0)
+			(at 139.7 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3054,7 +3240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 147.32 0)
+			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3065,7 +3251,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 147.32 0)
+			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3076,7 +3262,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 147.32 0)
+			(at 139.7 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3251,7 +3437,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 172.72 132.08 90)
+		(at 161.29 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3261,29 +3447,27 @@
 		(dnp no)
 		(uuid "27f33d16-42f5-4214-9dd5-67c03e7cb00d")
 		(property "Reference" "L4"
-			(at 172.466 130.302 90)
+			(at 161.036 127 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "8n2"
-			(at 172.974 130.302 90)
+		(property "Value" "8n2, ±2%"
+			(at 161.544 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 132.08 0)
+		(property "Footprint" "libraries:Worthington_L_0603"
+			(at 161.29 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3293,8 +3477,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 172.72 132.08 0)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0111_PDF_INDUCTOR"
+			(at 161.29 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3304,8 +3488,29 @@
 				)
 			)
 		)
-		(property "Description" "Inductor, small symbol"
-			(at 172.72 132.08 0)
+		(property "Description" "8.2 nH Unshielded Wirewound Inductor 700 mA 115mOhm Max 0603 (1608 Metric)"
+			(at 161.29 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW18AS8N2G00D"
+			(at 161.29 134.112 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-LQW18AS8N2G00DCT-ND"
+			(at 161.29 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,87 +3530,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 271.78 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "28cb1c6d-b4a1-4909-ab1d-75a1e7051ec0")
-		(property "Reference" "C52"
-			(at 274.32 130.8162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 274.32 133.3562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 271.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 271.78 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cf23ee87-b322-4816-bb32-eba19ff6d134")
-		)
-		(pin "2"
-			(uuid "9e9e2225-a9ee-4de9-87cb-ff42624284a8")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 261.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3567,6 +3691,120 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 157.48 160.02 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36efe12c-a2d5-4410-abbe-34d47c1f2595")
+		(property "Reference" "C96"
+			(at 156.2162 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 158.7562 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 157.48 164.592 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c97ea11f-1110-4d11-8c56-c586b3a71844")
+		)
+		(pin "2"
+			(uuid "67d8ef58-33c1-4d50-bd0b-f09e5133e594")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -3684,7 +3922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0603"
+		(property "Footprint" "libraries:Worthington_C_0402"
 			(at 281.94 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3695,7 +3933,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
 			(at 281.94 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3706,9 +3944,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
 			(at 281.94 132.08 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC04X5R106M10NT"
+			(at 281.94 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC04X5R106M10NTCT-ND"
+			(at 281.94 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 286.258 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3733,87 +4003,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 251.46 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e5645ae-1147-48cb-9f3c-78376a33eb91")
-		(property "Reference" "C54"
-			(at 254 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 254 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0603"
-			(at 251.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 251.46 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6877df4c-1c6c-4a9c-9311-372e8e3743c0")
-		)
-		(pin "2"
-			(uuid "2d0566be-b1d8-47dd-a909-f5eb9af81e11")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 276.86 127 270)
 		(mirror x)
@@ -3823,7 +4012,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "47dc2d6e-a9c0-4300-a059-a99059c67d7f")
 		(property "Reference" "FB6"
@@ -3846,7 +4035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "libraries:Worthington_L_0402"
 			(at 276.86 128.778 90)
 			(hide yes)
 			(show_name no)
@@ -4006,7 +4195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 256.54 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -4056,8 +4245,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 157.48 160.02 270)
-		(mirror x)
+		(at 220.98 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4065,9 +4253,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5d7335ee-76c4-4677-9699-5f31ece8e671")
-		(property "Reference" "C70"
-			(at 157.988 162.814 90)
+		(uuid "629feda4-ce67-441d-adf0-4547070fd569")
+		(property "Reference" "C58"
+			(at 223.52 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4078,18 +4266,18 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 156.972 162.814 90)
+			(at 223.52 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 157.48 160.02 0)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 220.98 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4099,8 +4287,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 157.48 160.02 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 220.98 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4111,7 +4299,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 157.48 160.02 0)
+			(at 220.98 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4121,16 +4309,48 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 220.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 220.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 225.552 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "251e0cb3-976c-45e2-ad75-b220c4feefd5")
+			(uuid "52ffc99e-b773-4e7f-9209-7a89d0a32d9d")
 		)
 		(pin "2"
-			(uuid "aa42ef89-a52e-4c4e-b693-ce5e658a5b7b")
+			(uuid "3de69d8c-dfa4-4e68-9135-c36463692b37")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C70")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -4227,7 +4447,7 @@
 		(dnp no)
 		(uuid "65e7ec8c-8540-4ffc-bc78-ebecb55bfa4a")
 		(property "Reference" "C57"
-			(at 243.84 149.8662 0)
+			(at 243.84 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4238,7 +4458,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 243.84 152.4062 0)
+			(at 243.84 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4248,7 +4468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 241.3 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4259,7 +4479,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
 			(at 241.3 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4273,6 +4493,38 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 241.3 151.13 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC02X5R105K10NT"
+			(at 253.746 152.1398 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC02X5R105K10NTCT-ND"
+			(at 241.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 245.618 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4409,7 +4661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 165.1 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4434,6 +4686,38 @@
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 165.1 144.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC02X7R331J50NT"
+			(at 165.1 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC02X7R331J50NTCT-ND"
+			(at 165.1 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 160.528 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,6 +4742,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:L_Small")
+		(at 226.06 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cf92f2d-73fc-4450-ba00-ad852b0bcec5")
+		(property "Reference" "L3"
+			(at 225.552 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150n"
+			(at 226.568 130.302 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_L_0603"
+			(at 226.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
+			(at 226.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "150 nH Unshielded Drum Core, Wirewound Inductor 160 mA 1.5Ohm Max 0603 (1608 Metric)"
+			(at 226.06 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LQW18ANR15J00D"
+			(at 226.06 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-6924-1-ND"
+			(at 226.06 132.08 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ee54c2cc-29b3-4b01-8677-1d6449433a88")
+		)
+		(pin "1"
+			(uuid "a0f78e44-b66e-4163-a005-b024f90598c1")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 185.42 106.68 0)
 		(mirror y)
@@ -4468,7 +4854,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "78dee5c8-b5f1-48d8-8fc4-a2e00c9b8745")
+		(uuid "851790b8-084f-4c83-a08d-f8478fbdf995")
 		(property "Reference" "C62"
 			(at 182.88 105.4162 0)
 			(show_name no)
@@ -4491,7 +4877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4502,7 +4888,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 185.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4524,260 +4910,48 @@
 				)
 			)
 		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 185.42 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 185.42 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 180.848 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "d5121ece-ca8c-4b44-a7fe-21829aab57ea")
+			(uuid "0277a8ee-ef78-4f8d-beae-c13a32ead1c9")
 		)
 		(pin "2"
-			(uuid "1aa98f25-0abc-462c-b4c2-787766abb6c6")
+			(uuid "182cb4ba-c0ae-434c-beaa-8269a618c88a")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "C62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 231.14 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7de8e165-6b0a-454b-8bf8-24c9e960041a")
-		(property "Reference" "C58"
-			(at 233.68 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 233.68 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 231.14 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7389576a-6bbb-4a1d-af39-1b75697f3b3f")
-		)
-		(pin "2"
-			(uuid "43754797-3661-40c8-adee-a3c1554a6aff")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 251.46 144.78 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "85fca26b-35be-4bb7-89e5-e609aacbfaec")
-		(property "Reference" "C55"
-			(at 248.92 143.5162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 248.92 146.0562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 251.46 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 251.46 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d13817e-456b-4f93-8894-47df92015048")
-		)
-		(pin "2"
-			(uuid "71adf964-3432-4b24-9eb2-b5e00ee05b26")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 220.98 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b541d0e-08bb-4f88-b003-cf1b7dfa7487")
-		(property "Reference" "C60"
-			(at 223.52 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 223.52 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 220.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 220.98 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5e32ee4d-bbae-4dc5-b3e3-37521bb79089")
-		)
-		(pin "2"
-			(uuid "c86b0e44-66bb-400d-9d0e-006e48f964c2")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -4897,7 +5071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
+		(property "Footprint" "libraries:Worthington_R_0201"
 			(at 175.26 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4946,8 +5120,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98c88d89-79fc-40a3-9bc5-1537757c23ca")
+		(property "Reference" "C55"
+			(at 254 143.5162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 254 146.0562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 251.46 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 256.032 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "392b0fde-e0c8-452b-9fef-ffe908c8d4b3")
+		)
+		(pin "2"
+			(uuid "429b6dbf-7dcc-4801-8a3a-c00504e100b1")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 157.48 139.7 90)
+		(at 152.4 139.7 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4957,7 +5244,7 @@
 		(dnp no)
 		(uuid "98db61ff-d9a0-477b-868e-123b2dd94ba2")
 		(property "Reference" "R33"
-			(at 156.972 137.16 90)
+			(at 151.892 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4968,7 +5255,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 157.988 137.16 90)
+			(at 152.908 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4978,8 +5265,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0402"
-			(at 157.48 139.7 0)
+		(property "Footprint" "libraries:Worthington_R_0201"
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4990,7 +5277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 139.7 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5288,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 157.48 139.7 0)
+			(at 152.4 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5028,8 +5315,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 233.68 151.13 0)
-		(mirror y)
+		(at 251.46 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5037,9 +5323,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9f4d61f6-229a-4db4-9494-b0a740ae98c3")
-		(property "Reference" "C59"
-			(at 231.14 149.8662 0)
+		(uuid "98fd7b7d-02df-4127-9488-88984ee471e5")
+		(property "Reference" "C52"
+			(at 254 105.4162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5049,8 +5335,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 231.14 152.4062 0)
+		(property "Value" "10u"
+			(at 254 107.9562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5061,7 +5347,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 233.68 151.13 0)
+			(at 251.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5071,8 +5357,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 233.68 151.13 0)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
+			(at 251.46 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,9 +5368,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 233.68 151.13 0)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 251.46 106.68 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC04X5R106M10NT"
+			(at 251.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC04X5R106M10NTCT-ND"
+			(at 251.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 255.778 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5094,96 +5412,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ebe3b8d-c618-4c95-ac0f-486ae2741d83")
+			(uuid "738e460e-5230-4eb2-b1cb-0588a4a85257")
 		)
 		(pin "2"
-			(uuid "be16585b-428c-4291-8297-d575a4c326a5")
+			(uuid "5cd75801-9a70-4da0-ab7f-412761e1d079")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 210.82 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f655741-de85-4624-962b-bc8adfdc88e9")
-		(property "Reference" "C61"
-			(at 213.36 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.36 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "07348807-3c56-47ee-a977-b4152254cb09")
-		)
-		(pin "2"
-			(uuid "97ced8a9-1e47-4bf6-a3de-bc8bf0a4fb13")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C61")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -5270,90 +5507,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 241.3 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a6f0e7d7-8e3d-4a26-bbec-372f4564ef8f")
-		(property "Reference" "C56"
-			(at 243.84 105.4162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 243.84 107.9562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 241.3 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 241.3 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f38e4401-62c7-4704-96c1-759333b9466c")
-		)
-		(pin "2"
-			(uuid "b5209c0f-8b1d-4f7f-8a9f-7349956cbcae")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
-		(at 163.83 116.84 270)
-		(mirror x)
+		(at 162.56 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5363,7 +5518,7 @@
 		(dnp no)
 		(uuid "ac3cca58-9afc-4ef0-a5e1-1acb82f84ee0")
 		(property "Reference" "R31"
-			(at 166.37 114.3 90)
+			(at 160.02 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5373,7 +5528,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 161.29 114.3 90)
+			(at 165.1 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5382,8 +5537,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 163.576 115.824 90)
+		(property "Footprint" "libraries:Worthington_R_0201"
+			(at 162.814 115.824 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,7 +5549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 116.84 0)
+			(at 162.56 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5405,7 +5560,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 116.84 0)
+			(at 162.56 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5509,9 +5664,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 170.18 167.64 0)
-		(mirror y)
+		(lib_id "Device:C_Small")
+		(at 241.3 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5519,10 +5673,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b80503dd-45af-428d-8732-3b24f00fd5c0")
-		(property "Reference" "#PWR097"
-			(at 170.18 173.99 0)
+		(uuid "bbfd2c0b-6328-4e25-a45d-83fe8ab96e2f")
+		(property "Reference" "C61"
+			(at 243.84 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 243.84 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5532,20 +5707,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 170.18 170.8149 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 167.64 0)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5555,8 +5718,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 170.18 167.64 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 241.3 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,8 +5729,30 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 170.18 167.64 0)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 241.3 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 245.872 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5577,12 +5762,356 @@
 			)
 		)
 		(pin "1"
-			(uuid "425e0f2c-2a7b-4768-ba2b-600c8c331e82")
+			(uuid "4838733f-4d1b-40f6-806e-07e26a5d2be8")
+		)
+		(pin "2"
+			(uuid "776c6a3d-0a96-485d-bd7a-cc0fc069e1bb")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR097")
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 228.6 160.02 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4a2d626-8233-42a9-b8ca-0d19a36c4ab9")
+		(property "Reference" "C97"
+			(at 227.3362 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 229.8762 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 228.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 228.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 228.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 228.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 228.6 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 228.6 164.592 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef675e0f-afd0-4672-bdc9-711cead01e67")
+		)
+		(pin "2"
+			(uuid "8b42971b-7073-47b5-b296-19dcdd17e2ec")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 151.13 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c5336855-8b7d-40dd-8988-8f29bd5323f8")
+		(property "Reference" "C59"
+			(at 231.14 149.8662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 231.14 152.4062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 233.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 233.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 233.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 233.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 233.68 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 229.108 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03c15d24-07c0-4c75-8c9c-7c5b0b70e414")
+		)
+		(pin "2"
+			(uuid "e5c295db-a82e-474a-92eb-8d1c62abcc5b")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 210.82 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d62c2662-d1ed-4a81-8bdd-4119ac8c0ce8")
+		(property "Reference" "C56"
+			(at 213.36 105.4162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 213.36 107.9562 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 215.392 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96351c76-e721-424e-bc8d-caffa6c146df")
+		)
+		(pin "2"
+			(uuid "59ae0d4f-9e66-442c-9f14-b9ba8874616c")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -5748,7 +6277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 149.86 144.78 0)
+		(at 139.7 144.78 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5759,7 +6288,7 @@
 		(dnp no)
 		(uuid "e010fc4b-fdc4-4cbc-97b3-705eaff202b1")
 		(property "Reference" "C66"
-			(at 147.32 143.5162 0)
+			(at 137.16 143.5162 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5770,7 +6299,7 @@
 			)
 		)
 		(property "Value" "6n8"
-			(at 147.32 146.0562 0)
+			(at 137.16 146.0562 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5780,8 +6309,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 149.86 144.78 0)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5792,7 +6321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 144.78 0)
+			(at 139.7 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5803,8 +6332,40 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 149.86 144.78 0)
+			(at 139.7 144.78 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC02X5R682K25NT"
+			(at 139.7 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC02X5R682K25NTCT-ND"
+			(at 139.7 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 135.128 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5823,169 +6384,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "C66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 228.6 160.02 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e48d5cc5-4e0d-42d9-b9ac-067e6da99252")
-		(property "Reference" "C53"
-			(at 229.108 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 228.092 162.814 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 228.6 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 228.6 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 228.6 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12eab9e7-0e64-406d-96d6-01b01219de6c")
-		)
-		(pin "2"
-			(uuid "97038ee9-029a-41ae-bcd7-a4b3441ddfef")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 223.52 132.08 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f62fca76-6378-4b14-9bfc-e20af7925ff4")
-		(property "Reference" "L3"
-			(at 223.012 130.302 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150n"
-			(at 224.028 130.302 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 223.52 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "749183b1-3fc3-4ca2-bdb2-90b236503ad0")
-		)
-		(pin "1"
-			(uuid "39bcbb9e-d391-442a-944a-097c83cfc7d5")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "L3")
 					(unit 1)
 				)
 			)
