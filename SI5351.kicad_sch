@@ -1500,8 +1500,8 @@
 		)
 	)
 	(rectangle
-		(start 196.85 113.03)
-		(end 293.37 138.43)
+		(start 199.39 102.87)
+		(end 295.91 128.27)
 		(stroke
 			(width 0)
 			(type default)
@@ -1513,7 +1513,7 @@
 	)
 	(text "~30 MHz Cutoff Frequency"
 		(exclude_from_sim no)
-		(at 245.11 110.998 0)
+		(at 245.11 100.838 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1523,7 +1523,7 @@
 	)
 	(text "7th Order Chebyshev Lowpass"
 		(exclude_from_sim no)
-		(at 245.618 136.398 0)
+		(at 245.618 126.238 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1533,7 +1533,7 @@
 	)
 	(text "Targeting 28.8 MHz Clock for RTL2832U"
 		(exclude_from_sim no)
-		(at 244.856 140.716 0)
+		(at 244.856 130.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1562,37 +1562,37 @@
 		(uuid "fd519846-2562-43b5-9112-f4062e94dea4")
 	)
 	(junction
-		(at 205.74 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18148551-3567-4ebc-a8e2-d3736c1a2d22")
-	)
-	(junction
-		(at 256.54 123.19)
+		(at 256.54 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "291c4709-c7c5-4798-aeec-ab1735bac8b3")
 	)
 	(junction
-		(at 168.91 95.25)
+		(at 179.07 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3df0d497-78c1-4bec-abeb-9b9d51a00c21")
 	)
 	(junction
-		(at 158.75 95.25)
+		(at 168.91 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c7348e8-6065-4ed3-9ae5-2ae4b44cfac4")
 	)
 	(junction
-		(at 148.59 95.25)
+		(at 158.75 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f8d9e81-35e7-443d-9083-588c174b17ea")
 	)
 	(junction
-		(at 231.14 123.19)
+		(at 128.27 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "514ed9a6-b0b7-4503-a719-5107dc2922d7")
+	)
+	(junction
+		(at 231.14 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5213fc60-846a-488f-8d64-670d1cab5680")
@@ -1628,7 +1628,7 @@
 		(uuid "79ed042c-5b58-4e4f-ba19-6b4d2c9892e8")
 	)
 	(junction
-		(at 138.43 95.25)
+		(at 148.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e712cd3-9a23-4a8d-8a00-48fc9fcce19f")
@@ -1640,10 +1640,16 @@
 		(uuid "94c80ffe-81f3-4ab0-a3b7-070ce5b4e7a7")
 	)
 	(junction
-		(at 128.27 95.25)
+		(at 205.74 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a35f9040-5806-46be-85db-afb7474d948a")
+		(uuid "a75aea03-cbbe-4c82-82ee-486e8ffebc34")
+	)
+	(junction
+		(at 138.43 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b840a369-b912-4542-a040-9700556c72b4")
 	)
 	(junction
 		(at 109.22 95.25)
@@ -1658,10 +1664,20 @@
 		(uuid "d5cc12e7-664e-465b-b778-3fa4cdfae17f")
 	)
 	(junction
-		(at 281.94 123.19)
+		(at 281.94 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc208b79-e6db-4e85-9f30-843c6dd21e62")
+	)
+	(wire
+		(pts
+			(xy 156.21 123.19) (xy 179.07 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020e9f0a-f494-4001-a9c1-292e2210cde2")
 	)
 	(wire
 		(pts
@@ -1695,7 +1711,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 95.25) (xy 128.27 97.79)
+			(xy 205.74 113.03) (xy 215.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2133da3f-ad7e-4576-a857-7c665a5aab5f")
+	)
+	(wire
+		(pts
+			(xy 138.43 95.25) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1771,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 125.73) (xy 205.74 123.19)
+			(xy 205.74 115.57) (xy 205.74 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1811,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 92.71) (xy 168.91 92.71)
+			(xy 184.15 92.71) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1825,16 +1851,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 123.19) (xy 215.9 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bb39fbb-b89d-4413-a1fe-0bc7954f94f9")
-	)
-	(wire
-		(pts
 			(xy 156.21 128.27) (xy 179.07 128.27)
 		)
 		(stroke
@@ -1855,7 +1871,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 123.19) (xy 281.94 123.19)
+			(xy 271.78 113.03) (xy 281.94 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1891,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 125.73) (xy 256.54 123.19)
+			(xy 256.54 115.57) (xy 256.54 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1925,7 +1941,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 125.73) (xy 231.14 123.19)
+			(xy 231.14 115.57) (xy 231.14 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1961,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 95.25) (xy 138.43 95.25)
+			(xy 138.43 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1991,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 123.19) (xy 246.38 123.19)
+			(xy 256.54 113.03) (xy 246.38 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +2001,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 113.03) (xy 179.07 113.03)
+			(xy 156.21 113.03) (xy 205.74 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2051,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 168.91 95.25)
+			(xy 168.91 95.25) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2061,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 148.59 95.25)
+			(xy 148.59 95.25) (xy 158.75 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2081,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 123.19) (xy 316.23 123.19)
+			(xy 281.94 113.03) (xy 316.23 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2085,13 +2101,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 92.71) (xy 168.91 95.25)
+			(xy 179.07 92.71) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b209fa43-ee43-4a52-a808-0d8a9dba4cce")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2af3e44-bb0e-43f4-b465-d86027bea4ab")
 	)
 	(wire
 		(pts
@@ -2105,7 +2131,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 123.19) (xy 220.98 123.19)
+			(xy 231.14 113.03) (xy 220.98 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2125,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 95.25) (xy 138.43 97.79)
+			(xy 148.59 95.25) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2135,7 +2161,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 158.75 95.25)
+			(xy 158.75 95.25) (xy 168.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2155,7 +2181,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 95.25) (xy 168.91 97.79)
+			(xy 179.07 95.25) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2175,7 +2201,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 95.25) (xy 158.75 97.79)
+			(xy 168.91 95.25) (xy 168.91 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2221,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 95.25) (xy 148.59 97.79)
+			(xy 158.75 95.25) (xy 158.75 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2225,6 +2251,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 95.25) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6be37a5-e20d-48a0-8d74-65cbfc36e76b")
+	)
+	(wire
+		(pts
 			(xy 109.22 95.25) (xy 109.22 105.41)
 		)
 		(stroke
@@ -2235,7 +2271,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 125.73) (xy 281.94 123.19)
+			(xy 281.94 115.57) (xy 281.94 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2291,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 123.19) (xy 266.7 123.19)
+			(xy 256.54 113.03) (xy 266.7 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2265,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 123.19) (xy 241.3 123.19)
+			(xy 231.14 113.03) (xy 241.3 113.03)
 		)
 		(stroke
 			(width 0)
@@ -9405,7 +9441,7 @@
 		(uuid "63cac5ef-dea5-4ef4-8404-b01a1fe3a371")
 	)
 	(label "CLK2_FILTERED"
-		(at 295.91 123.19 0)
+		(at 298.45 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9466,7 +9502,7 @@
 	)
 	(hierarchical_label "3V3_IN"
 		(shape input)
-		(at 173.99 92.71 0)
+		(at 184.15 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9477,7 +9513,7 @@
 	)
 	(hierarchical_label "28.8MHz_OUT"
 		(shape output)
-		(at 316.23 123.19 0)
+		(at 316.23 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9499,7 +9535,7 @@
 	)
 	(hierarchical_label "12.0MHz_OUT"
 		(shape output)
-		(at 179.07 113.03 0)
+		(at 179.07 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9576,7 +9612,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 168.91 100.33 0)
+		(at 179.07 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9586,7 +9622,7 @@
 		(dnp no)
 		(uuid "086efc3b-da0b-435b-bdb0-76c27d2779a2")
 		(property "Reference" "C70"
-			(at 171.45 99.0662 0)
+			(at 181.61 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9597,7 +9633,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 171.45 101.6062 0)
+			(at 181.61 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9608,7 +9644,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 168.91 100.33 0)
+			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9619,7 +9655,7 @@
 			)
 		)
 		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
-			(at 168.91 100.33 0)
+			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9630,7 +9666,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 168.91 100.33 0)
+			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9641,7 +9677,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GMC04X5R106M10NT"
-			(at 168.91 100.33 0)
+			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9652,7 +9688,7 @@
 			)
 		)
 		(property "DigiKey" "4713-GMC04X5R106M10NTCT-ND"
-			(at 168.91 100.33 0)
+			(at 179.07 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9663,7 +9699,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 173.228 104.14 0)
+			(at 183.388 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9689,7 +9725,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 269.24 123.19 90)
+		(at 269.24 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9699,7 +9735,7 @@
 		(dnp no)
 		(uuid "14c9d69d-71a7-4fb5-a3f0-49217cfb1959")
 		(property "Reference" "L7"
-			(at 269.24 118.618 90)
+			(at 269.24 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9708,8 +9744,8 @@
 				)
 			)
 		)
-		(property "Value" "330n"
-			(at 269.24 120.904 90)
+		(property "Value" "330n, ±2%"
+			(at 269.24 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9718,8 +9754,8 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
-			(at 269.24 123.19 0)
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
+			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9730,7 +9766,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
-			(at 269.24 123.19 0)
+			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9741,7 +9777,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 269.24 123.19 0)
+			(at 269.24 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9752,7 +9788,7 @@
 			)
 		)
 		(property "Murata" "LQW18ANR33G00D"
-			(at 269.24 116.078 90)
+			(at 269.24 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9762,7 +9798,7 @@
 			)
 		)
 		(property "DigiKey" "490-6935-1-ND"
-			(at 269.24 123.19 90)
+			(at 269.24 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9773,7 +9809,7 @@
 			)
 		)
 		(property "Self-Resonance" "800 MHz"
-			(at 269.24 125.222 90)
+			(at 269.24 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9896,7 +9932,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 243.84 123.19 90)
+		(at 243.84 113.03 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9906,7 +9942,7 @@
 		(dnp no)
 		(uuid "1f1bfb81-a114-4ef2-918c-9ddc5953e829")
 		(property "Reference" "L6"
-			(at 243.84 118.618 90)
+			(at 243.84 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9915,8 +9951,8 @@
 				)
 			)
 		)
-		(property "Value" "390n"
-			(at 243.84 120.904 90)
+		(property "Value" "390n, ±2%"
+			(at 243.84 110.744 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9925,8 +9961,8 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
-			(at 243.84 123.19 0)
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
+			(at 243.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9937,7 +9973,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
-			(at 243.84 123.19 0)
+			(at 243.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9948,7 +9984,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 243.84 123.19 0)
+			(at 243.84 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9959,7 +9995,7 @@
 			)
 		)
 		(property "Murata" "LQW18ANR39G00D"
-			(at 243.84 116.078 90)
+			(at 243.84 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9969,7 +10005,7 @@
 			)
 		)
 		(property "DigiKey" "490-6935-1-ND"
-			(at 243.84 123.19 90)
+			(at 243.84 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9980,7 +10016,7 @@
 			)
 		)
 		(property "Self-Resonance" "800 MHz"
-			(at 243.84 125.222 90)
+			(at 243.84 115.062 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10006,7 +10042,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 128.27 100.33 0)
+		(at 138.43 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10016,7 +10052,7 @@
 		(dnp no)
 		(uuid "202140c2-70e4-47b3-81b5-f7402ec3c7ed")
 		(property "Reference" "C66"
-			(at 130.81 99.0662 0)
+			(at 140.97 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10027,7 +10063,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 130.81 101.6062 0)
+			(at 140.97 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10038,7 +10074,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 128.27 100.33 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10049,7 +10085,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 128.27 100.33 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,7 +10096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 128.27 100.33 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10071,7 +10107,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
-			(at 128.27 100.33 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10082,7 +10118,7 @@
 			)
 		)
 		(property "DigiKey" "445-15903-1-ND"
-			(at 128.27 100.33 0)
+			(at 138.43 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10093,7 +10129,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 132.842 104.14 0)
+			(at 143.002 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10119,7 +10155,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 158.75 100.33 0)
+		(at 168.91 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10129,7 +10165,7 @@
 		(dnp no)
 		(uuid "245cea2e-f04d-4ebe-8556-b231baff33bf")
 		(property "Reference" "C69"
-			(at 161.29 99.0662 0)
+			(at 171.45 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10140,7 +10176,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 161.29 101.6062 0)
+			(at 171.45 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10151,7 +10187,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 158.75 100.33 0)
+			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10162,7 +10198,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 158.75 100.33 0)
+			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10173,7 +10209,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 100.33 0)
+			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10184,7 +10220,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
-			(at 158.75 100.33 0)
+			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10195,7 +10231,7 @@
 			)
 		)
 		(property "DigiKey" "445-15903-1-ND"
-			(at 158.75 100.33 0)
+			(at 168.91 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10206,7 +10242,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 163.322 104.14 0)
+			(at 173.482 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10368,7 +10404,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 205.74 128.27 0)
+		(at 205.74 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10378,7 +10414,7 @@
 		(dnp no)
 		(uuid "3ad4acac-1a34-49a6-bf7d-771a28e0b3f9")
 		(property "Reference" "C71"
-			(at 208.28 127.0062 0)
+			(at 208.28 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10388,8 +10424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68p"
-			(at 208.28 129.5462 0)
+		(property "Value" "68p, ±1%"
+			(at 208.28 119.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10400,7 +10436,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 205.74 128.27 0)
+			(at 205.74 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10411,7 +10447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 128.27 0)
+			(at 205.74 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10422,7 +10458,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 128.27 0)
+			(at 205.74 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10432,7 +10468,7 @@
 			)
 		)
 		(property "DigiKey" "4713-GMC02CG680F50NTCT-ND"
-			(at 205.74 128.27 0)
+			(at 205.74 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10443,7 +10479,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GMC02CG680F50NT"
-			(at 205.74 139.954 0)
+			(at 205.74 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10453,7 +10489,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 210.312 132.08 0)
+			(at 210.312 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10479,7 +10515,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 102.87 0)
+		(at 148.59 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10491,7 +10527,7 @@
 		(fields_autoplaced yes)
 		(uuid "63d5d771-65bc-49e2-8505-4a4a7780494c")
 		(property "Reference" "#PWR0102"
-			(at 138.43 109.22 0)
+			(at 148.59 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +10538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 106.0449 90)
+			(at 148.59 106.0449 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10514,7 +10550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 102.87 0)
+			(at 148.59 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10525,7 +10561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 102.87 0)
+			(at 148.59 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10536,7 +10572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 102.87 0)
+			(at 148.59 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10641,7 +10677,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 281.94 128.27 0)
+		(at 281.94 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10651,7 +10687,7 @@
 		(dnp no)
 		(uuid "8a3d1059-0864-4311-ba5b-6d9c309f4f56")
 		(property "Reference" "C74"
-			(at 284.48 127.0062 0)
+			(at 284.48 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10661,8 +10697,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68p"
-			(at 284.48 129.5462 0)
+		(property "Value" "68p, ±1%"
+			(at 284.48 119.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10673,7 +10709,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 281.94 128.27 0)
+			(at 281.94 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10684,7 +10720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 128.27 0)
+			(at 281.94 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10695,7 +10731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 128.27 0)
+			(at 281.94 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10705,7 +10741,7 @@
 			)
 		)
 		(property "DigiKey" "4713-GMC02CG680F50NTCT-ND"
-			(at 281.94 128.27 0)
+			(at 281.94 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10716,7 +10752,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GMC02CG680F50NT"
-			(at 281.94 139.954 0)
+			(at 281.94 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10726,7 +10762,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 286.512 132.08 0)
+			(at 286.512 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10752,7 +10788,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 102.87 0)
+		(at 168.91 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10764,7 +10800,7 @@
 		(fields_autoplaced yes)
 		(uuid "94981e59-3be7-47f9-ab9f-1b953ae35209")
 		(property "Reference" "#PWR0104"
-			(at 158.75 109.22 0)
+			(at 168.91 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10775,7 +10811,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 106.0449 90)
+			(at 168.91 106.0449 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10787,7 +10823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10798,7 +10834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 102.87 0)
+			(at 168.91 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10809,7 +10845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 102.87 0)
+			(at 168.91 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10910,7 +10946,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 102.87 0)
+		(at 158.75 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10922,7 +10958,7 @@
 		(fields_autoplaced yes)
 		(uuid "961641d0-3500-4d71-a9b2-fabaed762d29")
 		(property "Reference" "#PWR0103"
-			(at 148.59 109.22 0)
+			(at 158.75 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10933,7 +10969,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 106.0449 90)
+			(at 158.75 106.0449 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +10981,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 102.87 0)
+			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 102.87 0)
+			(at 158.75 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10967,7 +11003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 102.87 0)
+			(at 158.75 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11228,7 +11264,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 102.87 0)
+		(at 138.43 102.87 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11240,6 +11276,467 @@
 		(fields_autoplaced yes)
 		(uuid "a084f854-e40c-4d73-a1e5-8075b23ddd03")
 		(property "Reference" "#PWR0101"
+			(at 138.43 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 106.0449 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c26bc25d-fd17-44e0-a4e2-07fd1d7c5058")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a350ef9d-67b0-456e-94ff-ed89943a4688")
+		(property "Reference" "C90"
+			(at 130.81 99.0662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 130.81 101.6062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 132.842 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aec745db-b774-4868-b41b-43b31dd5e26e")
+		)
+		(pin "2"
+			(uuid "730698d8-ad5f-4b23-8797-b8570ba10904")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "C90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L_Small")
+		(at 218.44 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3565221-6e3b-4b66-a147-047471622ff2")
+		(property "Reference" "L5"
+			(at 218.44 108.458 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330n, ±2%"
+			(at 218.44 110.744 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
+			(at 218.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
+			(at 218.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor, small symbol"
+			(at 218.44 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Murata" "LQW18ANR33G00D"
+			(at 218.44 105.918 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "490-6935-1-ND"
+			(at 218.44 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Self-Resonance" "800 MHz"
+			(at 218.44 115.062 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5f3e129f-2747-47e4-9dcb-3570af051064")
+		)
+		(pin "1"
+			(uuid "6000e221-808d-4f4d-bf50-31c1c5586561")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a37d0402-b2a5-483e-8307-ba46f7332814")
+		(property "Reference" "#PWR0106"
+			(at 205.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 123.8249 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "080c8db5-3629-43fd-9659-e85ca09f9160")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3894b2f-f557-47cd-a346-5dbcd06d60cb")
+		(property "Reference" "#PWR0105"
+			(at 179.07 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34e34fb4-ea35-44c8-aa16-b7b5123b3647")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 102.87 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae955486-2d39-4110-9eb7-7d9b7ef9a8d9")
+		(property "Reference" "#PWR0130"
 			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -11295,122 +11792,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c26bc25d-fd17-44e0-a4e2-07fd1d7c5058")
+			(uuid "5856dfdd-affe-4018-abb0-911f028a19ab")
 		)
 		(instances
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 218.44 123.19 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a3565221-6e3b-4b66-a147-047471622ff2")
-		(property "Reference" "L5"
-			(at 218.44 118.618 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330n"
-			(at 218.44 120.904 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0603"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243A-0024_PDF_INDUCTOR"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 218.44 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Murata" "LQW18ANR33G00D"
-			(at 218.44 116.078 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "490-6935-1-ND"
-			(at 218.44 123.19 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Self-Resonance" "800 MHz"
-			(at 218.44 125.222 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5f3e129f-2747-47e4-9dcb-3570af051064")
-		)
-		(pin "1"
-			(uuid "6000e221-808d-4f4d-bf50-31c1c5586561")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "L5")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -11418,165 +11805,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 130.81 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a37d0402-b2a5-483e-8307-ba46f7332814")
-		(property "Reference" "#PWR0106"
-			(at 205.74 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 133.9849 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "080c8db5-3629-43fd-9659-e85ca09f9160")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 168.91 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3894b2f-f557-47cd-a346-5dbcd06d60cb")
-		(property "Reference" "#PWR0105"
-			(at 168.91 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 168.91 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34e34fb4-ea35-44c8-aa16-b7b5123b3647")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/6fef9fcc-556a-4b57-952e-8adf007c871b"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 281.94 130.81 0)
+		(at 281.94 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11587,7 +11816,7 @@
 		(fields_autoplaced yes)
 		(uuid "b38b24a4-1ab9-4748-a939-c1955c80e38d")
 		(property "Reference" "#PWR0109"
-			(at 281.94 137.16 0)
+			(at 281.94 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11598,7 +11827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 281.94 133.9849 90)
+			(at 281.94 123.8249 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11610,7 +11839,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 281.94 130.81 0)
+			(at 281.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11621,7 +11850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 281.94 130.81 0)
+			(at 281.94 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11632,7 +11861,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 281.94 130.81 0)
+			(at 281.94 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11655,7 +11884,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 138.43 100.33 0)
+		(at 148.59 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11665,7 +11894,7 @@
 		(dnp no)
 		(uuid "b686197e-bdcb-4cf2-9c30-927a6324cefb")
 		(property "Reference" "C67"
-			(at 140.97 99.0662 0)
+			(at 151.13 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11676,7 +11905,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 140.97 101.6062 0)
+			(at 151.13 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11687,7 +11916,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 138.43 100.33 0)
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11698,7 +11927,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 138.43 100.33 0)
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11709,7 +11938,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 138.43 100.33 0)
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11720,7 +11949,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
-			(at 138.43 100.33 0)
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11731,7 +11960,7 @@
 			)
 		)
 		(property "DigiKey" "445-15903-1-ND"
-			(at 138.43 100.33 0)
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11742,7 +11971,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 143.002 104.14 0)
+			(at 153.162 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11768,7 +11997,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 256.54 128.27 0)
+		(at 256.54 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11778,7 +12007,7 @@
 		(dnp no)
 		(uuid "b7972b85-b824-4a2f-9d8b-4f97b18b716f")
 		(property "Reference" "C73"
-			(at 259.08 127.0062 0)
+			(at 259.08 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11788,8 +12017,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150p"
-			(at 259.08 129.5462 0)
+		(property "Value" "150p, ±1%"
+			(at 259.08 119.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11800,7 +12029,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 256.54 128.27 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11811,7 +12040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 128.27 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11822,7 +12051,7 @@
 			)
 		)
 		(property "Description" "150 pF ±1% 50V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)"
-			(at 256.54 128.27 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11833,7 +12062,7 @@
 			)
 		)
 		(property "DigiKey" "4713-GMC02CG151F50NTCT-ND"
-			(at 256.54 128.27 0)
+			(at 256.54 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11844,7 +12073,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GMC02CG151F50NT"
-			(at 256.54 143.51 0)
+			(at 256.54 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11854,7 +12083,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 261.112 132.08 0)
+			(at 261.112 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11880,7 +12109,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 130.81 0)
+		(at 256.54 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11891,7 +12120,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd0db814-bafc-4b2b-8c35-1f22089d7ff9")
 		(property "Reference" "#PWR0108"
-			(at 256.54 137.16 0)
+			(at 256.54 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11902,7 +12131,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 133.9849 90)
+			(at 256.54 123.8249 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11914,7 +12143,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 130.81 0)
+			(at 256.54 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11925,7 +12154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 130.81 0)
+			(at 256.54 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11936,7 +12165,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 256.54 130.81 0)
+			(at 256.54 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12117,7 +12346,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 148.59 100.33 0)
+		(at 158.75 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12127,7 +12356,7 @@
 		(dnp no)
 		(uuid "d9997575-5eed-4dc5-9b6e-623d47b0d70f")
 		(property "Reference" "C68"
-			(at 151.13 99.0662 0)
+			(at 161.29 99.0662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12138,7 +12367,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 151.13 101.6062 0)
+			(at 161.29 101.6062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12149,7 +12378,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 148.59 100.33 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12160,7 +12389,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 148.59 100.33 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12171,7 +12400,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 148.59 100.33 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12182,7 +12411,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
-			(at 148.59 100.33 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12193,7 +12422,7 @@
 			)
 		)
 		(property "DigiKey" "445-15903-1-ND"
-			(at 148.59 100.33 0)
+			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12204,7 +12433,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 153.162 104.14 0)
+			(at 163.322 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12230,7 +12459,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 231.14 128.27 0)
+		(at 231.14 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12240,7 +12469,7 @@
 		(dnp no)
 		(uuid "e7d97496-b017-4ceb-9466-8e58d6168395")
 		(property "Reference" "C72"
-			(at 233.68 127.0062 0)
+			(at 233.68 116.8462 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12250,8 +12479,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150p"
-			(at 233.68 129.5462 0)
+		(property "Value" "150p, ±1%"
+			(at 233.68 119.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12262,7 +12491,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 231.14 128.27 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12273,7 +12502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 128.27 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12284,7 +12513,7 @@
 			)
 		)
 		(property "Description" "150 pF ±1% 50V Ceramic Capacitor C0G, NP0 0201 (0603 Metric)"
-			(at 231.14 128.27 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12295,7 +12524,7 @@
 			)
 		)
 		(property "DigiKey" "4713-GMC02CG151F50NTCT-ND"
-			(at 231.14 128.27 0)
+			(at 231.14 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12306,7 +12535,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GMC02CG151F50NT"
-			(at 231.14 143.51 0)
+			(at 231.14 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12316,7 +12545,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 235.712 132.08 0)
+			(at 235.712 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12342,7 +12571,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 130.81 0)
+		(at 231.14 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12353,7 +12582,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb408ced-0909-49e6-a53d-953b726c3578")
 		(property "Reference" "#PWR0107"
-			(at 231.14 137.16 0)
+			(at 231.14 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12364,7 +12593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 133.9849 90)
+			(at 231.14 123.8249 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12376,7 +12605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 130.81 0)
+			(at 231.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12387,7 +12616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 130.81 0)
+			(at 231.14 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +12627,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 130.81 0)
+			(at 231.14 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

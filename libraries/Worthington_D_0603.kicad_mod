@@ -1,13 +1,13 @@
 (footprint "Worthington_D_0603"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b5a05139-65e4-4b41-8273-f7a391c1abcd")
+		(uuid "ec6619e7-2528-407f-a3ea-08b4bd7c33bc")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9ba75b37-7b93-49b3-8ec3-030c9abea2f6")
+		(uuid "0c06a99d-e45e-46ae-b63a-110c23898a65")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e1acb6d-7e56-45a6-b197-fc91c10aaa6b")
+		(uuid "7328ca6b-1fe3-435d-b32c-5bc8d85d61b8")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af1cfc05-bdd1-47f9-99df-5f5c8959d8f7")
+		(uuid "1b1033f4-1fd1-436a-adea-fd965206f040")
 		(effects
 			(font
 				(size 1 1)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.4 -0.65)
 		(end -1.4 0.65)
@@ -62,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8e6def87-1fa0-4713-b325-95e1d02ada13")
+		(uuid "ea110bb6-39a8-4e3a-83aa-514d903bfc6e")
 	)
 	(fp_line
 		(start -1.4 0.7)
@@ -72,7 +73,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8cfdfa29-348b-412d-93f7-bbd47728ab10")
+		(uuid "3a7e6b2e-9569-42ec-955f-7186f8bdb5bc")
 	)
 	(fp_line
 		(start -0.9 -0.7)
@@ -82,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ab84ba5e-5657-4716-9c15-9e36f98db3da")
+		(uuid "206f9f89-fdd9-43aa-a136-4ffabc07f658")
 	)
 	(fp_line
 		(start 1.35 0.7)
@@ -92,7 +93,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a240f4b1-3bbf-4064-aa8f-954193adfcc1")
+		(uuid "80db7170-15d0-4c53-90a0-636f4f0880a2")
 	)
 	(fp_rect
 		(start -1.3 -0.65)
@@ -103,13 +104,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "6424f9d4-2885-4720-b96d-d33f240735ac")
+		(uuid "fbfa03ae-4518-44a3-af5f-baad70d47773")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "15a49166-4603-4928-a342-87a2cf4fe873")
+		(uuid "2e66dffb-124b-4aee-a087-cbc5f604229b")
 		(effects
 			(font
 				(size 1 1)
@@ -117,19 +118,21 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.75 0)
 		(size 0.8 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "e6fb2a9f-5ad6-40b5-b4b2-ac29a3424a7d")
+		(uuid "03cc196d-2d4e-41d1-b32b-7b54973e4d2b")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.75 0)
 		(size 0.8 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "efb3e640-f0d2-43f1-b616-ec753003b94d")
+		(uuid "e66e1b24-e158-441a-a43e-021f4102a244")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.step"

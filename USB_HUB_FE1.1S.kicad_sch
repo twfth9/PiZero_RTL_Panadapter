@@ -1035,6 +1035,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "REVIEW HOW OVCJ OVERCURRENT WORKS"
+		(exclude_from_sim no)
+		(at 226.314 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06010946-9c59-47b1-b296-3b393a8ccacd")
+	)
 	(text "90-Ohm Differential Impedance"
 		(exclude_from_sim no)
 		(at 221.742 137.414 0)

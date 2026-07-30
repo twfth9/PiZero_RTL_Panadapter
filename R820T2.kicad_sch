@@ -161,173 +161,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -1534,6 +1367,12 @@
 		(uuid "1a49f127-6d63-4d6c-a0bd-0d3a3e324dd5")
 	)
 	(junction
+		(at 281.94 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "279d67f5-8e26-4edd-b559-ede1deb9c78b")
+	)
+	(junction
 		(at 203.2 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1558,18 +1397,6 @@
 		(uuid "63fc7de9-d8cc-48cc-ab86-9c93d6e6a15a")
 	)
 	(junction
-		(at 281.94 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bfbaeec-0411-4c42-babb-42725a61be07")
-	)
-	(junction
-		(at 271.78 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "944d6e4c-a321-426f-b145-0ffdc749828b")
-	)
-	(junction
 		(at 198.12 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1586,6 +1413,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca242c79-821b-49aa-bb68-f0056d1afad1")
+	)
+	(junction
+		(at 271.78 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb8be99f-5939-47ac-9b3c-0cf091746934")
 	)
 	(junction
 		(at 231.14 101.6)
@@ -1959,7 +1792,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 127) (xy 274.32 127)
+			(xy 271.78 127) (xy 281.94 127)
 		)
 		(stroke
 			(width 0)
@@ -2076,16 +1909,6 @@
 			(type default)
 		)
 		(uuid "ac503de5-6ae8-486f-81b3-b9d9eaf53ceb")
-	)
-	(wire
-		(pts
-			(xy 279.4 127) (xy 281.94 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acdf0144-0983-4bd0-85d5-84d72501630f")
 	)
 	(wire
 		(pts
@@ -2750,7 +2573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3466,7 +3289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 161.29 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3997,87 +3820,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "C65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 276.86 127 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "47dc2d6e-a9c0-4300-a059-a99059c67d7f")
-		(property "Reference" "FB6"
-			(at 276.8981 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bead"
-			(at 276.8981 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0402"
-			(at 276.86 128.778 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 276.86 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "31350772-43bd-40e0-ab03-ad717639cc3e")
-		)
-		(pin "2"
-			(uuid "1b481764-ab5c-4946-9eef-f1ec13999723")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -4774,7 +4516,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 226.06 132.08 0)
 			(hide yes)
 			(show_name no)

@@ -7,7 +7,7 @@
 		(at 0 -1.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d0f42a18-93b5-4e35-8e37-9ad0ec9cb7a7")
+		(uuid "07c07173-b162-4de8-9191-c6d7562cf8d4")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6e2c8525-e7fc-48ad-ac16-e1b07c4e296e")
+		(uuid "f67e59af-ae72-49b0-b321-df0417410860")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d93ade36-a7a8-47c2-aab8-4775507270a5")
+		(uuid "3e5c1700-4697-47c8-9213-8d0faf56e25e")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ec604e7-a968-4a65-9090-0b93d5fa7588")
+		(uuid "4c685a4d-49b2-4fc3-be0e-37c399de2eef")
 		(effects
 			(font
 				(size 1 1)
@@ -63,7 +63,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5158301c-f544-4ff0-8a4a-6c2489a56b6b")
+		(uuid "05b4a2ca-6aa6-41ca-96c1-76e180e405da")
 	)
 	(fp_line
 		(start 0 -0.55)
@@ -73,7 +73,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "86f5692a-370b-4d35-a9d2-822b57d5918d")
+		(uuid "3af28efe-124d-42a5-b968-af3906752931")
 	)
 	(fp_line
 		(start 0 0.55)
@@ -83,7 +83,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "9a13f390-8acf-4e5d-8b57-6039193060d7")
+		(uuid "0500320a-4939-4d0d-9486-304ed0c67444")
 	)
 	(fp_rect
 		(start -1 -0.5)
@@ -94,13 +94,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "06d61a3d-3267-4087-862a-f42e19670ed3")
+		(uuid "37051938-2b72-4593-8886-0d58a171b4c2")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1d5e696c-1b79-41d1-8627-d63cbad0b8a4")
+		(uuid "0c11103c-58f7-4659-85bc-223545817a8c")
 		(effects
 			(font
 				(size 1 1)
@@ -108,19 +108,21 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.5 0)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "effbc6ca-6424-4f6f-9fad-b30ab41994e4")
+		(uuid "75ab751d-faf8-46cf-8448-bb3ad380f600")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.5 0)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "90576a83-61d5-49db-abf0-7e215aa0858d")
+		(uuid "09095d99-4244-4979-bf5e-3ddb76a63a56")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0402_1005Metric.step"

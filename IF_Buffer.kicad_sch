@@ -1082,6 +1082,19 @@
 		)
 		(uuid "534b5079-5135-4f77-a745-b84327ac8ee8")
 	)
+	(text "CONSIDER REWORKING THIS TO USE MMBT5179"
+		(exclude_from_sim no)
+		(at 171.45 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a0ff876a-5156-41de-8ad0-e1a71b1d6b34")
+	)
 	(text "Targeting 73.095 MHz 1st RX IF for Kenwood TS-480/TS-850"
 		(exclude_from_sim no)
 		(at 296.672 136.144 0)
@@ -17833,7 +17846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 285.75 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -18670,7 +18683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 321.31 119.38 0)
 			(hide yes)
 			(show_name no)

@@ -1,13 +1,13 @@
 (footprint "Worthington_C_0402"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -1.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b5a05139-65e4-4b41-8273-f7a391c1abcd")
+		(uuid "adca61bd-338b-4ee8-b0f9-7816297b2e2c")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "9ba75b37-7b93-49b3-8ec3-030c9abea2f6")
+		(uuid "cf08c396-0d5a-4c17-8c2f-56cc6a40be10")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e1acb6d-7e56-45a6-b197-fc91c10aaa6b")
+		(uuid "86a9088a-fdd5-41ba-bbbd-8ecd732ed678")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "af1cfc05-bdd1-47f9-99df-5f5c8959d8f7")
+		(uuid "70959c3b-4a10-4a8b-8035-543cc1250014")
 		(effects
 			(font
 				(size 1 1)
@@ -54,6 +54,7 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.05 -0.55)
 		(end 1.05 0.55)
@@ -63,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bf45ddae-2e5e-4880-853c-7b809fd17fb2")
+		(uuid "e3a4f03d-8683-47a0-a16b-5d2dd3ac9113")
 	)
 	(fp_rect
 		(start -1 -0.5)
@@ -74,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "29e27766-371d-443d-ad23-ab382d8bf63a")
+		(uuid "3fde41b2-2d4e-4e11-883f-ec8335d6da17")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "15a49166-4603-4928-a342-87a2cf4fe873")
+		(uuid "bfc27441-9101-4792-9fd0-c1cefcd75093")
 		(effects
 			(font
 				(size 1 1)
@@ -88,19 +89,21 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.5 0)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "e6fb2a9f-5ad6-40b5-b4b2-ac29a3424a7d")
+		(uuid "5178144e-a07c-46d5-82d0-485d8227369f")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.5 0)
 		(size 0.6 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "efb3e640-f0d2-43f1-b616-ec753003b94d")
+		(uuid "e0d4da0f-7a30-47c1-af6d-df9d38bafa28")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"

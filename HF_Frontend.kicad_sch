@@ -877,6 +877,19 @@
 		)
 		(uuid "7d7171c3-49e0-4384-9054-040bbbd90a5a")
 	)
+	(text "CONSIDER REWORKING\nTHIS TO USE MMBT5179"
+		(exclude_from_sim no)
+		(at 226.568 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "7e9373ee-bb5a-4beb-beee-0357a22c201c")
+	)
 	(text "Diplexer ~25 MHz Cutoff Frequency"
 		(exclude_from_sim no)
 		(at 268.224 69.088 0)
@@ -5895,6 +5908,16 @@
 			)
 		)
 	)
+	(label "PRE_AMP_OUT-DIPLEXER_IN"
+		(at 240.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57a97935-ecec-4628-95cb-e7b67a58fb52")
+	)
 	(hierarchical_label "<25MHz_OUT"
 		(shape output)
 		(at 381 113.03 0)
@@ -6751,7 +6774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 337.82 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7159,7 +7182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0201"
 			(at 297.18 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7261,7 +7284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 358.14 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7475,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 297.18 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8000,7 +8023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 317.5 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8190,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_L_0603"
+		(property "Footprint" "libraries:Worthington_L_0603_RF"
 			(at 337.82 113.03 0)
 			(hide yes)
 			(show_name no)

@@ -7,7 +7,7 @@
 		(at 0 -1.25 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "88c930a7-d9d2-4548-9809-829193537cc9")
+		(uuid "e90bf8c5-e599-41e8-a115-cff0ad46d170")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f605b350-2ad7-47b7-a775-0168a5690ce3")
+		(uuid "54730793-ae5c-4852-bb55-974c1081ad3b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "33076784-01d4-4512-ba73-6fd25b6af577")
+		(uuid "69afc989-6231-4668-83ca-1ea236d06102")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "99f2e608-bd9d-49cd-a2fc-f4093d5a4d6d")
+		(uuid "bc63ed3b-f17d-4692-8941-a83f9544314b")
 		(effects
 			(font
 				(size 1 1)
@@ -64,7 +64,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "71398893-f078-4b00-9fef-e83c832f3659")
+		(uuid "5529e6ae-a9a6-4478-bd5d-2a0ce506c523")
 	)
 	(fp_rect
 		(start -0.496161 -0.282188)
@@ -75,13 +75,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "f3a2e953-b41b-48ca-bae7-e8d40e806a44")
+		(uuid "da48f230-adc5-4a50-ac36-4782fed441ac")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "27e36a37-8029-4ba0-b9a7-a9dbe9ab584e")
+		(uuid "65556969-50e3-4b4d-8fda-ab48a0d9471f")
 		(effects
 			(font
 				(size 1 1)
@@ -89,19 +89,21 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.275 0)
 		(size 0.25 0.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "ba26212a-86d4-4d7d-9ae8-f2172dab9ebe")
+		(uuid "a5b86e9b-5eee-4a2d-84ed-8179526ccb55")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.275 0)
 		(size 0.25 0.35)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "4a3fedc5-4800-4e64-9688-ab24bb61b360")
+		(uuid "538a0245-a249-4799-8429-ed2ce6c47829")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
