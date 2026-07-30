@@ -161,173 +161,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -892,639 +725,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Power_Protection:D3V3X8U9LP3810"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at -2.54 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "D3V3X8U9LP3810"
-				(at 2.54 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-				(at 25.146 -9.652 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3X8U9LP3810.pdf"
-				(at 34.29 -7.366 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "3V3 Reverse Working, 8 channel low capacitance 0.45pF, TVS diode array, 5.5-7V Breakdown, U-DFN3810-9"
-				(at 2.286 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "ki_keywords" "ESD protection suppression transient"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Diodes?UDFN3810?9?TYPE_B*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D3V3X8U9LP3810_0_0"
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "D3V3X8U9LP3810_0_1"
-				(rectangle
-					(start -8.89 2.54)
-					(end 11.43 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.255 0.889) (xy -8.255 0.635) (xy -6.985 0.635) (xy -6.985 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -8.255 -0.635) (xy -6.985 -0.635) (xy -7.62 0.635) (xy -8.255 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 2.54) (xy -7.62 -1.778) (xy 10.16 -1.778) (xy 10.16 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0.889) (xy -5.715 0.635) (xy -4.445 0.635) (xy -4.445 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 -0.635) (xy -4.445 -0.635) (xy -5.08 0.635) (xy -5.715 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.08 2.54) (xy -5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -5.08 -1.778)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 0.889) (xy -3.175 0.635) (xy -1.905 0.635) (xy -1.905 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -0.635) (xy -1.905 -0.635) (xy -2.54 0.635) (xy -3.175 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 -1.778)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 0.889) (xy -0.635 0.635) (xy 0.635 0.635) (xy 0.635 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 -0.635) (xy 0.635 -0.635) (xy 0 0.635) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.778)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.905) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0.889) (xy 1.905 0.635) (xy 3.175 0.635) (xy 3.175 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.635) (xy 3.175 -0.635) (xy 2.54 0.635) (xy 1.905 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 0.889) (xy 4.445 0.635) (xy 5.715 0.635) (xy 5.715 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.445 -0.635) (xy 5.715 -0.635) (xy 5.08 0.635) (xy 4.445 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 -1.778)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0.889) (xy 6.985 0.635) (xy 8.255 0.635) (xy 8.255 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -0.635) (xy 8.255 -0.635) (xy 7.62 0.635) (xy 6.985 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 7.62 -1.778)
-					(radius 0.127)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 0.889) (xy 9.525 0.635) (xy 10.795 0.635) (xy 10.795 0.381)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 9.525 -0.635) (xy 10.795 -0.635) (xy 10.16 0.635) (xy 9.525 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D3V3X8U9LP3810_1_1"
-				(pin passive line
-					(at -7.62 5.08 270)
-					(length 2.54)
-					(name "Line-1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "Line-3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 5.08 270)
-					(length 2.54)
-					(name "Line-6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "Line-8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "Line-7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "Line-5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 5.08 270)
-					(length 2.54)
-					(name "Line-4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 270)
-					(length 2.54)
-					(name "Line-2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2649,12 +1849,6 @@
 		(uuid "c06ce8f1-0d2e-4ff4-a8f7-fdb0c594ecdb")
 	)
 	(junction
-		(at 223.52 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06c7e4d8-d5ee-4a7e-a0cb-094d76898906")
-	)
-	(junction
 		(at 143.51 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2673,22 +1867,16 @@
 		(uuid "1fd38aef-bce8-4ef4-bada-893e3bc0bc5f")
 	)
 	(junction
+		(at 128.27 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26672c52-76bd-4a01-83a0-1dfdf57a4359")
+	)
+	(junction
 		(at 219.71 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26804cba-450a-4659-9ac4-0959ea6b2fa9")
-	)
-	(junction
-		(at 226.06 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "270bc55a-ed31-4201-95f2-e31571cd089b")
-	)
-	(junction
-		(at 119.38 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "333cecf4-5ff6-44d4-a004-7eca21250c4a")
 	)
 	(junction
 		(at 167.64 106.68)
@@ -2713,12 +1901,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fdd39b3-e126-463f-8aa3-335eb03b9fb7")
-	)
-	(junction
-		(at 236.22 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46e0c9ea-f0e6-45a0-a466-a1d71ed29966")
 	)
 	(junction
 		(at 167.64 154.94)
@@ -2847,12 +2029,6 @@
 		(uuid "af26971e-ddff-47eb-8ed7-e98c87bf9d7d")
 	)
 	(junction
-		(at 231.14 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b557cdd3-46c7-443c-814c-0b4a4e522594")
-	)
-	(junction
 		(at 143.51 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2881,18 +2057,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7fd4e58-2b28-4793-a048-c78f1c806730")
-	)
-	(junction
-		(at 220.98 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cac11197-0120-4f4e-b8bc-ce8ed78aaa1a")
-	)
-	(junction
-		(at 218.44 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf3dde57-c3e5-4e91-b66e-60f7dd673912")
 	)
 	(junction
 		(at 229.87 124.46)
@@ -2967,26 +2131,18 @@
 		(uuid "efe0913a-13e7-4cf8-b9c8-40d30f9d6736")
 	)
 	(junction
-		(at 228.6 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f42d288b-276b-41d3-b0f8-dd7e4d00cdda")
-	)
-	(junction
 		(at 158.75 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe333104-895e-4bea-987b-600642e563bf")
 	)
-	(junction
-		(at 233.68 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fea76932-e58a-4ef9-a9ef-5d1414071fcb")
-	)
 	(no_connect
 		(at 204.47 180.34)
 		(uuid "28d9a17c-4b92-4e64-b6f1-66f4d8137608")
+	)
+	(no_connect
+		(at 204.47 170.18)
+		(uuid "36eaa5fd-9aa9-4e89-8f99-f41cbeac0495")
 	)
 	(no_connect
 		(at 204.47 193.04)
@@ -2998,7 +2154,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 119.38) (xy 118.11 119.38)
+			(xy 105.41 119.38) (xy 118.11 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3015,16 +2171,6 @@
 			(type default)
 		)
 		(uuid "02178f62-5559-427a-9acd-eac630d596d6")
-	)
-	(wire
-		(pts
-			(xy 218.44 157.48) (xy 246.38 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "044681ba-5817-43c9-ac08-b93c6e20a343")
 	)
 	(wire
 		(pts
@@ -3065,16 +2211,6 @@
 			(type default)
 		)
 		(uuid "09ff02a2-610e-4f4e-9537-9a446011c12e")
-	)
-	(wire
-		(pts
-			(xy 236.22 160.02) (xy 236.22 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bb35c2a-4b73-4e02-bb6a-46ffeb6402c4")
 	)
 	(wire
 		(pts
@@ -3198,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 167.64) (xy 130.81 167.64)
+			(xy 109.22 167.64) (xy 130.81 167.64)
 		)
 		(stroke
 			(width 0)
@@ -3248,7 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 139.7) (xy 140.97 139.7)
+			(xy 105.41 139.7) (xy 148.59 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3258,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 154.94) (xy 204.47 154.94)
+			(xy 204.47 154.94) (xy 246.38 154.94)
 		)
 		(stroke
 			(width 0)
@@ -3318,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 147.32) (xy 204.47 147.32)
+			(xy 204.47 147.32) (xy 246.38 147.32)
 		)
 		(stroke
 			(width 0)
@@ -3348,26 +2484,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 160.02) (xy 223.52 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33b4ad43-9f17-40a4-b6cf-c3265989c1ba")
-	)
-	(wire
-		(pts
-			(xy 220.98 154.94) (xy 246.38 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "341594c5-f07f-4578-a9a8-bc9f5924efb0")
-	)
-	(wire
-		(pts
 			(xy 105.41 106.68) (xy 128.27 106.68)
 		)
 		(stroke
@@ -3388,16 +2504,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 160.02) (xy 231.14 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "365090e5-924e-45c7-b19f-a0a44fc784ad")
-	)
-	(wire
-		(pts
 			(xy 85.09 200.66) (xy 107.95 200.66)
 		)
 		(stroke
@@ -3405,16 +2511,6 @@
 			(type default)
 		)
 		(uuid "369168ae-1d13-47ff-b9fc-a94d4635fb38")
-	)
-	(wire
-		(pts
-			(xy 115.57 167.64) (xy 109.22 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37cab85f-5b15-450d-a628-08f9c7e1eb11")
 	)
 	(wire
 		(pts
@@ -3445,16 +2541,6 @@
 			(type default)
 		)
 		(uuid "44c4552c-076e-4517-8140-fbdfd42e53fb")
-	)
-	(wire
-		(pts
-			(xy 133.35 129.54) (xy 130.81 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47436998-e27e-4f0b-a1f2-f58974ebceb3")
 	)
 	(wire
 		(pts
@@ -3528,16 +2614,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 144.78) (xy 246.38 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50210184-4ebd-41e3-8fb2-198bcda3a170")
-	)
-	(wire
-		(pts
 			(xy 229.87 91.44) (xy 219.71 91.44)
 		)
 		(stroke
@@ -3608,16 +2684,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 160.02) (xy 228.6 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e91fd7-f8c7-4e19-884d-fabf06d83b94")
-	)
-	(wire
-		(pts
 			(xy 139.7 149.86) (xy 139.7 152.4)
 		)
 		(stroke
@@ -3635,16 +2701,6 @@
 			(type default)
 		)
 		(uuid "68b54786-7a67-46ee-9f4f-a01701f64c17")
-	)
-	(wire
-		(pts
-			(xy 129.54 149.86) (xy 119.38 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68d39add-b600-432a-99ec-ff7d3870d2e0")
 	)
 	(wire
 		(pts
@@ -3688,7 +2744,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 144.78) (xy 231.14 144.78)
+			(xy 204.47 144.78) (xy 246.38 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3715,16 +2771,6 @@
 			(type default)
 		)
 		(uuid "6f9454ca-1744-4dbd-a0d7-3989515f5400")
-	)
-	(wire
-		(pts
-			(xy 226.06 149.86) (xy 246.38 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7019421e-927f-4d27-9691-0ce24e3af850")
 	)
 	(wire
 		(pts
@@ -3798,46 +2844,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 139.7) (xy 148.59 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e3b8f70-d0ee-4f9d-87d8-020c1ce58e41")
-	)
-	(wire
-		(pts
-			(xy 220.98 160.02) (xy 220.98 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ee6b97c-2732-425a-be84-57ab6b1ddef6")
-	)
-	(wire
-		(pts
-			(xy 119.38 149.86) (xy 119.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80106780-3e6c-4490-96a2-02ed2bcde8eb")
-	)
-	(wire
-		(pts
-			(xy 218.44 160.02) (xy 218.44 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "819c28fa-0897-4300-93a5-5cc92c351aee")
-	)
-	(wire
-		(pts
 			(xy 219.71 121.92) (xy 259.08 121.92)
 		)
 		(stroke
@@ -3868,17 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 139.7) (xy 246.38 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87fc5db7-74e0-42e2-a83d-b91d7ed82262")
-	)
-	(wire
-		(pts
-			(xy 204.47 139.7) (xy 236.22 139.7)
+			(xy 204.47 139.7) (xy 246.38 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3918,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 149.86) (xy 119.38 149.86)
+			(xy 109.22 149.86) (xy 129.54 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3978,23 +2974,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 167.64 119.38)
+			(xy 118.11 119.38) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "926b084c-77f9-4f66-a3c7-980cc8e93226")
-	)
-	(wire
-		(pts
-			(xy 226.06 160.02) (xy 226.06 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93a9474f-db2e-4892-9932-140a3d32e4af")
 	)
 	(wire
 		(pts
@@ -4018,16 +3004,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 167.64) (xy 168.91 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9477bf9a-0795-4fb0-80fe-7ad0350c22e6")
-	)
-	(wire
-		(pts
 			(xy 219.71 115.57) (xy 219.71 114.3)
 		)
 		(stroke
@@ -4048,7 +3024,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 149.86) (xy 204.47 149.86)
+			(xy 204.47 149.86) (xy 246.38 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4078,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 142.24) (xy 246.38 142.24)
+			(xy 204.47 142.24) (xy 246.38 142.24)
 		)
 		(stroke
 			(width 0)
@@ -4268,6 +3244,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 119.38) (xy 128.27 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8828f8-f7e1-47d0-8292-38047573657e")
+	)
+	(wire
+		(pts
 			(xy 133.35 129.54) (xy 168.91 129.54)
 		)
 		(stroke
@@ -4318,16 +3304,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 147.32) (xy 246.38 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4676e8f-1dde-4d29-afa8-fa53ffcc3794")
-	)
-	(wire
-		(pts
 			(xy 156.21 177.8) (xy 158.75 177.8)
 		)
 		(stroke
@@ -4368,6 +3344,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 119.38) (xy 167.64 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcef1886-26a9-4c34-97e5-167a803c55ed")
+	)
+	(wire
+		(pts
 			(xy 154.94 163.83) (xy 154.94 162.56)
 		)
 		(stroke
@@ -4405,16 +3391,6 @@
 			(type default)
 		)
 		(uuid "c2ca8869-7b81-413c-a9fb-93f32b4b3c0d")
-	)
-	(wire
-		(pts
-			(xy 223.52 152.4) (xy 246.38 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6f99b80-69f7-4317-99bd-4115ad769b15")
 	)
 	(wire
 		(pts
@@ -4468,7 +3444,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 129.54) (xy 125.73 129.54)
+			(xy 105.41 129.54) (xy 133.35 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4478,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 152.4) (xy 204.47 152.4)
+			(xy 204.47 152.4) (xy 246.38 152.4)
 		)
 		(stroke
 			(width 0)
@@ -4568,17 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 160.02) (xy 233.68 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e12fd157-d6c8-4b5a-acee-cf422939edfb")
-	)
-	(wire
-		(pts
-			(xy 130.81 167.64) (xy 140.97 167.64)
+			(xy 130.81 167.64) (xy 168.91 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4668,7 +3634,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 157.48) (xy 218.44 157.48)
+			(xy 204.47 157.48) (xy 246.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4758,16 +3724,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 142.24) (xy 233.68 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa3f1d39-50c2-424d-bdcc-21cfe09cbefc")
-	)
-	(wire
-		(pts
 			(xy 167.64 149.86) (xy 168.91 149.86)
 		)
 		(stroke
@@ -4785,16 +3741,6 @@
 			(type default)
 		)
 		(uuid "fe6e0fca-34a8-44da-aa32-ed3144742ce6")
-	)
-	(wire
-		(pts
-			(xy 105.41 119.38) (xy 110.49 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff56ad98-c954-444b-97d3-a2a32647c47c")
 	)
 	(wire
 		(pts
@@ -6291,6 +5237,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 128.27 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31a1c48f-5bf3-49d8-8479-22d742ea364d")
+		(property "Reference" "C8"
+			(at 130.81 121.9262 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 130.81 124.4662 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0201"
+			(at 128.27 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 128.27 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 128.27 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
+			(at 128.27 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "445-15903-1-ND"
+			(at 128.27 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 132.842 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8697b63-22c5-45da-a6ca-769cbd084b97")
+		)
+		(pin "2"
+			(uuid "21116447-67f5-4333-b857-258cb17b9550")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 229.87 118.11 180)
 		(unit 1)
@@ -7479,85 +6538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 143.51 167.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "78220de1-1447-4ee5-85c5-8f04489493c8")
-		(property "Reference" "FB5"
-			(at 143.5481 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bead"
-			(at 143.5481 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0402"
-			(at 143.51 165.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 143.51 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4d4f0a3b-9667-4349-b552-8d70a2fa7f70")
-		)
-		(pin "2"
-			(uuid "bcc603ba-2fa8-483d-a559-e9ab8f35b66d")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "FB5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "RTLSDR:RTL2832U")
 		(at 186.69 138.43 0)
 		(unit 1)
@@ -8090,85 +7070,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
 					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 143.51 139.7 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "863ee68c-e85e-4875-9b38-0986f8bd8363")
-		(property "Reference" "FB4"
-			(at 143.5481 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bead"
-			(at 143.5481 143.51 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0402"
-			(at 143.51 137.922 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 143.51 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b463c532-51c1-4bc7-89bf-3f97752c690e")
-		)
-		(pin "2"
-			(uuid "ca1e448a-ca66-48bb-9e15-82b954bc4dcc")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -8754,85 +7655,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 128.27 129.54 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "9d70719f-7598-4a15-94f2-aeedac117f71")
-		(property "Reference" "FB3"
-			(at 128.3081 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bead"
-			(at 128.3081 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0402"
-			(at 128.27 127.762 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 128.27 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5130b204-7194-4678-9ae1-c921ead5a19a")
-		)
-		(pin "2"
-			(uuid "c92e0ccd-87e9-4523-880e-e1dc284c4c7f")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 214.63 182.88 0)
 		(mirror y)
@@ -8907,109 +7729,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power_Protection:D3V3X8U9LP3810")
-		(at 226.06 165.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a515615a-836b-4988-82d3-12135e8c0516")
-		(property "Reference" "DN1"
-			(at 238.76 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D3V3X8U9LP3810"
-			(at 238.76 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_UDFN3810-9_TYPE_B"
-			(at 251.206 174.752 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/D3V3X8U9LP3810.pdf"
-			(at 260.35 172.466 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "3V3 Reverse Working, 8 channel low capacitance 0.45pF, TVS diode array, 5.5-7V Breakdown, U-DFN3810-9"
-			(at 228.346 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "1"
-			(uuid "6e15550d-4667-486a-af5b-070d559bd356")
-		)
-		(pin "3"
-			(uuid "65e74d69-7df6-468c-8293-e4db1789d478")
-		)
-		(pin "6"
-			(uuid "672201ba-a39f-4bed-a062-0b02e3b66440")
-		)
-		(pin "5"
-			(uuid "5a1583ee-86d2-40a1-b5d7-9bbb9044aced")
-		)
-		(pin "2"
-			(uuid "59078901-e042-4b55-a7ea-85587a9f2189")
-		)
-		(pin "4"
-			(uuid "4e94f1f1-be9f-4f53-a405-4dcfd554f25a")
-		)
-		(pin "7"
-			(uuid "010beca3-eef3-4a7f-a61e-920902a2191e")
-		)
-		(pin "8"
-			(uuid "b932791f-1440-405b-9a54-6cf01fca0414")
-		)
-		(pin "9"
-			(uuid "2f97eca7-6a54-49f2-b3b5-2e13bd27900f")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "DN1")
 					(unit 1)
 				)
 			)
@@ -9518,165 +8237,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 113.03 119.38 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "b635f2d1-d440-4eac-956d-8c6af4739a33")
-		(property "Reference" "FB1"
-			(at 113.0681 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bead"
-			(at 113.0681 123.19 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0402"
-			(at 113.03 117.602 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 113.03 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b41251a4-9a00-4e13-8f32-d6eacf5fa21e")
-		)
-		(pin "2"
-			(uuid "388352ac-48de-4a3b-8902-fe8dbc63b80f")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 119.38 157.48 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b85f1839-5957-46b7-851a-1fd11686168c")
-		(property "Reference" "#PWR035"
-			(at 119.38 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9cee9d90-39f8-44e4-8d23-54b07896b138")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 160.02 157.48 0)
 		(mirror y)
@@ -9951,199 +8511,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 119.38 154.94 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "be73ad8d-9ada-4e35-b598-327705293856")
-		(property "Reference" "C8"
-			(at 116.84 153.6762 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 116.84 156.2162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0201"
-			(at 119.38 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 119.38 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 119.38 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "C0603X6S1C104K030BC"
-			(at 119.38 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "445-15903-1-ND"
-			(at 119.38 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "16V"
-			(at 114.808 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d15739e-0016-4c70-a149-7a4e5dc7abc6")
-		)
-		(pin "2"
-			(uuid "04a566c8-0755-4c06-a540-459aaa43ffa4")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 118.11 167.64 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "c1063da9-2d8a-4764-bc3c-2ea59d1a78b7")
-		(property "Reference" "FB2"
-			(at 118.1481 173.99 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Bead"
-			(at 118.1481 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_L_0402"
-			(at 118.11 165.862 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead, small symbol"
-			(at 118.11 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e5b2d469-e3f7-4df9-a08d-a238a1c0f472")
-		)
-		(pin "2"
-			(uuid "aeb0ff6c-6e53-46cb-ba21-6df88841c427")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 110.49 187.96 270)
 		(unit 1)
@@ -10299,6 +8666,86 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 125.73 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5fd7eaf-c546-4c2f-963d-4603f32338e9")
+		(property "Reference" "#PWR035"
+			(at 128.27 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb78e1de-e795-4132-844e-56798e4b2589")
+		)
+		(instances
+			(project "PiZero_RTL_Panadapter"
+				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -11093,86 +9540,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 170.18 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1da9fde-e8c0-4373-9698-d26ef03c36ef")
-		(property "Reference" "#PWR052"
-			(at 226.06 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "346da836-92db-4f52-9723-3dfa923c5145")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/78a19d34-3089-4e0b-b1d1-ac7541a92b32"
-					(reference "#PWR052")
 					(unit 1)
 				)
 			)

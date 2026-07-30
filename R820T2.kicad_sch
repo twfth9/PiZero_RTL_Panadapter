@@ -495,195 +495,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RTLSDR:R820T2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1367,12 +1178,6 @@
 		(uuid "1a49f127-6d63-4d6c-a0bd-0d3a3e324dd5")
 	)
 	(junction
-		(at 281.94 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "279d67f5-8e26-4edd-b559-ede1deb9c78b")
-	)
-	(junction
 		(at 203.2 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1449,16 +1254,6 @@
 			(type default)
 		)
 		(uuid "0178060f-203c-4c3e-a1bd-25af99031904")
-	)
-	(wire
-		(pts
-			(xy 180.34 121.92) (xy 166.37 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b00c58-27a1-4c00-ad86-37f8dfce8d1a")
 	)
 	(wire
 		(pts
@@ -1692,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 127) (xy 284.48 127)
+			(xy 271.78 127) (xy 284.48 127)
 		)
 		(stroke
 			(width 0)
@@ -1732,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 121.92) (xy 158.75 121.92)
+			(xy 140.97 121.92) (xy 180.34 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1537,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 116.84) (xy 140.97 116.84)
+			(xy 140.97 116.84) (xy 180.34 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1789,16 +1584,6 @@
 			(type default)
 		)
 		(uuid "7f5c27a4-4080-4497-863a-c2dc9566faf0")
-	)
-	(wire
-		(pts
-			(xy 271.78 127) (xy 281.94 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f9d0f1c-18e1-4124-80d1-cfb593665c4c")
 	)
 	(wire
 		(pts
@@ -2022,16 +1807,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 116.84) (xy 180.34 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d18d1875-8ef3-4ae6-8582-8c70d139122a")
-	)
-	(wire
-		(pts
 			(xy 251.46 101.6) (xy 251.46 104.14)
 		)
 		(stroke
@@ -2079,16 +1854,6 @@
 			(type default)
 		)
 		(uuid "dd0bfaf8-eb22-4cf9-867c-45655dc00b3c")
-	)
-	(wire
-		(pts
-			(xy 281.94 127) (xy 281.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e02ba802-180c-4e20-9aa7-4e64af41d67e")
 	)
 	(wire
 		(pts
@@ -2268,84 +2033,6 @@
 			(justify left)
 		)
 		(uuid "fcdc121f-d161-4335-8a1b-3008669987fc")
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 162.56 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0458da8a-4eb1-4764-9685-50bb4270755a")
-		(property "Reference" "R46"
-			(at 160.02 119.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 165.1 119.38 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_R_0201"
-			(at 162.814 120.904 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d04be89-df7b-40ba-b952-7a72839ff0be")
-		)
-		(pin "2"
-			(uuid "4cbe1395-7e90-4a55-ada7-e322d153b006")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3707,119 +3394,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 281.94 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c6cee2c-185a-4af6-8020-818ef1f21b15")
-		(property "Reference" "C65"
-			(at 284.48 130.8162 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 284.48 133.3562 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_C_0402"
-			(at 281.94 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
-			(at 281.94 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 281.94 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "GMC04X5R106M10NT"
-			(at 281.94 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "4713-GMC04X5R106M10NTCT-ND"
-			(at 281.94 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 286.258 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0e8013cc-8723-44d4-80de-7093ca970158")
-		)
-		(pin "2"
-			(uuid "6e5a3710-e2c3-48ad-84b3-d2169b94c301")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -5249,84 +4823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 162.56 116.84 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ac3cca58-9afc-4ef0-a5e1-1acb82f84ee0")
-		(property "Reference" "R45"
-			(at 160.02 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 165.1 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "libraries:Worthington_R_0201"
-			(at 162.814 115.824 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 162.56 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aa141ca4-5765-4edd-8813-19c0c258c4a6")
-		)
-		(pin "2"
-			(uuid "8ac7caea-b66d-48cf-9478-a1f4fa5fc81d")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 198.12 170.18 0)
 		(unit 1)
@@ -5933,85 +5429,6 @@
 			(project "PiZero_RTL_Panadapter"
 				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 281.94 134.62 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dac59533-544a-4c34-8f4b-3bebb48f4479")
-		(property "Reference" "#PWR098"
-			(at 281.94 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 281.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "27bb1250-a0e4-4061-b9d9-272af27caf5b")
-		)
-		(instances
-			(project "PiZero_RTL_Panadapter"
-				(path "/9dbbaad8-804a-4efe-a989-bc17c5acbd91/cec674a5-f6d8-4c83-b8c1-07bf170daffc"
-					(reference "#PWR098")
 					(unit 1)
 				)
 			)
