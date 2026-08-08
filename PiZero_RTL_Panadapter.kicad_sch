@@ -4944,7 +4944,7 @@
 					)
 				)
 			)
-			(property "Footprint" "libraries:DXW21BN2511NL"
+			(property "Footprint" "libraries:XFMR_ATB2012-50011-T000"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5166,7 +5166,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -2.54 -7.62 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -5184,7 +5184,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 -7.62 90)
+					(at -5.08 5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -5202,7 +5202,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
+					(at 5.08 5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -5220,7 +5220,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
+					(at 5.08 -5.08 180)
 					(length 2.54)
 					(name ""
 						(effects
@@ -124407,7 +124407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:DXW21BN2511NL"
+		(property "Footprint" "libraries:XFMR_ATB2012-50011-T000"
 			(at 204.47 208.28 0)
 			(hide yes)
 			(show_name no)
