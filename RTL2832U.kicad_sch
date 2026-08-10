@@ -5080,7 +5080,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 162.052 164.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5161,7 +5161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 141.732 186.182 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8161,7 +8161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 165.862 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9972,7 +9972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "49.9"
 			(at 141.732 198.882 0)
 			(show_name no)
 			(do_not_autoplace no)

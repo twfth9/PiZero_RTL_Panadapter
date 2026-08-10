@@ -6375,7 +6375,7 @@
 				)
 			)
 		)
-		(property "Manuyfacturer Part Number" "GMC02CG102F25NT"
+		(property "Manufacturer Part Number" "GMC02CG102F25NT"
 			(at 218.694 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
