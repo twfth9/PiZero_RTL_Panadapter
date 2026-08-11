@@ -621,22 +621,19 @@
         "100R_Pair_Coplanar"
       ],
       "/USB-Ethernet Adapter/PJ4": [
-        "90R_Pair_Coplanar"
+        "100R_Pair_Coplanar"
       ],
       "/USB-Ethernet Adapter/PJ7": [
-        "90R_Pair_Coplanar"
+        "100R_Pair_Coplanar"
       ],
       "/USB-Ethernet Adapter/RD+": [
-        "100R_Pair_Coplanar",
-        "90R_Pair_Coplanar"
+        "100R_Pair_Coplanar"
       ],
       "/USB-Ethernet Adapter/RD-": [
-        "100R_Pair_Coplanar",
-        "90R_Pair_Coplanar"
+        "100R_Pair_Coplanar"
       ],
       "/USB-Ethernet Adapter/TD+": [
-        "100R_Pair_Coplanar",
-        "90R_Pair_Coplanar"
+        "100R_Pair_Coplanar"
       ],
       "/USB-Ethernet Adapter/TD-": [
         "100R_Pair_Coplanar",
@@ -670,7 +667,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Production/",
       "specctra_dsn": "",
       "vrml": ""
     },

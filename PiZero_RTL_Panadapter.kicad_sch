@@ -118938,7 +118938,7 @@
 			(justify left bottom)
 		)
 		(uuid "030c7897-479a-4a2d-bf43-64f6f67f0737")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 45.72 63.246 0)
 			(hide yes)
 			(show_name no)
@@ -119008,7 +119008,7 @@
 			(justify left bottom)
 		)
 		(uuid "155d7dd6-8ec8-4ca0-afde-96011f735607")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 50.8 73.406 0)
 			(hide yes)
 			(show_name no)
@@ -119043,7 +119043,7 @@
 			(justify left bottom)
 		)
 		(uuid "1df232ec-6eda-46c8-9d93-81772d6dbd0c")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 48.26 68.326 0)
 			(hide yes)
 			(show_name no)
@@ -119147,7 +119147,7 @@
 			(justify left bottom)
 		)
 		(uuid "74b4bed8-3011-4e64-b55b-44e285b90beb")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 49.53 70.866 0)
 			(hide yes)
 			(show_name no)
@@ -119182,7 +119182,7 @@
 			(justify left bottom)
 		)
 		(uuid "764d8842-bafb-4626-8af2-3d00c9b1b4c6")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 41.91 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -119216,7 +119216,7 @@
 			(justify left bottom)
 		)
 		(uuid "8168cc74-8375-429e-bb73-2b7eadf576cf")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 44.45 60.706 0)
 			(hide yes)
 			(show_name no)
@@ -119251,7 +119251,7 @@
 			(justify left bottom)
 		)
 		(uuid "9400a3ef-902e-4fdf-a666-6025afa434a9")
-		(property "Net Class" "90R_Pair_Coplanar"
+		(property "Net Class" "100R_Pair_Coplanar"
 			(at 46.99 65.786 0)
 			(hide yes)
 			(show_name no)
