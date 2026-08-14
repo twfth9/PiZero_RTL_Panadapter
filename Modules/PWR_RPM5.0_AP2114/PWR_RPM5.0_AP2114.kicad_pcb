@@ -10966,7 +10966,7 @@
 	(footprint "libraries:Logo_10mm_inv"
 		(layer "B.Cu")
 		(uuid "2a043716-82e8-4c32-bf9e-9b0cadc17655")
-		(at 176.149 87.630467 -90)
+		(at 168.914248 87.630467 -90)
 		(property "Reference" "G***"
 			(at 0 0 90)
 			(layer "B.SilkS")
