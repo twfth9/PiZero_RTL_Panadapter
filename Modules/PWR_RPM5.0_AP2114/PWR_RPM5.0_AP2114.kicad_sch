@@ -4865,7 +4865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
 			(at 46.99 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4877,6 +4877,28 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 46.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "CKN9559-ND"
+			(at 46.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "OS102011MA1QN1"
 			(at 46.99 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4956,7 +4978,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2023/05/rm_series.pdf"
 			(at 142.24 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4968,6 +4990,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-RM04F3403CT-ND"
+			(at 142.24 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RM04F3403CT"
 			(at 142.24 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5113,7 +5157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "3k"
 			(at 203.2 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5135,7 +5179,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2023/05/rm_series.pdf"
 			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5147,6 +5191,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 205.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RM04F3001CT"
+			(at 205.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-RM04F3001CT-ND"
 			(at 205.74 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5227,6 +5293,28 @@
 			)
 		)
 		(property "Description" "1A low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-223"
+			(at 215.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "AP2114HA-3.3TRG1"
+			(at 215.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "AP2114HA-3.3TRG1DICT-ND"
 			(at 215.9 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5327,6 +5415,28 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 105.41 145.0975 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "LTL-4291N"
+			(at 109.22 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "160-1968-ND"
+			(at 109.22 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,6 +5619,28 @@
 				)
 			)
 		)
+		(property "Part Number" "BL-BGE1V5D-AT"
+			(at 273.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "BL-BGE1V5D-AT-ND"
+			(at 273.05 99.06 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd63fc8a-ac97-47a7-97a6-a6da033df8a1")
 		)
@@ -5605,6 +5737,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 163.83 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e1b5e54-118e-4410-8633-686b1ba7a13e")
+		(property "Reference" "C10"
+			(at 161.29 88.4681 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 161.29 91.0081 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 159.512 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC31X5R226M25NTCT-ND"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GMC31X5R226M25NT"
+			(at 163.83 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 163.83 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1a0ca0b7-8cfb-463d-89aa-a6ac66ee0fd8")
+		)
+		(pin "1"
+			(uuid "82eb9959-9759-41a3-9b75-de2e438db78e")
+		)
+		(instances
+			(project "PWR_RPM5.0_AP2114"
+				(path "/63449623-3b44-4b4a-a7cf-109b82f218d4"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer_Trim_US")
 		(at 116.84 116.84 90)
 		(unit 1)
@@ -5637,7 +5893,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Runtron_RM-065_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3299Y_Vertical"
 			(at 116.84 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5694,6 +5950,28 @@
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
 			(at 116.84 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "3299Y-1-505LF"
+			(at 116.84 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "3299Y-505LF-ND"
+			(at 116.84 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5843,7 +6121,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-os-series-datasheet?assetguid=f8954ac2-65ba-431f-af55-b0493370575e"
 			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5855,6 +6133,28 @@
 			)
 		)
 		(property "Description" "Switch, three position, single pole triple throw, 3 position switch, SP3T"
+			(at 134.62 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "CKN9561-ND"
+			(at 134.62 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "OS103011MA7QP1"
 			(at 134.62 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6012,7 +6312,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 171.45 91.0081 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +6388,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "T491A336K010AT"
+		(property "Manufacturer Part Number" "GMC10X5R106K25NT"
 			(at 173.99 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6397,7 +6697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 59.69 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6532,7 +6832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 153.67 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6628,6 +6928,130 @@
 			(project "PWR_RPM5.0_AP2114"
 				(path "/63449623-3b44-4b4a-a7cf-109b82f218d4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 254 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "583bd256-ff52-49fd-bf79-977f53e95c1c")
+		(property "Reference" "C12"
+			(at 251.46 88.4681 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 251.46 91.0081 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 254 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
+			(at 254 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 254 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 249.682 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC31X5R226M25NTCT-ND"
+			(at 254 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "GMC31X5R226M25NT"
+			(at 254 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 254 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "713ef7ee-622f-415e-b21f-96854d861b40")
+		)
+		(pin "1"
+			(uuid "83563fca-03e0-4e5b-b1a5-1973b36c2b42")
+		)
+		(instances
+			(project "PWR_RPM5.0_AP2114"
+				(path "/63449623-3b44-4b4a-a7cf-109b82f218d4"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6838,7 +7262,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uzg.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6860,7 +7284,7 @@
 				)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "25V"
 			(at 65.532 93.472 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6870,7 +7294,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "399-5279-1-ND"
+		(property "DigiKey" "4713-GMC31X5R226M25NTCT-ND"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6881,18 +7305,7 @@
 				)
 			)
 		)
-		(property "ESR" "6Ω"
-			(at 69.85 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "T491A336K010AT"
+		(property "Part Number" "GMC31X5R226M25NT"
 			(at 69.85 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7053,7 +7466,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2023/05/rm_series.pdf"
 			(at 142.24 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7065,6 +7478,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 142.24 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RM04F9531CT"
+			(at 142.24 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-RM04F9531CT-ND"
 			(at 142.24 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7249,6 +7684,28 @@
 				)
 			)
 		)
+		(property "Part Number" "LLR3ED199G"
+			(at 205.74 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "5366-LLR3ED199G-ND"
+			(at 205.74 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6f35aacd-5b2c-465f-bc93-ee9409878216")
 		)
@@ -7329,6 +7786,28 @@
 				)
 			)
 		)
+		(property "DigiKey" "2243-ASMPR45-1X2-RK-ND"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "ASMPR45-1X2-RK"
+			(at 27.94 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3791e8ba-c26e-47c0-a4c6-5bf259d74114")
 		)
@@ -7386,7 +7865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mpt-05-2-254-1725656?type=pdf"
 			(at 27.94 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7398,6 +7877,28 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "277-1273-ND"
+			(at 27.94 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1725656"
 			(at 27.94 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7658,141 +8159,6 @@
 			(project "PWR_RPM5.0_AP2114"
 				(path "/63449623-3b44-4b4a-a7cf-109b82f218d4"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 163.83 90.17 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a29138ab-f602-470c-9520-96c91f2446e0")
-		(property "Reference" "C10"
-			(at 161.29 88.4681 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 161.29 91.0081 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 163.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uzg.pdf"
-			(at 163.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 163.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 159.512 93.472 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "399-5279-1-ND"
-			(at 163.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ESR" "6Ω"
-			(at 163.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "T491A336K010AT"
-			(at 163.83 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "1206"
-			(at 163.83 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ee87dd3b-622c-4c89-8cff-b626d7f085e6")
-		)
-		(pin "1"
-			(uuid "7d350998-5eb3-4728-b096-8ea3276c6f8d")
-		)
-		(instances
-			(project "PWR_RPM5.0_AP2114"
-				(path "/63449623-3b44-4b4a-a7cf-109b82f218d4"
-					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8119,141 +8485,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 254 90.17 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b04744c6-145b-4e4a-9a26-06e7c2cd4cf7")
-		(property "Reference" "C12"
-			(at 251.46 88.4681 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 251.46 91.0081 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 254 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uzg.pdf"
-			(at 254 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 254 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 249.682 93.472 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "399-5279-1-ND"
-			(at 254 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ESR" "6Ω"
-			(at 254 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "T491A336K010AT"
-			(at 254 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Package" "1206"
-			(at 254 84.074 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "97dd4a4a-9204-4022-9c92-0b1ec8cb81bf")
-		)
-		(pin "1"
-			(uuid "a8e2caad-1845-4ec2-8d0e-2fdd3cd183dd")
-		)
-		(instances
-			(project "PWR_RPM5.0_AP2114"
-				(path "/63449623-3b44-4b4a-a7cf-109b82f218d4"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 80.01 90.17 0)
 		(mirror y)
 		(unit 1)
@@ -8275,7 +8506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 77.47 91.0081 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8297,7 +8528,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.nichicon.co.jp/english/series_items/catalog_pdf/e-uzg.pdf"
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
 			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8329,7 +8560,7 @@
 				)
 			)
 		)
-		(property "DigiKey" "399-5279-1-ND"
+		(property "DigiKey" "4713-GMC10X5R106K25NTCT-ND"
 			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8340,18 +8571,7 @@
 				)
 			)
 		)
-		(property "ESR" "6Ω"
-			(at 80.01 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "T491A336K010AT"
+		(property "Part Number" "GMC10X5R106K25NT"
 			(at 80.01 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8409,7 +8629,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "3k"
 			(at 111.76 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8431,7 +8651,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2023/05/rm_series.pdf"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8443,6 +8663,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 109.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RM04F3001CT"
+			(at 109.22 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-RM04F3001CT-ND"
 			(at 109.22 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8523,6 +8765,28 @@
 			)
 		)
 		(property "Description" "2A non-isolated switching regulator power module, 3-17V input voltage, 5.0V output voltage, DOSA"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "945-3455-ND"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RPM5.0-2.0-CT"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -8720,7 +8984,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "1k3"
 			(at 270.51 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8742,7 +9006,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2023/05/rm_series.pdf"
 			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8754,6 +9018,28 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
+			(at 273.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "RM04F1301CT"
+			(at 273.05 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-RM04F1301CT-ND"
 			(at 273.05 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -8972,7 +9258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 243.84 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9176,7 +9462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "10u"
 			(at 261.62 91.0081 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9252,7 +9538,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "T491A336K010AT"
+		(property "Manufacturer Part Number" "GMC10X5R106K25NT"
 			(at 264.16 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -9373,7 +9659,7 @@
 		(at 266.7 143.51 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -9423,17 +9709,6 @@
 			)
 		)
 		(property "Description" "Filled 45° arrow, 160mil"
-			(at 266.7 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 266.7 143.51 0)
 			(hide yes)
 			(show_name no)
