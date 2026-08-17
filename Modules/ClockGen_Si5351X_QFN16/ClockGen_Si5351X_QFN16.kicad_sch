@@ -9628,7 +9628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00c610b4-a627-4833-8ecc-a989b4d2e696")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 112.268 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9692,7 +9692,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04e95270-f26a-491b-9520-f9dbc6bbfe2e")
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 295.91 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9893,7 +9893,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -9993,7 +9993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "096a1da7-ee10-4efd-a462-b58e1e906aed")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 133.35 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10053,7 +10053,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10071,7 +10071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09af664d-a461-47e3-82bf-30ee41529eb3")
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 321.31 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10135,7 +10135,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -10152,7 +10152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a059062-0f13-435a-a946-e595eee22088")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 175.26 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10213,7 +10213,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10231,7 +10231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b729ae0-586f-479b-844e-69b6a9142d36")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR03"
 			(at 31.75 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10291,7 +10291,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -10309,7 +10309,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0dbe32be-71d6-4e0e-bcb7-605423a8b71f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10370,7 +10370,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10387,7 +10387,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0e6c7883-f0e8-4ad5-914e-9eb381f0b81a")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 209.55 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +10451,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -10469,7 +10469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "115c9a86-50e9-4afd-bcbf-f5529c0d7a20")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 311.1563 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10531,7 +10531,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10548,7 +10548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "16465446-45a2-4cc2-85ac-eb5383289cd2")
-		(property "Reference" "C7"
+		(property "Reference" "C8"
 			(at 176.53 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10644,7 +10644,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C7")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10662,7 +10662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a36dc5f-a3c6-459f-b2a2-15150b3fff75")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR048"
 			(at 288.29 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -10723,7 +10723,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR045")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10740,7 +10740,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1deeb656-b2da-4ee9-8cbf-8d2456c6cafc")
-		(property "Reference" "C13"
+		(property "Reference" "C14"
 			(at 194.31 60.9662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +10836,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C13")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -10854,7 +10854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e540f71-7806-4d45-aac3-1cf5f719ff60")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR013"
 			(at 77.47 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -10915,7 +10915,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR063")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10933,7 +10933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22044d61-3b04-46b5-a8d6-d4f87fadcd51")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 100.33 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10994,7 +10994,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11012,7 +11012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22cb413e-dccc-4ea2-8b43-a50ba8ca1825")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 245.11 135.8962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11076,7 +11076,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -11095,7 +11095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23e14282-7997-4e28-882a-9a621b4d1e7b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 153.67 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -11156,7 +11156,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11173,7 +11173,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26bffdbd-4998-475b-a80f-8fd58e0d20ab")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 185.674 132.08 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11246,7 +11246,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C10")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11539,7 +11539,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2fa498ae-1415-49da-a976-8c6b5c10d9a4")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 179.832 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11603,7 +11603,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -11621,7 +11621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "31e9395e-fa47-4e2a-bf20-fabdbf04adbb")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 54.61 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11717,7 +11717,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 2)
 				)
 			)
@@ -11734,7 +11734,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32be094b-a209-424b-a451-b3a4af2c7347")
-		(property "Reference" "R11"
+		(property "Reference" "R1"
 			(at 67.31 163.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11795,7 +11795,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R11")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11812,7 +11812,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3353ceec-3e6d-44b7-8491-391c0f3c051d")
-		(property "Reference" "C12"
+		(property "Reference" "C13"
 			(at 185.674 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +11885,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C12")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11902,7 +11902,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "359c5eb3-fdbd-4c3a-bb3e-41a79f10ae73")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 175.26 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11963,7 +11963,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12101,7 +12101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "374cac1e-9484-4047-884a-19e765b4e4d6")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 265.4363 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12163,7 +12163,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -12181,7 +12181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37fa573a-67eb-4040-91ed-8cbbd9381227")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 196.85 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -12242,7 +12242,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12422,7 +12422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bd828b5-92ec-4731-abec-6a0184f30ef1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 27.94 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -12483,7 +12483,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12502,7 +12502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c67579a-c16a-4063-a2c9-3c194080452d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 383.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -12563,7 +12563,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -12661,7 +12661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e32fe99-8ae7-4be0-b67e-d25c0de2c4e8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR035"
 			(at 204.47 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12722,7 +12722,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR032")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -12854,7 +12854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40eced41-b2a3-4c0a-b69e-aa07616d880a")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 270.51 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12918,7 +12918,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -12936,7 +12936,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41629168-47f6-4a5b-b673-65ab7eb76cbb")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR049"
 			(at 293.37 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12997,7 +12997,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR046")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -13014,7 +13014,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "424eee8c-ea96-4b14-8a90-971863549afd")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 100.33 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13105,7 +13105,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13122,7 +13122,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "42d15988-2cca-4eb8-98f8-7d5a4dc7619e")
-		(property "Reference" "C37"
+		(property "Reference" "C38"
 			(at 355.854 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13195,7 +13195,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -13214,7 +13214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4324d48a-be8c-48a9-a548-b093336baf31")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR015"
 			(at 80.01 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -13275,7 +13275,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR03")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -13531,7 +13531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f89b064-1b4e-4d06-8685-a1dcffa1767c")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 242.57 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -13592,7 +13592,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13610,7 +13610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ff63eb7-430c-4bf6-b4e2-5a148728693e")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 245.1163 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13672,7 +13672,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -13771,7 +13771,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e39e25-efb2-491e-91ca-a0899a3bba49")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR060"
 			(at 407.67 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -13832,7 +13832,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR057")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -13850,7 +13850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aad482e-a3df-4d7c-9d2a-a412be388daf")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 114.3 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13911,7 +13911,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13928,7 +13928,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5bca9331-91c0-4c5c-a831-29e03944428d")
-		(property "Reference" "C36"
+		(property "Reference" "C37"
 			(at 355.854 129.54 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14001,7 +14001,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -14020,7 +14020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c91d16a-7d64-4b6c-8f23-90f9219af485")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR014"
 			(at 80.01 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -14080,7 +14080,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR02")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -14098,7 +14098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d682204-da89-4825-802e-7248b2cdf736")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 407.67 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -14159,7 +14159,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -14177,7 +14177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61a798da-5305-49b4-b9d1-bdd7d77037fb")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 34.29 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -14238,7 +14238,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -14255,7 +14255,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6644d8e4-058b-4c1a-a5c6-8d3ddf002337")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 112.268 70.866 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14319,7 +14319,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -14337,7 +14337,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6901efb6-b977-4425-b5df-67250b3155d1")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 407.67 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -14398,7 +14398,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -14503,7 +14503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "697eb549-c52e-47cf-a7ca-3d747137c368")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR027"
 			(at 163.83 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14564,7 +14564,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR024")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -14746,7 +14746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cdc08d4-7d6d-4d7e-bc7a-2e2e4f7b2c9d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR033"
 			(at 196.85 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -14807,7 +14807,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR030")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14922,7 +14922,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6f8a1427-8fb9-4a07-bb47-c919f7424386")
-		(property "Reference" "C2"
+		(property "Reference" "C3"
 			(at 96.52 195.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14986,7 +14986,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -15003,7 +15003,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7028edb8-646b-4dab-9607-19ae03648743")
-		(property "Reference" "C1"
+		(property "Reference" "C2"
 			(at 74.93 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15099,7 +15099,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C1")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -15118,7 +15118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "704d66b7-f96e-41b2-8889-8c2f21395b16")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 54.61 235.458 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15214,7 +15214,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -15231,7 +15231,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7379153a-44c4-4a21-813c-12f08e7b2634")
-		(property "Reference" "D9"
+		(property "Reference" "D8"
 			(at 386.08 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15327,7 +15327,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D9")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -15345,7 +15345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74908d30-cfac-4b55-a58f-602351bbbedd")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 267.97 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -15406,7 +15406,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15423,7 +15423,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "750e25ea-9957-4f88-9c92-2b816afd61cf")
-		(property "Reference" "C38"
+		(property "Reference" "C1"
 			(at 72.39 238.7662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15519,7 +15519,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C38")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -15537,7 +15537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77ef01d4-5d0d-4f2a-902e-89d43333e7a4")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 20.32 165.3931 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15601,7 +15601,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -15619,7 +15619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a3d3343-e1e1-4a74-8357-5c4b59e5429a")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 280.6763 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15681,7 +15681,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -15778,7 +15778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b1fe6d3-c074-49a1-a66b-60b98e776b5a")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 270.51 135.8962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15842,7 +15842,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -16021,7 +16021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8e172b-088d-43db-9568-29af2ed0d181")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 57.15 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16117,7 +16117,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16134,7 +16134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7de95994-2bc2-4b07-8a56-375c562e1b1c")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 186.69 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16230,7 +16230,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -16247,7 +16247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "806155d4-7d00-487e-bbac-2e91b769e22e")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 163.83 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16380,7 +16380,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16398,7 +16398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "809c17f9-463b-4764-a8e6-411784a8e095")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 321.3163 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16460,7 +16460,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -16477,7 +16477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819c8dc8-3562-4978-9184-10626e8a84d3")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 34.29 171.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16573,7 +16573,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16744,7 +16744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b1225e8-1b98-4bff-821d-451f2addf198")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR055"
 			(at 344.17 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -16805,7 +16805,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR052")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -16822,7 +16822,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bcf5a79-3e50-4050-8a72-61541c97174c")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 185.674 147.32 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16895,7 +16895,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16994,7 +16994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9206da80-ee2c-49f9-bdd8-865a4a799758")
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 295.9163 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17056,7 +17056,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17074,7 +17074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92109a69-61d8-4f9f-b3ce-dfb68b2a2e9e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 177.8 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -17135,7 +17135,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17153,7 +17153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92be0650-9501-452c-9ce1-62214cdd4170")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 209.55 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -17214,7 +17214,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -17233,7 +17233,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93c63c78-a3ad-4a72-83dc-5a5fe9f1aa86")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 173.99 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -17294,7 +17294,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17584,7 +17584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d8d6413-b59e-4a17-a641-cf5191a31f5a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR051"
 			(at 298.45 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -17645,7 +17645,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR048")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -17662,7 +17662,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9de651fe-c50d-45df-8926-688519d86587")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 386.08 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17758,7 +17758,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -17775,7 +17775,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a11f3f21-1f63-4efd-90ee-b71f6b1ac1c1")
-		(property "Reference" "C14"
+		(property "Reference" "C15"
 			(at 196.85 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17871,7 +17871,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C14")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17889,7 +17889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1747fb6-f2a7-4398-a9e2-a8dab259914e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 257.81 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -17950,7 +17950,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17968,7 +17968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1de4e02-6a68-4cfd-ade4-be7dd6d34161")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR011"
 			(at 69.85 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -18029,7 +18029,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR062")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -18047,7 +18047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4121d9a-f943-4770-ae20-0dca000b4ff3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR040"
 			(at 242.57 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -18108,7 +18108,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR037")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18247,7 +18247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5f6ee96-d953-4b8a-a981-eb59bdff9771")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR058"
 			(at 383.54 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18308,7 +18308,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR055")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -18326,7 +18326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a68ee794-900f-432a-ac18-1981e6456afe")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 245.11 91.4462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18390,7 +18390,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -18409,7 +18409,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a71fb8b7-6acb-4550-a03f-f5dbb5dfe3b2")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 90.17 241.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18477,7 +18477,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -18495,7 +18495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76aecc9-0297-45f9-923f-8b4cb0c3d075")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 267.97 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -18556,7 +18556,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -18574,7 +18574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a903b7b9-9ebf-4c83-b3e3-97e7124fbc99")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 135.89 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -18635,7 +18635,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18653,7 +18653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa3a2dd0-92f0-4cca-8864-4ec885a972b0")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 209.55 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -18714,7 +18714,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18732,7 +18732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa4aaccc-8bf6-42a3-bcfc-05869ba05be5")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 179.832 60.706 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18796,7 +18796,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -18814,7 +18814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab14564d-a04e-458a-9f42-51778f61ccb7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 111.76 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -18875,7 +18875,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18893,7 +18893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae26fbc1-1cd5-4884-9480-d4712d70d111")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR017"
 			(at 99.06 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -18954,7 +18954,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR014")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18972,7 +18972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aec0b6ba-e028-4d64-9357-c381a320b1ea")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 245.11 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19036,7 +19036,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -19053,7 +19053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aec7bb3f-00d6-4b31-9a36-da8daeef5a19")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 209.296 63.754 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19128,7 +19128,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -19261,7 +19261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a2f317-801d-44ea-bf0a-e84a106e0791")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 184.15 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -19322,7 +19322,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19340,7 +19340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b356c8a1-a923-44c2-93a0-bf45125b81c3")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR042"
 			(at 242.57 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -19401,7 +19401,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR039")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -19418,7 +19418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3968acf-6f0f-499a-9545-cb18aef49300")
-		(property "Reference" "C34"
+		(property "Reference" "C35"
 			(at 355.854 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19491,7 +19491,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -19509,7 +19509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6002c8c-7ab0-48d6-8038-a983f6de3902")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 214.63 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -19569,7 +19569,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -19586,7 +19586,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0918dcc-74f9-4ead-88a9-b79559ad9149")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 156.21 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19682,7 +19682,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -19700,7 +19700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c210a4a5-04b6-4ad1-9d6c-018e6185641d")
-		(property "Reference" "C33"
+		(property "Reference" "C34"
 			(at 336.55 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19764,7 +19764,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -19782,7 +19782,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c46f40b9-11f1-46b0-bbd5-4841f21dd6f6")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 135.89 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19843,7 +19843,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -20055,7 +20055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7747bd4-845b-4b01-b71b-79f405510f2f")
-		(property "Reference" "C9"
+		(property "Reference" "C10"
 			(at 185.674 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20128,7 +20128,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C9")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20146,7 +20146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8661163-e1ab-4503-bf52-37b3fd0f87e4")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR047"
 			(at 283.21 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -20207,7 +20207,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR044")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -20225,7 +20225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb92e6ae-4b11-4411-a4d9-6e99d7055fca")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR054"
 			(at 334.01 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -20286,7 +20286,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR051")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20303,7 +20303,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "cca50a0f-994b-445d-b378-de340c8d43d1")
-		(property "Reference" "R13"
+		(property "Reference" "R2"
 			(at 80.01 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20367,7 +20367,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20386,7 +20386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce1107ac-d6a4-4bf4-9b39-ad96abffba83")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 103.124 151.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20409,7 +20409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 106.68 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -20454,7 +20454,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -20552,7 +20552,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf60f0d6-4687-4abf-921d-99e30d9e8b5e")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 255.2763 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20614,7 +20614,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -20632,7 +20632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cff2557e-a252-419a-ab73-23345da883f0")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR052"
 			(at 308.61 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -20693,7 +20693,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR049")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -20791,7 +20791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1204486-afc2-4d62-b264-c61beb128769")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR04"
 			(at 31.75 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -20852,7 +20852,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR011")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20869,7 +20869,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d25fb858-e16c-40b4-9c6a-78cfe593b309")
-		(property "Reference" "D10"
+		(property "Reference" "D9"
 			(at 386.08 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20965,7 +20965,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D10")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -20983,7 +20983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2cf9dee-290c-4acc-9c63-de3893eeb3ab")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR026"
 			(at 163.83 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -21044,7 +21044,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR023")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -21062,7 +21062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d358a9dc-9234-44ac-abee-1715031f4e5b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR08"
 			(at 54.61 254 0)
 			(hide yes)
 			(show_name no)
@@ -21123,7 +21123,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR061")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -21140,7 +21140,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4059a60-0443-4b06-9114-0ff16a8c3a00")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 207.01 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21236,7 +21236,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -21255,7 +21255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d50631fe-f934-4ec2-8f14-7033e565d19c")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 383.54 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -21316,7 +21316,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -21335,7 +21335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d77c92b6-6c4b-4953-b164-63b03d07ca1b")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 194.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21396,7 +21396,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -21514,7 +21514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9091ad7-f03f-4798-9714-e446ca251b24")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 175.26 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21575,7 +21575,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -21593,7 +21593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da3bb2a9-399c-4137-9a68-4c1a52c53517")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR050"
 			(at 293.37 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -21654,7 +21654,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR047")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -21672,7 +21672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa2cc28-4818-48f8-9d19-2a725b639544")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR01"
 			(at 24.13 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -21733,7 +21733,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR06")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -21751,7 +21751,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbb1e922-2dbe-42c0-a1c8-56143938680a")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 133.35 63.5062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21847,7 +21847,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -21865,7 +21865,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce02e6e-02e7-418a-a3fa-b3d776e499a7")
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 295.91 135.8962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21929,7 +21929,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -21946,7 +21946,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "e06cb7cf-d6df-4c5c-8671-69cbc0517dd4")
-		(property "Reference" "R12"
+		(property "Reference" "R3"
 			(at 82.55 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22010,7 +22010,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R12")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -22028,7 +22028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e15dfd53-77c2-4e13-bed0-b7f51af3b7d9")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR043"
 			(at 252.73 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -22089,7 +22089,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR040")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -22186,7 +22186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8e31e2c-f239-4225-bd8f-a5e2ea6ecfeb")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 407.67 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -22247,7 +22247,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -22346,7 +22346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebcb71c1-597e-4c3f-918e-5535f3b87de4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR053"
 			(at 318.77 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -22407,7 +22407,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR050")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -22425,7 +22425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebfa62b5-bd16-4681-8d6b-6ec192f90ffd")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 270.5163 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22487,7 +22487,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -22505,7 +22505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec1a5c0f-9b7b-4ace-b7be-bfdb0b773fa7")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR019"
 			(at 105.41 203.2 0)
 			(hide yes)
 			(show_name no)
@@ -22566,7 +22566,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -22585,7 +22585,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee23ac87-ec21-4025-b9e4-0201a4f814b6")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 383.54 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -22646,7 +22646,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -22663,7 +22663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eec3c034-c3e6-4d00-b9a6-26ae6fabcbcf")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 133.858 139.446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22782,7 +22782,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -22999,7 +22999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f09c95f0-9e22-4d0c-97e1-9a4a31f4d957")
-		(property "Reference" "D11"
+		(property "Reference" "D10"
 			(at 386.08 177.7999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23095,7 +23095,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D11")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -23113,7 +23113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0d6bab2-464c-49b1-bbc4-511f94aa20b9")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 290.83 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23177,7 +23177,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -23195,7 +23195,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f12c25d2-2d07-4cda-829d-f1001ee4d185")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 57.15 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23291,7 +23291,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "Q3")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -23310,7 +23310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28c2096-2710-4477-982c-0fa42438d4ad")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -23371,7 +23371,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -23388,7 +23388,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2a3479c-bca2-4c28-a9f2-54e6d9386c42")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 175.26 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23449,7 +23449,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -23467,7 +23467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2d00bde-c3eb-4d72-84cd-70671d206871")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 24.13 241.046 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23535,7 +23535,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -23712,7 +23712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f550e70e-d452-48e4-a6b9-a7e9cbbc4a83")
-		(property "Reference" "C35"
+		(property "Reference" "C36"
 			(at 355.854 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23785,7 +23785,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -23804,7 +23804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f819c8dc-ee65-4170-804b-50a768a7a1f2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 53.34 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -23865,7 +23865,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -23883,7 +23883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f82d8dbe-3cfc-4905-ab0e-b1c90d71a473")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 99.314 163.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23906,7 +23906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 			(at 97.79 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -23951,7 +23951,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -23969,7 +23969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb075995-8842-4a98-aec6-7241798723a2")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR016"
 			(at 82.55 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -24030,7 +24030,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "#PWR013")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -24047,7 +24047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc6dcd00-2587-4a5b-9362-0692f5e1c343")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 166.37 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24143,7 +24143,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -24161,7 +24161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd8759ba-ed01-42c6-8248-c887f3257b31")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 121.412 76.962 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24255,7 +24255,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -24273,7 +24273,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fdc1c0ec-74ef-4251-be74-a13ca4b24e10")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 114.3 195.5862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24337,7 +24337,7 @@
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
