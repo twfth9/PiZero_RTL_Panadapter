@@ -495,13 +495,39 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "50R_Coplanar",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 0, 255)",
+        "tuning_profile": "",
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/CLK0_BANDPASS": [
+        "50R_Coplanar"
+      ],
+      "/CLK1_LOWPASS": [
+        "50R_Coplanar"
+      ],
+      "/CLK2_BANDSTOP": [
+        "50R_Coplanar"
+      ],
+      "/CLK3_HIGHPASS": [
+        "50R_Coplanar"
+      ],
+      "/VCXO_IN": [
+        "50R_Coplanar"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -632,7 +658,7 @@
         "uuid": "2b6c9482-e0ae-41e4-803d-260bc3a98f79"
       }
     ],
-    "used_designators": "Q1-3,J1-7,R1-6,R56,R61-62,L1-20,#PWR1-43,#PWR136,#PWR138-139,U1-5,C1-31,C72,SW1,Y1",
+    "used_designators": "Q1-3,J1-8,R1-12,R56,R61-62,L1-20,#PWR1-59,#PWR136,#PWR138-139,U1-5,C1-36,C72,SW1,Y1,D1-10,H1-4,RN1,RN203",
     "variants": []
   },
   "sheets": [
