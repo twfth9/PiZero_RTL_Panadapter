@@ -524,7 +524,7 @@
       "/CLK3_HIGHPASS": [
         "50R_Coplanar"
       ],
-      "/VCXO_IN": [
+      "/VCXO_IN{slash}CLK_IN": [
         "50R_Coplanar"
       ]
     },
@@ -658,7 +658,7 @@
         "uuid": "2b6c9482-e0ae-41e4-803d-260bc3a98f79"
       }
     ],
-    "used_designators": "Q1-3,J1-8,R1-12,R56,R61-62,L1-20,#PWR1-59,#PWR136,#PWR138-139,U1-5,C1-36,C72,SW1,Y1,D1-10,H1-4,RN1,RN203",
+    "used_designators": "Q1-3,J1-9,R1-13,R56,R61-62,L1-20,#PWR1-63,#PWR136,#PWR138-139,U1-5,C1-38,C72,SW1-2,Y1,D1-11,H1-4,RN1,RN203,S1,JP1-2",
     "variants": []
   },
   "sheets": [
