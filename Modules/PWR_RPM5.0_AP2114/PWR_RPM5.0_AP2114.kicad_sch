@@ -9686,7 +9686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal"
+		(property "Footprint" "libraries:Breadboard_400"
 			(at 266.7 143.51 0)
 			(hide yes)
 			(show_name no)
