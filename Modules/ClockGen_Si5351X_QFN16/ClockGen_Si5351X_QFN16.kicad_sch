@@ -839,8 +839,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J2"
+				(at 4.064 -0.254 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -849,8 +849,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "JST SH"
+				(at 0 6.096 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -859,7 +859,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1035,6 +1035,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 3.81)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10458,6 +10476,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f739239-8c13-4871-b24a-69b012bdd529")
+		(property "Reference" "#PWR064"
+			(at 24.13 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 122.5549 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 24.13 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91c5e845-9cc3-4283-9438-092bed5ea669")
+		)
+		(instances
+			(project "ClockGen_Si5351X_QFN16"
+				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 311.15 53.34 90)
 		(unit 1)
@@ -14481,6 +14578,9 @@
 		(pin "4"
 			(uuid "a0969a4f-d73e-43f1-b177-d8c3ec89723e")
 		)
+		(pin "MP"
+			(uuid "c40bdcc9-fc17-4d59-9a73-6d483d10535d")
+		)
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
@@ -16690,7 +16790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal"
+		(property "Footprint" "libraries:Breadboard_400"
 			(at 300.99 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -19937,22 +20037,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "90fa14aa-0a44-4bc4-be07-cd447ae6a356")
+			(uuid "90fa14aa-0a44-4bc4-be07-cd447ae6a358")
 		)
 		(pin "1"
-			(uuid "f71fca06-1f66-4fa9-aeaa-6c3714924454")
+			(uuid "f71fca06-1f66-4fa9-aeaa-6c3714924456")
 		)
 		(pin "2"
-			(uuid "f3d8e8fc-cdac-4856-9070-4b8732c306f1")
+			(uuid "f3d8e8fc-cdac-4856-9070-4b8732c306f3")
 		)
 		(pin "5"
-			(uuid "d36c6dce-fa86-4526-98ae-9635e2f832e7")
+			(uuid "d36c6dce-fa86-4526-98ae-9635e2f832e8")
 		)
 		(pin "4"
-			(uuid "73ad3455-0c2b-42c2-a851-b23c69040dfe")
+			(uuid "73ad3455-0c2b-42c2-a851-b23c69040dff")
 		)
 		(pin "3"
-			(uuid "62b2eaaa-7293-4d08-98f1-106359b46e4f")
+			(uuid "62b2eaaa-7293-4d08-98f1-106359b46e50")
 		)
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
@@ -23280,13 +23380,13 @@
 			(uuid "c49d35ec-007a-4cab-986c-92753dc17bc3")
 		)
 		(pin "5"
-			(uuid "d36c6dce-fa86-4526-98ae-9635e2f832e7")
+			(uuid "d36c6dce-fa86-4526-98ae-9635e2f832e9")
 		)
 		(pin "4"
-			(uuid "73ad3455-0c2b-42c2-a851-b23c69040dfe")
+			(uuid "73ad3455-0c2b-42c2-a851-b23c69040e00")
 		)
 		(pin "3"
-			(uuid "62b2eaaa-7293-4d08-98f1-106359b46e4f")
+			(uuid "62b2eaaa-7293-4d08-98f1-106359b46e51")
 		)
 		(instances
 			(project "ClockGen_Si5351X_QFN16"
