@@ -1533,192 +1533,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "D_Schottky_1"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D10"
-				(at 1.778 -3.302 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5819W"
-				(at -0.508 -6.604 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123F"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7170/5399_1N5819W%20SOD.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "V_{F}" "0V55"
-				(at -3.048 -6.35 90)
-				(show_name yes)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "DigiKey" "5399-1N5819WCT-ND"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Part Number" "1N5819W"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -6025,12 +5839,6 @@
 		(uuid "0e77d139-489e-444e-b3f9-75f7a06be2d6")
 	)
 	(junction
-		(at 31.75 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1266850b-ca1f-48bb-a400-6afe8443c613")
-	)
-	(junction
 		(at 394.97 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6277,6 +6085,12 @@
 		(uuid "8a74f2d6-16b8-4173-9304-15c920a837d8")
 	)
 	(junction
+		(at 82.55 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac025f9-e4c7-4493-ba2d-03e5742829b9")
+	)
+	(junction
 		(at 80.01 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6409,10 +6223,10 @@
 		(uuid "b14ace8e-c010-4cf3-a259-0e3dc4799847")
 	)
 	(junction
-		(at 83.82 57.15)
+		(at 34.29 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b339a9b0-4917-4b20-859f-d2aad8ca6b3e")
+		(uuid "b1d5786b-bec4-4f23-b7b2-f10be9c5a760")
 	)
 	(junction
 		(at 288.29 53.34)
@@ -6515,6 +6329,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e467c9e1-4357-444d-b4ce-f5273d5eacf5")
+	)
+	(junction
+		(at 85.09 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e75b27ce-8674-43d1-aed2-5ffd3e262377")
 	)
 	(junction
 		(at 91.44 166.37)
@@ -6636,7 +6456,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 57.15) (xy 83.82 57.15)
+			(xy 72.39 57.15) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7456,13 +7276,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 54.61) (xy 31.75 57.15)
+			(xy 82.55 54.61) (xy 82.55 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3e8cef88-76c0-48af-9456-6cb2d18377d4")
+	)
+	(wire
+		(pts
+			(xy 34.29 224.79) (xy 34.29 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6798ac-ca41-4cd7-99d8-388edd19c4dd")
 	)
 	(wire
 		(pts
@@ -7556,6 +7386,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 90.17) (xy 118.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c74c40-ee39-4911-b266-1a93e3e95b18")
+	)
+	(wire
+		(pts
 			(xy 144.78 93.98) (xy 144.78 106.68)
 		)
 		(stroke
@@ -7636,7 +7476,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 118.11 91.44)
+			(xy 55.88 90.17) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7653,16 +7493,6 @@
 			(type default)
 		)
 		(uuid "4a633463-d84a-4ab6-a24e-ae5ce1221724")
-	)
-	(wire
-		(pts
-			(xy 31.75 57.15) (xy 44.45 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ab040de-ebeb-43ee-a40a-2232fbbcaf6a")
 	)
 	(wire
 		(pts
@@ -8046,7 +7876,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 57.15) (xy 118.11 74.93)
+			(xy 118.11 57.15) (xy 118.11 90.17)
 		)
 		(stroke
 			(width 0)
@@ -8056,7 +7886,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 81.28) (xy 83.82 81.28)
+			(xy 30.48 81.28) (xy 85.09 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8166,7 +7996,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 81.28) (xy 83.82 57.15)
+			(xy 85.09 81.28) (xy 85.09 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8213,16 +8043,6 @@
 			(type default)
 		)
 		(uuid "738adc36-8e2c-4c68-ae07-013bfe681260")
-	)
-	(wire
-		(pts
-			(xy 118.11 82.55) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b57385-60ad-43da-8fbc-0338c5052be8")
 	)
 	(wire
 		(pts
@@ -8466,7 +8286,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 57.15) (xy 31.75 57.15)
+			(xy 27.94 57.15) (xy 44.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -8566,7 +8386,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 91.44) (xy 55.88 96.52)
+			(xy 55.88 90.17) (xy 55.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8933,16 +8753,6 @@
 			(type default)
 		)
 		(uuid "acce144e-54b7-49ea-ad5d-ec2b2423e5fa")
-	)
-	(wire
-		(pts
-			(xy 83.82 57.15) (xy 91.44 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af0c2847-7109-4802-beef-66bc1d2fa9da")
 	)
 	(wire
 		(pts
@@ -9356,6 +9166,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 57.15) (xy 85.09 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9386059-5602-4364-bc45-69e379b89ec2")
+	)
+	(wire
+		(pts
 			(xy 394.97 132.08) (xy 397.51 132.08)
 		)
 		(stroke
@@ -9633,6 +9453,16 @@
 			(type default)
 		)
 		(uuid "ef70cedf-5691-486b-914e-e6d6bacab4db")
+	)
+	(wire
+		(pts
+			(xy 85.09 57.15) (xy 91.44 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01c220b-8931-4ce5-83e8-1d878f6885ae")
 	)
 	(wire
 		(pts
@@ -9915,7 +9745,7 @@
 		(uuid "dd4507bf-ffc2-4bcf-9c76-73f9e84e4644")
 	)
 	(label "+5V_I2C_PULLUP"
-		(at 82.55 91.44 0)
+		(at 58.42 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10295,7 +10125,7 @@
 	)
 	(symbol
 		(lib_id "Libraries:R_Network04_Split")
-		(at 50.8 102.87 180)
+		(at 99.06 101.6 180)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10305,7 +10135,7 @@
 		(dnp no)
 		(uuid "0367a13d-85c8-4c59-afb4-c84f888e06c9")
 		(property "Reference" "RN1"
-			(at 47.752 102.87 90)
+			(at 96.012 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10315,7 +10145,7 @@
 			)
 		)
 		(property "Value" "1k0"
-			(at 50.8 102.87 90)
+			(at 99.06 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10325,7 +10155,7 @@
 			)
 		)
 		(property "Footprint" "libraries:RESCAXE80P320X160X70-8N"
-			(at 52.832 102.87 90)
+			(at 101.092 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10336,7 +10166,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 50.8 102.87 0)
+			(at 99.06 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +10177,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 50.8 102.87 0)
+			(at 99.06 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10358,7 +10188,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-4702F4LF/3593009?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlgFniMAX4EmXBhjIpynkBnMo&gclid=EAIaIQobChMI74bJrq3akgMVxEP_AR3c7zlEEAQYAyABEgJu8vD_BwE"
-			(at 50.8 102.87 90)
+			(at 99.06 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10369,7 +10199,7 @@
 			)
 		)
 		(property "DigiKey Part" "CAT16-4702F4LFCT-ND"
-			(at 50.8 102.87 90)
+			(at 99.06 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10816,7 +10646,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 31.75 54.61 0)
+		(at 82.55 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10827,7 +10657,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b729ae0-586f-479b-844e-69b6a9142d36")
 		(property "Reference" "#PWR03"
-			(at 31.75 58.42 0)
+			(at 82.55 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10838,7 +10668,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 31.75 49.53 0)
+			(at 82.55 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10848,7 +10678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 54.61 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10859,7 +10689,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 54.61 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10870,7 +10700,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 31.75 54.61 0)
+			(at 82.55 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12729,7 +12559,7 @@
 	)
 	(symbol
 		(lib_id "Libraries:R_Network04_Split")
-		(at 88.9 101.6 0)
+		(at 60.96 102.87 0)
 		(mirror x)
 		(unit 3)
 		(body_style 1)
@@ -12740,7 +12570,7 @@
 		(dnp no)
 		(uuid "35b47616-b869-4fae-a8df-ff460ef36f56")
 		(property "Reference" "RN1"
-			(at 85.852 101.6 90)
+			(at 57.912 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12750,7 +12580,7 @@
 			)
 		)
 		(property "Value" "1k0"
-			(at 88.9 101.6 90)
+			(at 60.96 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12760,7 +12590,7 @@
 			)
 		)
 		(property "Footprint" "libraries:RESCAXE80P320X160X70-8N"
-			(at 86.868 101.6 90)
+			(at 58.928 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12771,7 +12601,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 88.9 101.6 0)
+			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12782,7 +12612,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 88.9 101.6 0)
+			(at 60.96 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12793,7 +12623,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-4702F4LF/3593009?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlgFniMAX4EmXBhjIpynkBnMo&gclid=EAIaIQobChMI74bJrq3akgMVxEP_AR3c7zlEEAQYAyABEgJu8vD_BwE"
-			(at 88.9 101.6 90)
+			(at 60.96 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12804,7 +12634,7 @@
 			)
 		)
 		(property "DigiKey Part" "CAT16-4702F4LFCT-ND"
-			(at 88.9 101.6 90)
+			(at 60.96 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19046,7 +18876,7 @@
 	)
 	(symbol
 		(lib_id "Libraries:R_Network04_Split")
-		(at 99.06 101.6 0)
+		(at 88.9 101.6 0)
 		(mirror x)
 		(unit 2)
 		(body_style 1)
@@ -19057,7 +18887,7 @@
 		(dnp no)
 		(uuid "a446f1d7-cd11-49ba-96e2-59523bce574f")
 		(property "Reference" "RN1"
-			(at 96.012 101.6 90)
+			(at 85.852 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19067,7 +18897,7 @@
 			)
 		)
 		(property "Value" "1k0"
-			(at 99.06 101.6 90)
+			(at 88.9 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19077,7 +18907,7 @@
 			)
 		)
 		(property "Footprint" "libraries:RESCAXE80P320X160X70-8N"
-			(at 97.028 101.6 90)
+			(at 86.868 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19088,7 +18918,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 99.06 101.6 0)
+			(at 88.9 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19099,7 +18929,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 99.06 101.6 0)
+			(at 88.9 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19110,7 +18940,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-4702F4LF/3593009?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlgFniMAX4EmXBhjIpynkBnMo&gclid=EAIaIQobChMI74bJrq3akgMVxEP_AR3c7zlEEAQYAyABEgJu8vD_BwE"
-			(at 99.06 101.6 90)
+			(at 88.9 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19121,7 +18951,7 @@
 			)
 		)
 		(property "DigiKey Part" "CAT16-4702F4LFCT-ND"
-			(at 99.06 101.6 90)
+			(at 88.9 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20583,6 +20413,117 @@
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 81.28 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8a8ae70-dcc4-4c89-a086-8218f20126cb")
+		(property "Reference" "D4"
+			(at 81.28 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819W"
+			(at 81.28 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7170/5399_1N5819W%20SOD.pdf"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 81.28 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "V_{F}" "0V55"
+			(at 81.28 87.63 0)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "5399-1N5819WCT-ND"
+			(at 81.28 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part Number" "1N5819W"
+			(at 81.28 90.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6fcd644f-7a83-4036-b13d-574f34dd85b0")
+		)
+		(pin "1"
+			(uuid "8c2676d1-cdbe-485d-b7df-e4f80cb14649")
+		)
+		(instances
+			(project "ClockGen_Si5351X_QFN16"
+				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -23669,6 +23610,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 34.29 224.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecf7ad2e-e864-4d09-bb08-fcf3e2c3369a")
+		(property "Reference" "#PWR065"
+			(at 34.29 228.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 34.29 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 34.29 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ee38540c-95dd-46a8-9c77-f65fb3f79032")
+		)
+		(instances
+			(project "ClockGen_Si5351X_QFN16"
+				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 364.49 182.88 0)
 		(mirror y)
@@ -23967,7 +23986,7 @@
 	)
 	(symbol
 		(lib_id "Libraries:R_Network04_Split")
-		(at 60.96 102.87 180)
+		(at 50.8 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23977,7 +23996,7 @@
 		(dnp no)
 		(uuid "efa12abf-9d84-4cb2-97f0-6baf3c16c9f4")
 		(property "Reference" "RN1"
-			(at 57.912 102.87 90)
+			(at 47.752 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23987,7 +24006,7 @@
 			)
 		)
 		(property "Value" "1k0"
-			(at 60.96 102.87 90)
+			(at 50.8 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23997,7 +24016,7 @@
 			)
 		)
 		(property "Footprint" "libraries:RESCAXE80P320X160X70-8N"
-			(at 62.992 102.87 90)
+			(at 52.832 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24008,7 +24027,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 60.96 102.87 0)
+			(at 50.8 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24019,7 +24038,7 @@
 			)
 		)
 		(property "Description" "4 resistor network, star topology, bussed resistors, split"
-			(at 60.96 102.87 0)
+			(at 50.8 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24030,7 +24049,7 @@
 			)
 		)
 		(property "DigiKey" "https://www.digikey.com/en/products/detail/bourns-inc/CAT16-4702F4LF/3593009?gclsrc=aw.ds&gad_source=1&gad_campaignid=20232005509&gbraid=0AAAAADrbLlgFniMAX4EmXBhjIpynkBnMo&gclid=EAIaIQobChMI74bJrq3akgMVxEP_AR3c7zlEEAQYAyABEgJu8vD_BwE"
-			(at 60.96 102.87 90)
+			(at 50.8 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24041,7 +24060,7 @@
 			)
 		)
 		(property "DigiKey Part" "CAT16-4702F4LFCT-ND"
-			(at 60.96 102.87 90)
+			(at 50.8 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25239,118 +25258,6 @@
 			(project "ClockGen_Si5351X_QFN16"
 				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "D_Schottky_1")
-		(lib_id "Device:D_Schottky")
-		(at 118.11 78.74 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fd8759ba-ed01-42c6-8248-c887f3257b31")
-		(property "Reference" "D4"
-			(at 121.412 76.962 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819W"
-			(at 124.714 79.248 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 118.11 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7170/5399_1N5819W%20SOD.pdf"
-			(at 118.11 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 118.11 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "V_{F}" "0V55"
-			(at 124.46 81.788 90)
-			(show_name yes)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey" "5399-1N5819WCT-ND"
-			(at 118.11 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part Number" "1N5819W"
-			(at 118.11 78.74 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "446dfac6-75b1-44ee-9e89-7a7eaa5f7d14")
-		)
-		(pin "1"
-			(uuid "36428310-b493-45ab-a30e-d30409bd79ef")
-		)
-		(instances
-			(project "ClockGen_Si5351X_QFN16"
-				(path "/2b6c9482-e0ae-41e4-803d-260bc3a98f79"
-					(reference "D4")
 					(unit 1)
 				)
 			)
