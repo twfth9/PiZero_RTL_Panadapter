@@ -5577,8 +5577,8 @@
 		)
 	)
 	(rectangle
-		(start 236.22 43.18)
-		(end 353.06 68.58)
+		(start 236.22 162.56)
+		(end 353.06 187.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -5625,8 +5625,8 @@
 		(uuid "4bb0c5ef-c82a-498a-a17c-a14f5ef600d2")
 	)
 	(rectangle
-		(start 236.22 163.83)
-		(end 336.55 186.69)
+		(start 236.22 44.45)
+		(end 336.55 67.31)
 		(stroke
 			(width 0)
 			(type default)
@@ -5696,7 +5696,7 @@
 	)
 	(text "5th Order Bandpass"
 		(exclude_from_sim no)
-		(at 282.448 66.294 0)
+		(at 282.448 185.674 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5756,7 +5756,7 @@
 	)
 	(text "7th Order Highpass"
 		(exclude_from_sim no)
-		(at 283.464 185.166 0)
+		(at 283.464 65.786 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5833,7 +5833,7 @@
 		(uuid "0c839774-d5f7-43f0-bd40-647645e80615")
 	)
 	(junction
-		(at 298.45 53.34)
+		(at 298.45 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e77d139-489e-444e-b3f9-75f7a06be2d6")
@@ -5909,6 +5909,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ccfa5a1-4c12-45b0-b25c-c592ca8e2219")
+	)
+	(junction
+		(at 242.57 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33961ba3-757d-4a4a-8183-4b493a2eb950")
 	)
 	(junction
 		(at 191.77 57.15)
@@ -6109,13 +6115,7 @@
 		(uuid "8dcc69fb-4721-4918-877a-09c7d5b8550b")
 	)
 	(junction
-		(at 344.17 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f89c86f-ec2f-4cce-bdc3-3a54e52079e9")
-	)
-	(junction
-		(at 334.01 53.34)
+		(at 334.01 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93bf2e99-c0ec-48a5-a99f-d7d87f87cf8a")
@@ -6217,7 +6217,7 @@
 		(uuid "aa2f9dba-2d93-461b-9fa9-551b64c4acab")
 	)
 	(junction
-		(at 283.21 172.72)
+		(at 283.21 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b14ace8e-c010-4cf3-a259-0e3dc4799847")
@@ -6229,7 +6229,7 @@
 		(uuid "b1d5786b-bec4-4f23-b7b2-f10be9c5a760")
 	)
 	(junction
-		(at 288.29 53.34)
+		(at 288.29 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b46f39c9-4c9e-4bb0-ad09-45c92f5115c1")
@@ -6247,7 +6247,7 @@
 		(uuid "bdec4ff4-e2ed-432b-bcfa-be1fafa46d96")
 	)
 	(junction
-		(at 308.61 172.72)
+		(at 308.61 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be251078-9506-4784-9e7e-6995363f0ebe")
@@ -6301,7 +6301,7 @@
 		(uuid "de2225e3-5b4b-488c-b6c4-ea35d0a161f9")
 	)
 	(junction
-		(at 252.73 53.34)
+		(at 252.73 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "def1c303-b88a-4bd7-9011-10480bb30808")
@@ -6317,6 +6317,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0931753-465a-42f0-81e7-83794876f0b2")
+	)
+	(junction
+		(at 344.17 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0e04dcd-fa72-44d4-b1bd-6b286fdc8a15")
 	)
 	(junction
 		(at 267.97 87.63)
@@ -6373,16 +6379,10 @@
 		(uuid "fd8f1417-8a8a-4c43-bc0d-8852cd5aa8da")
 	)
 	(junction
-		(at 257.81 172.72)
+		(at 257.81 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe9b1d85-707d-439a-bce2-1639908834f1")
-	)
-	(junction
-		(at 242.57 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "feb4cdc7-b52c-4bc5-8515-6780d965f5e8")
 	)
 	(wire
 		(pts
@@ -6486,7 +6486,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 55.88) (xy 288.29 53.34)
+			(xy 288.29 175.26) (xy 288.29 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6536,7 +6536,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 55.88) (xy 252.73 53.34)
+			(xy 252.73 175.26) (xy 252.73 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6566,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 53.34) (xy 262.89 53.34)
+			(xy 252.73 172.72) (xy 262.89 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6686,7 +6686,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 55.88) (xy 344.17 53.34)
+			(xy 344.17 175.26) (xy 344.17 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6746,7 +6746,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 55.88) (xy 334.01 53.34)
+			(xy 334.01 175.26) (xy 334.01 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6756,7 +6756,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 53.34) (xy 308.61 53.34)
+			(xy 298.45 172.72) (xy 308.61 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6846,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 175.26) (xy 308.61 172.72)
+			(xy 308.61 55.88) (xy 308.61 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7176,7 +7176,17 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 53.34) (xy 318.77 53.34)
+			(xy 323.85 53.34) (xy 356.87 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e412a4-4a9a-4ae1-80ba-9b047ad586aa")
+	)
+	(wire
+		(pts
+			(xy 313.69 172.72) (xy 318.77 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7206,7 +7216,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 175.26) (xy 283.21 172.72)
+			(xy 283.21 55.88) (xy 283.21 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7216,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 53.34) (xy 273.05 53.34)
+			(xy 267.97 172.72) (xy 273.05 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7326,16 +7336,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 53.34) (xy 334.01 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "415a7d7a-2313-46eb-9c8f-bc7bd2948efb")
-	)
-	(wire
-		(pts
 			(xy 285.75 121.92) (xy 285.75 124.46)
 		)
 		(stroke
@@ -7366,7 +7366,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 242.57 53.34)
+			(xy 242.57 175.26) (xy 242.57 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7626,7 +7626,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 53.34) (xy 288.29 53.34)
+			(xy 278.13 172.72) (xy 288.29 172.72)
 		)
 		(stroke
 			(width 0)
@@ -7716,7 +7716,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 172.72) (xy 267.97 172.72)
+			(xy 257.81 53.34) (xy 267.97 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7916,16 +7916,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 53.34) (xy 356.87 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d3092b9-9bb7-45e8-b46d-30522af10985")
-	)
-	(wire
-		(pts
 			(xy 54.61 222.25) (xy 54.61 227.33)
 		)
 		(stroke
@@ -7976,13 +7966,23 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 172.72) (xy 273.05 172.72)
+			(xy 283.21 53.34) (xy 273.05 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "705f191a-526f-4e9e-8540-ef6e30838ccb")
+	)
+	(wire
+		(pts
+			(xy 344.17 172.72) (xy 356.87 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "717f984f-848b-4bd5-9126-78504504b750")
 	)
 	(wire
 		(pts
@@ -8156,7 +8156,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 55.88) (xy 298.45 53.34)
+			(xy 298.45 175.26) (xy 298.45 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8226,7 +8226,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 172.72) (xy 356.87 172.72)
+			(xy 323.85 172.72) (xy 344.17 172.72)
 		)
 		(stroke
 			(width 0)
@@ -8336,7 +8336,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 172.72) (xy 308.61 172.72)
+			(xy 298.45 53.34) (xy 308.61 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8526,7 +8526,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 172.72) (xy 247.65 172.72)
+			(xy 257.81 53.34) (xy 247.65 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8656,7 +8656,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 172.72) (xy 293.37 172.72)
+			(xy 283.21 53.34) (xy 293.37 53.34)
 		)
 		(stroke
 			(width 0)
@@ -8956,16 +8956,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 53.34) (xy 344.17 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1887610-782c-4e36-977d-2b0703050e2b")
-	)
-	(wire
-		(pts
 			(xy 397.51 87.63) (xy 400.05 87.63)
 		)
 		(stroke
@@ -9106,7 +9096,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 172.72) (xy 318.77 172.72)
+			(xy 308.61 53.34) (xy 318.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9326,7 +9316,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 53.34) (xy 252.73 53.34)
+			(xy 242.57 172.72) (xy 252.73 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9496,7 +9486,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 53.34) (xy 298.45 53.34)
+			(xy 288.29 172.72) (xy 298.45 172.72)
 		)
 		(stroke
 			(width 0)
@@ -9566,7 +9556,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 175.26) (xy 257.81 172.72)
+			(xy 257.81 55.88) (xy 257.81 53.34)
 		)
 		(stroke
 			(width 0)
@@ -9594,7 +9584,7 @@
 		)
 		(uuid "ff4777a5-38a8-42c7-b775-4d32018d6d9c")
 	)
-	(label "CLK0_BANDPASS"
+	(label "CLK0_HIGHPASS"
 		(at 402.59 53.34 180)
 		(effects
 			(font
@@ -9614,7 +9604,7 @@
 		)
 		(uuid "1fc23a64-b8ef-44a4-8434-07f94feb9c88")
 	)
-	(label "CLK3_HIGHPASS"
+	(label "CLK3_BANDPASS"
 		(at 402.59 172.72 180)
 		(effects
 			(font
@@ -9787,6 +9777,435 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 234.95 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "046dae86-c7f3-406a-b32d-49124a5c84e0")
+		(property "Net Class" "50R_Coplanar"
+			(at 233.426 171.196 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 269.24 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 270.51 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "18a9b42d-5686-4c58-b520-bf4116a87361")
+		(property "Net Class" "50R_Coplanar"
+			(at 268.986 86.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 304.8 -64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 351.79 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fd272ec-7672-4b3b-a7e7-8acdbac0edf7")
+		(property "Net Class" "50R_Coplanar"
+			(at 350.266 86.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 386.08 -64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 351.79 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b0f499b-cd1d-46c2-8878-25b6919b586d")
+		(property "Net Class" "50R_Coplanar"
+			(at 350.266 51.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 386.08 -99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 316.23 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b440bd5-dd60-4090-bba6-8bd9029bf6f6")
+		(property "Net Class" "50R_Coplanar"
+			(at 314.706 171.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 350.52 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 270.2735 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3edb3c1e-24ab-4512-8f16-730f1c989cd9")
+		(property "Net Class" "50R_Coplanar"
+			(at 268.7495 122.936 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 304.5635 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 234.95 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4469e585-f3de-437a-a696-a3834a980074")
+		(property "Net Class" "50R_Coplanar"
+			(at 233.426 122.936 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 269.24 -27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 285.6292 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4af19b19-0d51-4154-bd0d-fa9bad0569d1")
+		(property "Net Class" "50R_Coplanar"
+			(at 284.1052 51.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 319.9192 -99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 260.35 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52ec2b9a-239c-4b3d-a637-4122a9e62e6d")
+		(property "Net Class" "50R_Coplanar"
+			(at 258.826 51.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 294.64 -99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 234.95 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b7f1b5f-db40-4cc6-92a3-3ce04a8709db")
+		(property "Net Class" "50R_Coplanar"
+			(at 233.426 86.106 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 269.24 -64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 351.79 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70494e48-5475-4ef5-b471-6b575f7788bd")
+		(property "Net Class" "50R_Coplanar"
+			(at 350.266 130.556 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 386.08 -20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 351.79 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ea8531f-b0ef-464b-a83c-fb1dc46d6304")
+		(property "Net Class" "50R_Coplanar"
+			(at 350.266 171.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 386.08 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 381 53.34 0)
 		(effects
 			(font
@@ -9822,6 +10241,149 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 311.15 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9983c97-72e3-4243-a099-875a6a338ca3")
+		(property "Net Class" "50R_Coplanar"
+			(at 309.626 51.816 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 345.44 -99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 295.91 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad5fdc21-73e4-4f26-8f9d-28e71e4eac4a")
+		(property "Net Class" "50R_Coplanar"
+			(at 294.386 86.106 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 330.2 -64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 270.51 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5beeb44-c195-4e69-9634-e2df563c3e2f")
+		(property "Net Class" "50R_Coplanar"
+			(at 268.986 171.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 304.8 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 234.95 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf9f042d-d10f-413b-a36d-1d0773bddc06")
+		(property "Net Class" "50R_Coplanar"
+			(at 233.426 51.816 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 269.24 -99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 381 172.72 0)
 		(effects
 			(font
@@ -9843,6 +10405,42 @@
 		)
 		(property "Component Class" ""
 			(at 415.29 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 280.67 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d508a1cb-acaf-4a35-b264-287afd033075")
+		(property "Net Class" "50R_Coplanar"
+			(at 279.146 171.196 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 314.96 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10963,7 +11561,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 311.15 53.34 90)
+		(at 311.15 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10974,7 +11572,7 @@
 		(fields_autoplaced yes)
 		(uuid "115c9a86-50e9-4afd-bcbf-f5529c0d7a20")
 		(property "Reference" "C31"
-			(at 311.1563 46.99 90)
+			(at 311.1563 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10984,7 +11582,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 311.1563 49.53 90)
+			(at 311.1563 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10994,7 +11592,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 311.15 53.34 0)
+			(at 311.15 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +11603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 311.15 53.34 0)
+			(at 311.15 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11016,7 +11614,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 311.15 53.34 0)
+			(at 311.15 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11240,7 +11838,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 60.96 0)
+		(at 288.29 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11251,7 +11849,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a36dc5f-a3c6-459f-b2a2-15150b3fff75")
 		(property "Reference" "#PWR048"
-			(at 288.29 67.31 0)
+			(at 288.29 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11262,7 +11860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 288.29 64.1349 90)
+			(at 288.29 183.5149 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11274,7 +11872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 288.29 60.96 0)
+			(at 288.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +11883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 60.96 0)
+			(at 288.29 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11296,7 +11894,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 288.29 60.96 0)
+			(at 288.29 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11842,7 +12440,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 298.45 58.42 180)
+		(at 298.45 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11852,7 +12450,7 @@
 		(dnp no)
 		(uuid "2aa09de5-107a-4c31-af79-be3af7015b10")
 		(property "Reference" "L12"
-			(at 299.72 57.1499 0)
+			(at 299.72 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11863,7 +12461,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 299.72 59.6899 0)
+			(at 299.72 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11874,7 +12472,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 298.45 58.42 0)
+			(at 298.45 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11885,7 +12483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 58.42 0)
+			(at 298.45 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11896,7 +12494,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 298.45 58.42 0)
+			(at 298.45 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12679,7 +13277,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 265.43 53.34 90)
+		(at 265.43 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12690,7 +13288,7 @@
 		(fields_autoplaced yes)
 		(uuid "374cac1e-9484-4047-884a-19e765b4e4d6")
 		(property "Reference" "C22"
-			(at 265.4363 46.99 90)
+			(at 265.4363 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12700,7 +13298,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 265.4363 49.53 90)
+			(at 265.4363 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12710,7 +13308,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 265.43 53.34 0)
+			(at 265.43 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12721,7 +13319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 53.34 0)
+			(at 265.43 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12732,7 +13330,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 265.43 53.34 0)
+			(at 265.43 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13730,7 +14328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0402_0603"
 			(at 359.41 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14272,7 +14870,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 245.11 172.72 90)
+		(at 245.11 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14283,7 +14881,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ff63eb7-430c-4bf6-b4e2-5a148728693e")
 		(property "Reference" "C20"
-			(at 245.1163 166.37 90)
+			(at 245.1163 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14293,7 +14891,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 245.1163 168.91 90)
+			(at 245.1163 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14303,7 +14901,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 245.11 172.72 0)
+			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14314,7 +14912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 172.72 0)
+			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14325,7 +14923,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 245.11 172.72 0)
+			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14352,7 +14950,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 308.61 177.8 180)
+		(at 308.61 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14362,7 +14960,7 @@
 		(dnp no)
 		(uuid "509edc77-eb4d-4991-9545-28bfa4a06e25")
 		(property "Reference" "L14"
-			(at 309.88 176.5299 0)
+			(at 309.88 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14373,7 +14971,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 309.88 179.0699 0)
+			(at 309.88 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14384,7 +14982,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 308.61 177.8 0)
+			(at 308.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14395,7 +14993,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 177.8 0)
+			(at 308.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14406,7 +15004,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 308.61 177.8 0)
+			(at 308.61 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14620,7 +15218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0402_0603"
 			(at 359.41 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -17148,7 +17746,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 321.31 172.72 90)
+		(at 321.31 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17159,7 +17757,7 @@
 		(fields_autoplaced yes)
 		(uuid "809c17f9-463b-4764-a8e6-411784a8e095")
 		(property "Reference" "C33"
-			(at 321.3163 166.37 90)
+			(at 321.3163 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17169,7 +17767,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 321.3163 168.91 90)
+			(at 321.3163 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17179,7 +17777,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 321.31 172.72 0)
+			(at 321.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17190,7 +17788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 172.72 0)
+			(at 321.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17201,7 +17799,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 321.31 172.72 0)
+			(at 321.31 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17494,7 +18092,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 344.17 60.96 0)
+		(at 344.17 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17505,7 +18103,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b1225e8-1b98-4bff-821d-451f2addf198")
 		(property "Reference" "#PWR055"
-			(at 344.17 67.31 0)
+			(at 344.17 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17516,7 +18114,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 344.17 64.1349 90)
+			(at 344.17 183.5149 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17528,7 +18126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 344.17 60.96 0)
+			(at 344.17 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17539,7 +18137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 60.96 0)
+			(at 344.17 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17550,7 +18148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 60.96 0)
+			(at 344.17 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17663,7 +18261,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 257.81 177.8 180)
+		(at 257.81 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17673,7 +18271,7 @@
 		(dnp no)
 		(uuid "91903d15-663f-4964-8fdd-c005ea95675f")
 		(property "Reference" "L5"
-			(at 259.08 176.5299 0)
+			(at 259.08 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17684,7 +18282,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 259.08 179.0699 0)
+			(at 259.08 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17695,7 +18293,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 257.81 177.8 0)
+			(at 257.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17706,7 +18304,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 177.8 0)
+			(at 257.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17717,7 +18315,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 257.81 177.8 0)
+			(at 257.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17744,7 +18342,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 295.91 172.72 90)
+		(at 295.91 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17755,7 +18353,7 @@
 		(fields_autoplaced yes)
 		(uuid "9206da80-ee2c-49f9-bdd8-865a4a799758")
 		(property "Reference" "C30"
-			(at 295.9163 166.37 90)
+			(at 295.9163 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17765,7 +18363,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 295.9163 168.91 90)
+			(at 295.9163 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17775,7 +18373,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 295.91 172.72 0)
+			(at 295.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17786,7 +18384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 295.91 172.72 0)
+			(at 295.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17797,7 +18395,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 295.91 172.72 0)
+			(at 295.91 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18253,7 +18851,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 283.21 177.8 180)
+		(at 283.21 58.42 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18263,7 +18861,7 @@
 		(dnp no)
 		(uuid "9779767b-6d96-4c13-9cff-eecc61d50d2a")
 		(property "Reference" "L10"
-			(at 284.48 176.5299 0)
+			(at 284.48 57.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18274,7 +18872,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 284.48 179.0699 0)
+			(at 284.48 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18285,7 +18883,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 283.21 177.8 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18296,7 +18894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 177.8 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18307,7 +18905,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 283.21 177.8 0)
+			(at 283.21 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18334,7 +18932,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 298.45 60.96 0)
+		(at 298.45 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18345,7 +18943,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d8d6413-b59e-4a17-a641-cf5191a31f5a")
 		(property "Reference" "#PWR051"
-			(at 298.45 67.31 0)
+			(at 298.45 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18356,7 +18954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.45 64.1349 90)
+			(at 298.45 183.5149 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18368,7 +18966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.45 60.96 0)
+			(at 298.45 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18379,7 +18977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.45 60.96 0)
+			(at 298.45 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18390,7 +18988,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 298.45 60.96 0)
+			(at 298.45 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18639,7 +19237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 180.34 0)
+		(at 257.81 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18650,7 +19248,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1747fb6-f2a7-4398-a9e2-a8dab259914e")
 		(property "Reference" "#PWR044"
-			(at 257.81 186.69 0)
+			(at 257.81 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18661,7 +19259,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 183.5149 90)
+			(at 257.81 64.1349 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18673,7 +19271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 180.34 0)
+			(at 257.81 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18684,7 +19282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 180.34 0)
+			(at 257.81 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18695,7 +19293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 257.81 180.34 0)
+			(at 257.81 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18797,7 +19395,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 60.96 0)
+		(at 242.57 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18808,7 +19406,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4121d9a-f943-4770-ae20-0dca000b4ff3")
 		(property "Reference" "#PWR040"
-			(at 242.57 67.31 0)
+			(at 242.57 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18819,7 +19417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.57 64.1349 90)
+			(at 242.57 183.5149 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18831,7 +19429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 60.96 0)
+			(at 242.57 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18842,7 +19440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 60.96 0)
+			(at 242.57 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18853,7 +19451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 242.57 60.96 0)
+			(at 242.57 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19806,7 +20404,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 242.57 58.42 0)
+		(at 242.57 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19816,7 +20414,7 @@
 		(dnp no)
 		(uuid "aec0b6ba-e028-4d64-9357-c381a320b1ea")
 		(property "Reference" "C17"
-			(at 245.11 57.1562 0)
+			(at 245.11 176.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19827,7 +20425,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 237.236 50.8 0)
+			(at 237.236 170.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19838,7 +20436,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 242.57 58.42 0)
+			(at 242.57 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19849,7 +20447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 58.42 0)
+			(at 242.57 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19860,7 +20458,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 242.57 58.42 0)
+			(at 242.57 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20281,7 +20879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0402_0603"
 			(at 359.41 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -20644,7 +21242,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 334.01 58.42 0)
+		(at 334.01 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20654,7 +21252,7 @@
 		(dnp no)
 		(uuid "c210a4a5-04b6-4ad1-9d6c-018e6185641d")
 		(property "Reference" "C34"
-			(at 336.55 57.1562 0)
+			(at 336.55 176.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20665,7 +21263,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 328.93 51.562 0)
+			(at 328.93 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20676,7 +21274,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 334.01 58.42 0)
+			(at 334.01 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20687,7 +21285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 58.42 0)
+			(at 334.01 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20698,7 +21296,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 334.01 58.42 0)
+			(at 334.01 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21089,7 +21687,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 283.21 180.34 0)
+		(at 283.21 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21100,7 +21698,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8661163-e1ab-4503-bf52-37b3fd0f87e4")
 		(property "Reference" "#PWR047"
-			(at 283.21 186.69 0)
+			(at 283.21 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21111,7 +21709,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 283.21 183.5149 90)
+			(at 283.21 64.1349 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21123,7 +21721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 180.34 0)
+			(at 283.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21134,7 +21732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 180.34 0)
+			(at 283.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21145,7 +21743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 180.34 0)
+			(at 283.21 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21168,7 +21766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 334.01 60.96 0)
+		(at 334.01 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21179,7 +21777,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb92e6ae-4b11-4411-a4d9-6e99d7055fca")
 		(property "Reference" "#PWR054"
-			(at 334.01 67.31 0)
+			(at 334.01 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21190,7 +21788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 334.01 64.1349 90)
+			(at 334.01 183.5149 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21202,7 +21800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 334.01 60.96 0)
+			(at 334.01 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21213,7 +21811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 60.96 0)
+			(at 334.01 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21224,7 +21822,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 60.96 0)
+			(at 334.01 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21362,7 +21960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0201"
+		(property "Footprint" "libraries:Worthington_R_0402"
 			(at 77.47 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21659,7 +22257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 308.61 180.34 0)
+		(at 308.61 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21670,7 +22268,7 @@
 		(fields_autoplaced yes)
 		(uuid "cff2557e-a252-419a-ab73-23345da883f0")
 		(property "Reference" "#PWR052"
-			(at 308.61 186.69 0)
+			(at 308.61 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21681,7 +22279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 308.61 183.5149 90)
+			(at 308.61 64.1349 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21693,7 +22291,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 308.61 180.34 0)
+			(at 308.61 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21704,7 +22302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 308.61 180.34 0)
+			(at 308.61 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21715,7 +22313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 308.61 180.34 0)
+			(at 308.61 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23005,7 +23603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_R_0201"
+		(property "Footprint" "libraries:Worthington_R_0402"
 			(at 80.01 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -23055,7 +23653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 60.96 0)
+		(at 252.73 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23066,7 +23664,7 @@
 		(fields_autoplaced yes)
 		(uuid "e15dfd53-77c2-4e13-bed0-b7f51af3b7d9")
 		(property "Reference" "#PWR043"
-			(at 252.73 67.31 0)
+			(at 252.73 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23077,7 +23675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 64.1349 90)
+			(at 252.73 183.5149 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23089,7 +23687,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 60.96 0)
+			(at 252.73 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23100,7 +23698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 60.96 0)
+			(at 252.73 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23111,7 +23709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 60.96 0)
+			(at 252.73 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23134,7 +23732,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 275.59 53.34 90)
+		(at 275.59 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23144,7 +23742,7 @@
 		(dnp no)
 		(uuid "e5185a8f-cba0-456a-812b-c985c77d4534")
 		(property "Reference" "L7"
-			(at 275.59 46.99 90)
+			(at 275.59 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23154,7 +23752,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 275.59 49.53 90)
+			(at 275.59 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23164,7 +23762,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 275.59 53.34 0)
+			(at 275.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23175,7 +23773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 53.34 0)
+			(at 275.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23186,7 +23784,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 275.59 53.34 0)
+			(at 275.59 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23292,7 +23890,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 344.17 58.42 180)
+		(at 344.17 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23302,7 +23900,7 @@
 		(dnp no)
 		(uuid "e9377700-285e-4bbd-8b5b-15713c204861")
 		(property "Reference" "L16"
-			(at 345.44 57.1499 0)
+			(at 345.44 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23313,7 +23911,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 345.44 59.6899 0)
+			(at 345.44 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23324,7 +23922,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 344.17 58.42 0)
+			(at 344.17 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23335,7 +23933,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 58.42 0)
+			(at 344.17 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23346,7 +23944,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 344.17 58.42 0)
+			(at 344.17 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23452,7 +24050,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 270.51 172.72 90)
+		(at 270.51 53.34 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23463,7 +24061,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebfa62b5-bd16-4681-8d6b-6ec192f90ffd")
 		(property "Reference" "C25"
-			(at 270.5163 166.37 90)
+			(at 270.5163 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23473,7 +24071,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 270.5163 168.91 90)
+			(at 270.5163 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23483,7 +24081,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 270.51 172.72 0)
+			(at 270.51 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23494,7 +24092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 172.72 0)
+			(at 270.51 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23505,7 +24103,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 270.51 172.72 0)
+			(at 270.51 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24218,7 +24816,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 288.29 58.42 0)
+		(at 288.29 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24228,7 +24826,7 @@
 		(dnp no)
 		(uuid "f0d6bab2-464c-49b1-bbc4-511f94aa20b9")
 		(property "Reference" "C27"
-			(at 290.83 57.1562 0)
+			(at 290.83 176.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24239,7 +24837,7 @@
 			)
 		)
 		(property "Value" "0402/0603"
-			(at 282.956 51.308 0)
+			(at 282.956 170.688 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24250,7 +24848,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_0402_0603"
-			(at 288.29 58.42 0)
+			(at 288.29 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24261,7 +24859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 288.29 58.42 0)
+			(at 288.29 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24272,7 +24870,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 288.29 58.42 0)
+			(at 288.29 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24657,7 +25255,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 252.73 58.42 180)
+		(at 252.73 177.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24667,7 +25265,7 @@
 		(dnp no)
 		(uuid "f31208ac-eb22-4827-8e07-c9bd79693294")
 		(property "Reference" "L2"
-			(at 254 57.1499 0)
+			(at 254 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24678,7 +25276,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 254 59.6899 0)
+			(at 254 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24689,7 +25287,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 252.73 58.42 0)
+			(at 252.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24700,7 +25298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 58.42 0)
+			(at 252.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24711,7 +25309,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 252.73 58.42 0)
+			(at 252.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24738,7 +25336,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Small")
-		(at 321.31 53.34 90)
+		(at 321.31 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24748,7 +25346,7 @@
 		(dnp no)
 		(uuid "f32b2a83-8082-41c0-8d5b-fc606e4fe566")
 		(property "Reference" "L15"
-			(at 321.31 46.99 90)
+			(at 321.31 166.37 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24758,7 +25356,7 @@
 			)
 		)
 		(property "Value" "0603"
-			(at 321.31 49.53 90)
+			(at 321.31 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24768,7 +25366,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_L_0603_RF"
-			(at 321.31 53.34 0)
+			(at 321.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24779,7 +25377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 53.34 0)
+			(at 321.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24790,7 +25388,7 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 321.31 53.34 0)
+			(at 321.31 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24846,7 +25444,7 @@
 				)
 			)
 		)
-		(property "Footprint" "libraries:Worthington_C_0402"
+		(property "Footprint" "libraries:Worthington_C_0402_0603"
 			(at 359.41 87.63 0)
 			(hide yes)
 			(show_name no)
