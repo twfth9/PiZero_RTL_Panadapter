@@ -5826,9 +5826,9 @@
 		)
 		(uuid "22f55b5e-bb1c-44e2-9708-bb79fe9ab377")
 	)
-	(text "Reverse Polarity Protection"
+	(text "Reverse Polarity Protection\nReverse Current Protection"
 		(exclude_from_sim no)
-		(at 50.546 24.13 0)
+		(at 50.546 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5846,17 +5846,7 @@
 		)
 		(uuid "66536cc4-cb47-4b70-b77b-a4f594b0bc09")
 	)
-	(text "Ideal Diode"
-		(exclude_from_sim no)
-		(at 57.912 203.962 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "743f0f08-b370-4523-8f1c-74ad6ac3bd39")
-	)
-	(text "Allows PCB to survive being placed\nonto breadboard in either rotation"
+	(text "Allows PCB to survive being placed\nonto breadboard in wrong orientation"
 		(exclude_from_sim no)
 		(at 60.96 259.588 0)
 		(effects
@@ -5875,6 +5865,16 @@
 			)
 		)
 		(uuid "965aeaca-c2f2-49a7-80f8-074b73d93e27")
+	)
+	(text "Reverse Polarity Protection\nReverse Current Protection"
+		(exclude_from_sim no)
+		(at 62.23 202.946 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9751b954-b72e-46c7-beb8-f018b83ac1d5")
 	)
 	(text "Input Power Selector"
 		(exclude_from_sim no)
