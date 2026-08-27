@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "libraries") (type "KiCad") (uri "C:/Users/ThomasFrancois/Documents/github/PiZero_RTL_Panadapter/libraries/libraries.kicad_sym") (options "") (descr ""))
+	(lib (name "RASPBERRY_PI_ZERO_2_W") (type "KiCad") (uri "C:/Users/ThomasFrancois/Documents/github/PiZero_RTL_Panadapter/libraries/RASPBERRY_PI_ZERO_2_W.kicad_sym") (options "") (descr ""))
+	(lib (name "Raspberry_Pi_Zero_v.1.3_Hat") (type "KiCad") (uri "C:/Users/ThomasFrancois/Documents/github/PiZero_RTL_Panadapter/libraries/Raspberry_Pi_Zero_v.1.3_Hat.kicad_sym") (options "") (descr ""))
+	(lib (name "RTLSDR") (type "KiCad") (uri "C:/Users/ThomasFrancois/Documents/github/PiZero_RTL_Panadapter/libraries/RTLSDR.kicad_sym") (options "") (descr ""))
+	(lib (name "USB-Ethernet") (type "KiCad") (uri "C:/Users/ThomasFrancois/Documents/github/PiZero_RTL_Panadapter/libraries/USB-Ethernet.kicad_sym") (options "") (descr ""))
+)
