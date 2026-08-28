@@ -803,7 +803,7 @@
         "uuid": "2b6c9482-e0ae-41e4-803d-260bc3a98f79"
       }
     ],
-    "used_designators": "Q2",
+    "used_designators": "Q2,U1-2,#PWR15,#PWR69",
     "variants": []
   },
   "sheets": [
