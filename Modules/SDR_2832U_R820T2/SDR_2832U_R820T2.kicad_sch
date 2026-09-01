@@ -8311,7 +8311,7 @@
 	)
 	(text "LINK: RTL-SDR GPIO Mapping (Line 612)"
 		(exclude_from_sim no)
-		(at 338.328 119.38 0)
+		(at 360.172 121.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10537,6 +10537,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 115.57) (xy 416.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac63caf-f7a2-42d3-8761-2a4fa2d4d624")
+	)
+	(wire
+		(pts
 			(xy 26.67 241.3) (xy 26.67 238.76)
 		)
 		(stroke
@@ -11397,7 +11407,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 250.19) (xy 193.04 252.73)
+			(xy 193.04 247.65) (xy 193.04 250.19)
 		)
 		(stroke
 			(width 0)
@@ -11567,7 +11577,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 113.03) (xy 415.29 113.03)
+			(xy 320.04 113.03) (xy 326.39 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11767,7 +11777,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 115.57) (xy 416.56 115.57)
+			(xy 320.04 115.57) (xy 326.39 115.57)
 		)
 		(stroke
 			(width 0)
@@ -13917,6 +13927,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 113.03) (xy 415.29 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ad216e-04a8-4212-8560-c4fd7f3ab2af")
+	)
+	(wire
+		(pts
 			(xy 69.85 236.22) (xy 69.85 241.3)
 		)
 		(stroke
@@ -14286,7 +14306,7 @@
 		(uuid "76706bcf-90c1-42f8-98d1-2bf92070820c")
 	)
 	(label "USB_SDR_D+"
-		(at 374.65 113.03 180)
+		(at 391.16 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14396,7 +14416,7 @@
 		(uuid "c081d110-6f6f-4b43-8964-f763d10cf789")
 	)
 	(label "USB_SDR_D-"
-		(at 374.65 115.57 180)
+		(at 391.16 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14586,7 +14606,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 326.39 113.03 0)
+		(at 355.6 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14595,7 +14615,7 @@
 		)
 		(uuid "3fe1b7dd-fd57-4bd0-baf1-72b1042c9d44")
 		(property "Net Class" "90R_Pair_Coplanar"
-			(at 328.168 111.252 0)
+			(at 357.378 111.252 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14606,7 +14626,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 412.75 80.01 0)
+			(at 441.96 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14793,7 +14813,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 327.66 115.57 0)
+		(at 356.87 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14802,7 +14822,7 @@
 		)
 		(uuid "dcf40ed2-1938-4d0d-b757-9a360ffb6ab0")
 		(property "Net Class" "90R_Pair_Coplanar"
-			(at 329.438 113.284 0)
+			(at 358.648 113.284 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14814,7 +14834,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 241.3 148.59 0)
+			(at 270.51 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18615,28 +18635,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "0fc76c70-911d-4479-aeb3-41a59a7e60cc")
+			(uuid "0fc76c70-911d-4479-aeb3-41a59a7e60cd")
 		)
 		(pin "1"
-			(uuid "fba51997-5308-436d-89e5-1f356b685c4e")
+			(uuid "fba51997-5308-436d-89e5-1f356b685c4f")
 		)
 		(pin "4"
-			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072b")
+			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072c")
 		)
 		(pin "3"
 			(uuid "d30677d8-db75-4009-b860-c73d79cb307e")
 		)
 		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd433")
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd435")
 		)
 		(pin "6"
 			(uuid "03ec64ae-9bf1-401c-82ff-eab229068680")
 		)
 		(pin "8"
-			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f1")
+			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f2")
 		)
 		(pin "7"
-			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3ee0")
+			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3ee1")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -19014,25 +19034,25 @@
 			(uuid "0bf616f7-8a4b-482a-acb2-d3d1b21c2c3b")
 		)
 		(pin "1"
-			(uuid "9d110263-b475-4e80-83cd-662a321957e5")
+			(uuid "9d110263-b475-4e80-83cd-662a321957e6")
 		)
 		(pin "4"
 			(uuid "d463a310-8ed3-4617-b0ef-1fe202da073e")
 		)
 		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1584")
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1585")
 		)
 		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd434")
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd436")
 		)
 		(pin "8"
-			(uuid "9362ef86-1c46-459f-8f3f-1e26e7a37139")
+			(uuid "9362ef86-1c46-459f-8f3f-1e26e7a3713a")
 		)
 		(pin "6"
-			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e4")
+			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e5")
 		)
 		(pin "7"
-			(uuid "7f8295b6-2749-4326-89ba-ce930245f656")
+			(uuid "7f8295b6-2749-4326-89ba-ce930245f657")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -22095,16 +22115,16 @@
 			)
 		)
 		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd379f")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a1")
 		)
 		(pin "1"
-			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffff9")
+			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffffa")
 		)
 		(pin "4"
-			(uuid "1d94ad6c-6d2b-4ccf-9655-be06470ce011")
+			(uuid "1d94ad6c-6d2b-4ccf-9655-be06470ce012")
 		)
 		(pin "3"
-			(uuid "c7f84199-4d36-456a-adda-903a8b73ac32")
+			(uuid "c7f84199-4d36-456a-adda-903a8b73ac33")
 		)
 		(pin "2"
 			(uuid "a9717ff7-0e34-4a6a-aff3-1f58e740fd57")
@@ -22113,10 +22133,10 @@
 			(uuid "3a02210b-c0f6-446d-bbf0-45498b167809")
 		)
 		(pin "6"
-			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f45")
+			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f46")
 		)
 		(pin "8"
-			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc76f")
+			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc770")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -23234,25 +23254,25 @@
 			(uuid "cd87202f-d433-4d2d-a107-b0406d11e75c")
 		)
 		(pin "1"
-			(uuid "9d110263-b475-4e80-83cd-662a321957e5")
+			(uuid "9d110263-b475-4e80-83cd-662a321957e7")
 		)
 		(pin "4"
 			(uuid "c52847f2-b2fc-4551-b85b-3ae8b9c63f5e")
 		)
 		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1584")
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1586")
 		)
 		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd434")
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd437")
 		)
 		(pin "8"
-			(uuid "9362ef86-1c46-459f-8f3f-1e26e7a37139")
+			(uuid "9362ef86-1c46-459f-8f3f-1e26e7a3713b")
 		)
 		(pin "6"
-			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e4")
+			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e6")
 		)
 		(pin "7"
-			(uuid "7f8295b6-2749-4326-89ba-ce930245f656")
+			(uuid "7f8295b6-2749-4326-89ba-ce930245f658")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -24378,28 +24398,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "0fc76c70-911d-4479-aeb3-41a59a7e60cc")
+			(uuid "0fc76c70-911d-4479-aeb3-41a59a7e60ce")
 		)
 		(pin "1"
-			(uuid "fba51997-5308-436d-89e5-1f356b685c4e")
+			(uuid "fba51997-5308-436d-89e5-1f356b685c50")
 		)
 		(pin "4"
-			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072b")
+			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072d")
 		)
 		(pin "3"
 			(uuid "593b44b2-cc19-41ae-a079-e9b38e3d92ef")
 		)
 		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd433")
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd438")
 		)
 		(pin "6"
 			(uuid "ae2a430b-d93b-49ea-9b56-d192431b9dcb")
 		)
 		(pin "8"
-			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f1")
+			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f3")
 		)
 		(pin "7"
-			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3ee0")
+			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3ee2")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -25257,28 +25277,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a0")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a2")
 		)
 		(pin "1"
 			(uuid "d4e69a59-6be5-46be-badd-0f85cd1b9edf")
 		)
 		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1b3")
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1b4")
 		)
 		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158a")
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158b")
 		)
 		(pin "2"
-			(uuid "3af9f287-5532-4bfc-bd7d-ed4bf7ea48db")
+			(uuid "3af9f287-5532-4bfc-bd7d-ed4bf7ea48dc")
 		)
 		(pin "6"
-			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a1b")
+			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a1c")
 		)
 		(pin "8"
 			(uuid "1941d218-c313-413a-a0ca-a32ba2151cda")
 		)
 		(pin "7"
-			(uuid "b924bbbd-5729-4523-825c-04f1fb839f38")
+			(uuid "b924bbbd-5729-4523-825c-04f1fb839f39")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -26054,25 +26074,25 @@
 			(uuid "26cd0f6a-cb1f-4f06-a4c5-e4536fa8a934")
 		)
 		(pin "1"
-			(uuid "9d110263-b475-4e80-83cd-662a321957e5")
+			(uuid "9d110263-b475-4e80-83cd-662a321957e8")
 		)
 		(pin "4"
 			(uuid "5f9fd137-cd78-407c-b7a3-0d46da7d228d")
 		)
 		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1584")
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a1587")
 		)
 		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd434")
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd439")
 		)
 		(pin "8"
-			(uuid "9362ef86-1c46-459f-8f3f-1e26e7a37139")
+			(uuid "9362ef86-1c46-459f-8f3f-1e26e7a3713c")
 		)
 		(pin "6"
-			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e4")
+			(uuid "22a49bb2-1ed6-4a4e-b12c-658608d658e7")
 		)
 		(pin "7"
-			(uuid "7f8295b6-2749-4326-89ba-ce930245f656")
+			(uuid "7f8295b6-2749-4326-89ba-ce930245f659")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -27627,6 +27647,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 328.93 115.57 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92450cc2-ccfa-4ca3-9666-19cc9d7f32bf")
+		(property "Reference" "R31"
+			(at 328.422 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33?"
+			(at 329.438 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_R_Narrow_0201"
+			(at 328.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 328.93 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f84dc558-1b04-44fd-82a6-a1b6797563b3")
+		)
+		(pin "1"
+			(uuid "0e26c10b-e08b-436c-9691-4b6cb9e1a07f")
+		)
+		(instances
+			(project "SDR_2832U_R820T2"
+				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 83.82 0)
 		(mirror y)
@@ -28762,6 +28864,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 328.93 113.03 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a063c0d0-17f4-44a5-a121-79b034e920eb")
+		(property "Reference" "R30"
+			(at 329.438 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33?"
+			(at 328.422 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_R_Narrow_0201"
+			(at 328.93 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 328.93 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "37b5097c-356a-4fac-a037-f03cd6338da5")
+		)
+		(pin "1"
+			(uuid "f6b8e39e-3884-414a-9799-38964f7895f4")
+		)
+		(instances
+			(project "SDR_2832U_R820T2"
+				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 255.27 138.43 0)
 		(mirror y)
@@ -29855,28 +30039,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a0")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a3")
 		)
 		(pin "1"
 			(uuid "bc84f3a7-1a6e-492d-891a-80848fadcc35")
 		)
 		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1b3")
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1b5")
 		)
 		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158a")
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158c")
 		)
 		(pin "2"
-			(uuid "3af9f287-5532-4bfc-bd7d-ed4bf7ea48db")
+			(uuid "3af9f287-5532-4bfc-bd7d-ed4bf7ea48dd")
 		)
 		(pin "6"
-			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a1b")
+			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a1d")
 		)
 		(pin "8"
 			(uuid "3a333a6b-c19b-4545-ab6c-7ca52b5d443c")
 		)
 		(pin "7"
-			(uuid "b924bbbd-5729-4523-825c-04f1fb839f38")
+			(uuid "b924bbbd-5729-4523-825c-04f1fb839f3a")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -31425,16 +31609,16 @@
 			)
 		)
 		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd379f")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a4")
 		)
 		(pin "1"
-			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffff9")
+			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffffb")
 		)
 		(pin "4"
-			(uuid "1d94ad6c-6d2b-4ccf-9655-be06470ce011")
+			(uuid "1d94ad6c-6d2b-4ccf-9655-be06470ce013")
 		)
 		(pin "3"
-			(uuid "c7f84199-4d36-456a-adda-903a8b73ac32")
+			(uuid "c7f84199-4d36-456a-adda-903a8b73ac34")
 		)
 		(pin "2"
 			(uuid "5d178679-6e01-4c9e-89b7-f655e7a6bbb0")
@@ -31443,10 +31627,10 @@
 			(uuid "13d8ccf0-43c6-45b3-8d90-bf7f820fcd15")
 		)
 		(pin "6"
-			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f45")
+			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f47")
 		)
 		(pin "8"
-			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc76f")
+			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc771")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -31459,7 +31643,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 210.82 76.2 0)
+		(at 210.82 99.06 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -31470,7 +31654,7 @@
 		(dnp no)
 		(uuid "bc1e8468-c0ee-4666-aa6d-3a66589106dd")
 		(property "Reference" "C24"
-			(at 208.28 74.9362 0)
+			(at 208.28 97.7962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31481,7 +31665,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 208.28 77.4762 0)
+			(at 208.28 100.3362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31492,7 +31676,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_Narrow_0402"
-			(at 210.82 76.2 0)
+			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31503,7 +31687,7 @@
 			)
 		)
 		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
-			(at 210.82 76.2 0)
+			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31514,7 +31698,7 @@
 			)
 		)
 		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 210.82 76.2 0)
+			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31525,7 +31709,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GMC04X5R106M10NT"
-			(at 210.82 76.2 0)
+			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31536,7 +31720,7 @@
 			)
 		)
 		(property "DigiKey" "4713-GMC04X5R106M10NTCT-ND"
-			(at 210.82 76.2 0)
+			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31547,7 +31731,7 @@
 			)
 		)
 		(property "Voltage" "10V"
-			(at 206.502 80.01 0)
+			(at 206.502 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31948,7 +32132,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Filled")
-		(at 193.04 246.38 90)
+		(at 193.04 254 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31958,7 +32142,7 @@
 		(dnp no)
 		(uuid "c39e9223-1832-4c5b-b796-a74f3747afde")
 		(property "Reference" "D7"
-			(at 195.326 244.094 90)
+			(at 195.326 251.714 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31969,7 +32153,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 195.326 246.634 90)
+			(at 195.326 254.254 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31980,7 +32164,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_LED_0402"
-			(at 193.04 246.38 0)
+			(at 193.04 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31991,7 +32175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 246.38 0)
+			(at 193.04 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32002,7 +32186,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
-			(at 193.04 246.38 0)
+			(at 193.04 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32013,7 +32197,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 247.9675 0)
+			(at 189.23 255.5875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33160,28 +33344,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a0")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a5")
 		)
 		(pin "1"
 			(uuid "7d8e79fe-8ac1-4f30-9c1b-e80031ed5f37")
 		)
 		(pin "4"
-			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1b3")
+			(uuid "dfe5c0e7-38ed-4aba-9fb7-54b756e1f1b6")
 		)
 		(pin "3"
-			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158a")
+			(uuid "d175231c-cd4a-4ee0-b592-a53d0a3a158d")
 		)
 		(pin "2"
-			(uuid "3af9f287-5532-4bfc-bd7d-ed4bf7ea48db")
+			(uuid "3af9f287-5532-4bfc-bd7d-ed4bf7ea48de")
 		)
 		(pin "6"
-			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a1b")
+			(uuid "13b7e3e8-83c5-4a25-80bb-1b67010e7a1e")
 		)
 		(pin "8"
 			(uuid "3a88dae6-0c29-4d00-a539-90af2f74e8c8")
 		)
 		(pin "7"
-			(uuid "b924bbbd-5729-4523-825c-04f1fb839f38")
+			(uuid "b924bbbd-5729-4523-825c-04f1fb839f3b")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -34721,7 +34905,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 210.82 99.06 0)
+		(at 210.82 76.2 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -34732,7 +34916,7 @@
 		(dnp no)
 		(uuid "e155635f-7657-45b6-930f-a29ec079c64d")
 		(property "Reference" "C52"
-			(at 208.28 97.7962 0)
+			(at 208.28 74.9362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34743,7 +34927,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 208.28 100.3362 0)
+			(at 208.28 77.4762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34754,7 +34938,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_C_Narrow_0603"
-			(at 210.82 99.06 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34765,7 +34949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 99.06 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34776,7 +34960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 99.06 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34787,7 +34971,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 210.82 99.06 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34798,7 +34982,7 @@
 			)
 		)
 		(property "DigiKey" ""
-			(at 210.82 99.06 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34809,7 +34993,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 206.502 102.87 0)
+			(at 206.502 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35109,7 +35293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 193.04 255.27 0)
+		(at 193.04 245.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -35119,7 +35303,7 @@
 		(dnp no)
 		(uuid "e36b4f9d-d655-4235-9ed9-b2c3330f4898")
 		(property "Reference" "R13"
-			(at 195.58 253.9999 0)
+			(at 195.58 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35130,7 +35314,7 @@
 			)
 		)
 		(property "Value" "1k8"
-			(at 195.58 256.5399 0)
+			(at 195.58 246.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35141,7 +35325,7 @@
 			)
 		)
 		(property "Footprint" "libraries:Worthington_R_Narrow_0201"
-			(at 193.04 255.27 0)
+			(at 193.04 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35152,7 +35336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 255.27 0)
+			(at 193.04 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35163,7 +35347,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 193.04 255.27 0)
+			(at 193.04 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36480,16 +36664,16 @@
 			)
 		)
 		(pin "5"
-			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd379f")
+			(uuid "150b3e88-6d80-4d89-bc86-7a3543cd37a6")
 		)
 		(pin "1"
-			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffff9")
+			(uuid "c33e9e4c-a766-4230-9c92-1f63d00ffffc")
 		)
 		(pin "4"
-			(uuid "1d94ad6c-6d2b-4ccf-9655-be06470ce011")
+			(uuid "1d94ad6c-6d2b-4ccf-9655-be06470ce014")
 		)
 		(pin "3"
-			(uuid "c7f84199-4d36-456a-adda-903a8b73ac32")
+			(uuid "c7f84199-4d36-456a-adda-903a8b73ac35")
 		)
 		(pin "2"
 			(uuid "90274cbe-e016-4810-92fe-e83c89c4d381")
@@ -36498,10 +36682,10 @@
 			(uuid "d9fbc477-fb4d-41f5-85eb-8a7e0fa026af")
 		)
 		(pin "6"
-			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f45")
+			(uuid "b1548394-cf0d-4efb-a2f9-a337fe6b9f48")
 		)
 		(pin "8"
-			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc76f")
+			(uuid "7c82165d-4e31-4ff9-99c9-6a90f2adc772")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
@@ -37624,28 +37808,28 @@
 			)
 		)
 		(pin "5"
-			(uuid "0fc76c70-911d-4479-aeb3-41a59a7e60cc")
+			(uuid "0fc76c70-911d-4479-aeb3-41a59a7e60cf")
 		)
 		(pin "1"
-			(uuid "fba51997-5308-436d-89e5-1f356b685c4e")
+			(uuid "fba51997-5308-436d-89e5-1f356b685c51")
 		)
 		(pin "4"
-			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072b")
+			(uuid "eaf2c43c-2ab1-4033-8663-e5ee2fae072e")
 		)
 		(pin "3"
 			(uuid "2c673061-b4bf-4ba1-9a34-7b23649be0b9")
 		)
 		(pin "2"
-			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd433")
+			(uuid "744a2425-84cf-4036-bc5d-fd88d0efd43a")
 		)
 		(pin "6"
 			(uuid "fcd4b80f-05c7-4c96-b358-84325d5df96a")
 		)
 		(pin "8"
-			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f1")
+			(uuid "11b0e052-de5c-49df-9e8b-7d98b52c25f4")
 		)
 		(pin "7"
-			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3ee0")
+			(uuid "9b5d1b9f-7365-48ed-b9bf-4efd08ef3ee3")
 		)
 		(instances
 			(project "SDR_2832U_R820T2"
