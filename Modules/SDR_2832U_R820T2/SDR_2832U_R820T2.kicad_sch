@@ -8690,6 +8690,12 @@
 		(uuid "4e5b0366-94ab-42b3-9933-5a77be39a3cf")
 	)
 	(junction
+		(at 104.14 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50156a5d-6d0b-4037-bcb9-f55dc6a0e915")
+	)
+	(junction
 		(at 245.11 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10007,6 +10013,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 24.13) (xy 106.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd697d2-60a0-4572-8852-d3066c7fb2a8")
+	)
+	(wire
+		(pts
 			(xy 281.94 184.15) (xy 281.94 179.07)
 		)
 		(stroke
@@ -10407,7 +10423,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 21.59) (xy 78.74 24.13)
+			(xy 104.14 21.59) (xy 104.14 24.13)
 		)
 		(stroke
 			(width 0)
@@ -10894,6 +10910,16 @@
 			(type default)
 		)
 		(uuid "58c65b05-4361-4e6c-9ea8-9af2582bcea9")
+	)
+	(wire
+		(pts
+			(xy 106.68 24.13) (xy 106.68 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5969fdf4-2fe6-43c9-a101-a92fcd529e52")
 	)
 	(wire
 		(pts
@@ -11807,7 +11833,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 24.13) (xy 78.74 24.13)
+			(xy 74.93 24.13) (xy 104.14 24.13)
 		)
 		(stroke
 			(width 0)
@@ -12244,6 +12270,16 @@
 			(type default)
 		)
 		(uuid "9e92d982-ad65-4cad-bd7a-3d62b0d7150e")
+	)
+	(wire
+		(pts
+			(xy 106.68 30.48) (xy 106.68 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb347ba-24bd-4ac5-9218-c1d269a6c20c")
 	)
 	(wire
 		(pts
@@ -23011,6 +23047,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 106.68 27.94 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "60128d5b-692f-4e82-ae5c-1d8b7b9f6285")
+		(property "Reference" "C54"
+			(at 104.14 26.6762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 104.14 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "libraries:Worthington_C_0805"
+			(at 106.68 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://calchip.com/wp-content/uploads/2026/04/GMC-Series-1.pdf"
+			(at 106.68 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 10V Ceramic Capacitor X5R 0402 (1005 Metric)"
+			(at 106.68 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GMC04X5R106M10NT"
+			(at 106.68 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey" "4713-GMC04X5R106M10NTCT-ND"
+			(at 106.68 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 102.362 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e282c9dd-512c-46bf-b840-6c3845170f92")
+		)
+		(pin "2"
+			(uuid "9017db40-bed5-4b57-8c48-95801e6da071")
+		)
+		(instances
+			(project "SDR_2832U_R820T2"
+				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
+					(reference "C54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 189.23 59.69 0)
 		(unit 1)
@@ -26947,7 +27097,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 78.74 21.59 0)
+		(at 104.14 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26958,7 +27108,7 @@
 		(fields_autoplaced yes)
 		(uuid "88d357cb-845c-4a55-89d1-5db57be699ea")
 		(property "Reference" "#PWR013"
-			(at 78.74 25.4 0)
+			(at 104.14 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26969,7 +27119,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 78.74 16.51 0)
+			(at 104.14 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26979,7 +27129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 21.59 0)
+			(at 104.14 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26990,7 +27140,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 21.59 0)
+			(at 104.14 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27001,7 +27151,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 78.74 21.59 0)
+			(at 104.14 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31239,6 +31389,87 @@
 			(project "SDR_2832U_R820T2"
 				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 106.68 36.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "b1166f3b-aa65-4ff6-8134-37db427ae210")
+		(property "Reference" "R38"
+			(at 104.648 35.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1R"
+			(at 104.902 37.592 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 106.68 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 106.68 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fce987c4-c63e-4cb8-a17b-855cd5fc0d7e")
+		)
+		(pin "1"
+			(uuid "82448ab2-111b-4feb-9677-9406eb63e9f2")
+		)
+		(instances
+			(project "SDR_2832U_R820T2"
+				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -38080,6 +38311,86 @@
 			(project "SDR_2832U_R820T2"
 				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 39.37 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3217ea2-5d9f-4d06-96c2-a15edce6f752")
+		(property "Reference" "#PWR098"
+			(at 106.68 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2bc1ae3-45d8-4afa-859f-f92fdba27fda")
+		)
+		(instances
+			(project "SDR_2832U_R820T2"
+				(path "/e3338487-5808-4a71-ba76-8c61aaba5985"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
