@@ -1,11 +1,11 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.0*%
-%TF.CreationDate,2026-08-28T14:47:23-04:00*%
+%TF.CreationDate,2026-09-03T10:59:32-04:00*%
 %TF.ProjectId,ClockGen_Si5351X_QFN16,436c6f63-6b47-4656-9e5f-536935333531,rev?*%
 %TF.SameCoordinates,PX7654f80PY738b970*%
 %TF.FileFunction,Profile,NP*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.0) date 2026-08-28 14:47:23*
+G04 Created by KiCad (PCBNEW 10.0.0) date 2026-09-03 10:59:32*
 %MOMM*%
 %LPD*%
 G01*
